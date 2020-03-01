@@ -1,4 +1,4 @@
-// Generated from /Users/jorgemarcoesteve/IdeaProjects/TFG/src/main/java/grammar/kernmens.g4 by ANTLR 4.8
+// Generated from /Users/jorgemarcoesteve/IdeaProjects/TFG/src/main/java/grammar/kernmensParser.g4 by ANTLR 4.8
 package grammar;
 import org.antlr.v4.runtime.tree.ParseTreeListener;
 
@@ -77,6 +77,266 @@ public interface kernmensListener extends ParseTreeListener {
 	 * @param ctx the parse tree
 	 */
 	void exitStem_direction(kernmensParser.Stem_directionContext ctx);
+	/**
+	 * Enter a parse tree produced by {@link kernmensParser#kern_notation}.
+	 * @param ctx the parse tree
+	 */
+	void enterKern_notation(kernmensParser.Kern_notationContext ctx);
+	/**
+	 * Exit a parse tree produced by {@link kernmensParser#kern_notation}.
+	 * @param ctx the parse tree
+	 */
+	void exitKern_notation(kernmensParser.Kern_notationContext ctx);
+	/**
+	 * Enter a parse tree produced by {@link kernmensParser#timesignature}.
+	 * @param ctx the parse tree
+	 */
+	void enterTimesignature(kernmensParser.TimesignatureContext ctx);
+	/**
+	 * Exit a parse tree produced by {@link kernmensParser#timesignature}.
+	 * @param ctx the parse tree
+	 */
+	void exitTimesignature(kernmensParser.TimesignatureContext ctx);
+	/**
+	 * Enter a parse tree produced by {@link kernmensParser#fraction}.
+	 * @param ctx the parse tree
+	 */
+	void enterFraction(kernmensParser.FractionContext ctx);
+	/**
+	 * Exit a parse tree produced by {@link kernmensParser#fraction}.
+	 * @param ctx the parse tree
+	 */
+	void exitFraction(kernmensParser.FractionContext ctx);
+	/**
+	 * Enter a parse tree produced by {@link kernmensParser#number}.
+	 * @param ctx the parse tree
+	 */
+	void enterNumber(kernmensParser.NumberContext ctx);
+	/**
+	 * Exit a parse tree produced by {@link kernmensParser#number}.
+	 * @param ctx the parse tree
+	 */
+	void exitNumber(kernmensParser.NumberContext ctx);
+	/**
+	 * Enter a parse tree produced by {@link kernmensParser#metter}.
+	 * @param ctx the parse tree
+	 */
+	void enterMetter(kernmensParser.MetterContext ctx);
+	/**
+	 * Exit a parse tree produced by {@link kernmensParser#metter}.
+	 * @param ctx the parse tree
+	 */
+	void exitMetter(kernmensParser.MetterContext ctx);
+	/**
+	 * Enter a parse tree produced by {@link kernmensParser#common_met}.
+	 * @param ctx the parse tree
+	 */
+	void enterCommon_met(kernmensParser.Common_metContext ctx);
+	/**
+	 * Exit a parse tree produced by {@link kernmensParser#common_met}.
+	 * @param ctx the parse tree
+	 */
+	void exitCommon_met(kernmensParser.Common_metContext ctx);
+	/**
+	 * Enter a parse tree produced by {@link kernmensParser#perfect_met}.
+	 * @param ctx the parse tree
+	 */
+	void enterPerfect_met(kernmensParser.Perfect_metContext ctx);
+	/**
+	 * Exit a parse tree produced by {@link kernmensParser#perfect_met}.
+	 * @param ctx the parse tree
+	 */
+	void exitPerfect_met(kernmensParser.Perfect_metContext ctx);
+	/**
+	 * Enter a parse tree produced by {@link kernmensParser#musicalcontent}.
+	 * @param ctx the parse tree
+	 */
+	void enterMusicalcontent(kernmensParser.MusicalcontentContext ctx);
+	/**
+	 * Exit a parse tree produced by {@link kernmensParser#musicalcontent}.
+	 * @param ctx the parse tree
+	 */
+	void exitMusicalcontent(kernmensParser.MusicalcontentContext ctx);
+	/**
+	 * Enter a parse tree produced by {@link kernmensParser#measure}.
+	 * @param ctx the parse tree
+	 */
+	void enterMeasure(kernmensParser.MeasureContext ctx);
+	/**
+	 * Exit a parse tree produced by {@link kernmensParser#measure}.
+	 * @param ctx the parse tree
+	 */
+	void exitMeasure(kernmensParser.MeasureContext ctx);
+	/**
+	 * Enter a parse tree produced by {@link kernmensParser#items}.
+	 * @param ctx the parse tree
+	 */
+	void enterItems(kernmensParser.ItemsContext ctx);
+	/**
+	 * Exit a parse tree produced by {@link kernmensParser#items}.
+	 * @param ctx the parse tree
+	 */
+	void exitItems(kernmensParser.ItemsContext ctx);
+	/**
+	 * Enter a parse tree produced by {@link kernmensParser#item}.
+	 * @param ctx the parse tree
+	 */
+	void enterItem(kernmensParser.ItemContext ctx);
+	/**
+	 * Exit a parse tree produced by {@link kernmensParser#item}.
+	 * @param ctx the parse tree
+	 */
+	void exitItem(kernmensParser.ItemContext ctx);
+	/**
+	 * Enter a parse tree produced by {@link kernmensParser#changeconfiguration}.
+	 * @param ctx the parse tree
+	 */
+	void enterChangeconfiguration(kernmensParser.ChangeconfigurationContext ctx);
+	/**
+	 * Exit a parse tree produced by {@link kernmensParser#changeconfiguration}.
+	 * @param ctx the parse tree
+	 */
+	void exitChangeconfiguration(kernmensParser.ChangeconfigurationContext ctx);
+	/**
+	 * Enter a parse tree produced by {@link kernmensParser#slurs}.
+	 * @param ctx the parse tree
+	 */
+	void enterSlurs(kernmensParser.SlursContext ctx);
+	/**
+	 * Exit a parse tree produced by {@link kernmensParser#slurs}.
+	 * @param ctx the parse tree
+	 */
+	void exitSlurs(kernmensParser.SlursContext ctx);
+	/**
+	 * Enter a parse tree produced by {@link kernmensParser#ties}.
+	 * @param ctx the parse tree
+	 */
+	void enterTies(kernmensParser.TiesContext ctx);
+	/**
+	 * Exit a parse tree produced by {@link kernmensParser#ties}.
+	 * @param ctx the parse tree
+	 */
+	void exitTies(kernmensParser.TiesContext ctx);
+	/**
+	 * Enter a parse tree produced by {@link kernmensParser#notesties}.
+	 * @param ctx the parse tree
+	 */
+	void enterNotesties(kernmensParser.NotestiesContext ctx);
+	/**
+	 * Exit a parse tree produced by {@link kernmensParser#notesties}.
+	 * @param ctx the parse tree
+	 */
+	void exitNotesties(kernmensParser.NotestiesContext ctx);
+	/**
+	 * Enter a parse tree produced by {@link kernmensParser#tiesaux}.
+	 * @param ctx the parse tree
+	 */
+	void enterTiesaux(kernmensParser.TiesauxContext ctx);
+	/**
+	 * Exit a parse tree produced by {@link kernmensParser#tiesaux}.
+	 * @param ctx the parse tree
+	 */
+	void exitTiesaux(kernmensParser.TiesauxContext ctx);
+	/**
+	 * Enter a parse tree produced by {@link kernmensParser#notes}.
+	 * @param ctx the parse tree
+	 */
+	void enterNotes(kernmensParser.NotesContext ctx);
+	/**
+	 * Exit a parse tree produced by {@link kernmensParser#notes}.
+	 * @param ctx the parse tree
+	 */
+	void exitNotes(kernmensParser.NotesContext ctx);
+	/**
+	 * Enter a parse tree produced by {@link kernmensParser#beaming}.
+	 * @param ctx the parse tree
+	 */
+	void enterBeaming(kernmensParser.BeamingContext ctx);
+	/**
+	 * Exit a parse tree produced by {@link kernmensParser#beaming}.
+	 * @param ctx the parse tree
+	 */
+	void exitBeaming(kernmensParser.BeamingContext ctx);
+	/**
+	 * Enter a parse tree produced by {@link kernmensParser#note}.
+	 * @param ctx the parse tree
+	 */
+	void enterNote(kernmensParser.NoteContext ctx);
+	/**
+	 * Exit a parse tree produced by {@link kernmensParser#note}.
+	 * @param ctx the parse tree
+	 */
+	void exitNote(kernmensParser.NoteContext ctx);
+	/**
+	 * Enter a parse tree produced by {@link kernmensParser#time}.
+	 * @param ctx the parse tree
+	 */
+	void enterTime(kernmensParser.TimeContext ctx);
+	/**
+	 * Exit a parse tree produced by {@link kernmensParser#time}.
+	 * @param ctx the parse tree
+	 */
+	void exitTime(kernmensParser.TimeContext ctx);
+	/**
+	 * Enter a parse tree produced by {@link kernmensParser#rest}.
+	 * @param ctx the parse tree
+	 */
+	void enterRest(kernmensParser.RestContext ctx);
+	/**
+	 * Exit a parse tree produced by {@link kernmensParser#rest}.
+	 * @param ctx the parse tree
+	 */
+	void exitRest(kernmensParser.RestContext ctx);
+	/**
+	 * Enter a parse tree produced by {@link kernmensParser#barlines}.
+	 * @param ctx the parse tree
+	 */
+	void enterBarlines(kernmensParser.BarlinesContext ctx);
+	/**
+	 * Exit a parse tree produced by {@link kernmensParser#barlines}.
+	 * @param ctx the parse tree
+	 */
+	void exitBarlines(kernmensParser.BarlinesContext ctx);
+	/**
+	 * Enter a parse tree produced by {@link kernmensParser#chord}.
+	 * @param ctx the parse tree
+	 */
+	void enterChord(kernmensParser.ChordContext ctx);
+	/**
+	 * Exit a parse tree produced by {@link kernmensParser#chord}.
+	 * @param ctx the parse tree
+	 */
+	void exitChord(kernmensParser.ChordContext ctx);
+	/**
+	 * Enter a parse tree produced by {@link kernmensParser#articulations}.
+	 * @param ctx the parse tree
+	 */
+	void enterArticulations(kernmensParser.ArticulationsContext ctx);
+	/**
+	 * Exit a parse tree produced by {@link kernmensParser#articulations}.
+	 * @param ctx the parse tree
+	 */
+	void exitArticulations(kernmensParser.ArticulationsContext ctx);
+	/**
+	 * Enter a parse tree produced by {@link kernmensParser#ornaments}.
+	 * @param ctx the parse tree
+	 */
+	void enterOrnaments(kernmensParser.OrnamentsContext ctx);
+	/**
+	 * Exit a parse tree produced by {@link kernmensParser#ornaments}.
+	 * @param ctx the parse tree
+	 */
+	void exitOrnaments(kernmensParser.OrnamentsContext ctx);
+	/**
+	 * Enter a parse tree produced by {@link kernmensParser#partial_beaming}.
+	 * @param ctx the parse tree
+	 */
+	void enterPartial_beaming(kernmensParser.Partial_beamingContext ctx);
+	/**
+	 * Exit a parse tree produced by {@link kernmensParser#partial_beaming}.
+	 * @param ctx the parse tree
+	 */
+	void exitPartial_beaming(kernmensParser.Partial_beamingContext ctx);
 	/**
 	 * Enter a parse tree produced by {@link kernmensParser#mens_notation}.
 	 * @param ctx the parse tree

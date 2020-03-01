@@ -1,4 +1,4 @@
-// Generated from /Users/jorgemarcoesteve/IdeaProjects/TFG/src/main/java/grammar/kernmens.g4 by ANTLR 4.8
+// Generated from /Users/jorgemarcoesteve/IdeaProjects/TFG/src/main/java/grammar/kernmensParser.g4 by ANTLR 4.8
 package grammar;
 import org.antlr.v4.runtime.tree.ParseTreeVisitor;
 
@@ -52,6 +52,162 @@ public interface kernmensVisitor<T> extends ParseTreeVisitor<T> {
 	 * @return the visitor result
 	 */
 	T visitStem_direction(kernmensParser.Stem_directionContext ctx);
+	/**
+	 * Visit a parse tree produced by {@link kernmensParser#kern_notation}.
+	 * @param ctx the parse tree
+	 * @return the visitor result
+	 */
+	T visitKern_notation(kernmensParser.Kern_notationContext ctx);
+	/**
+	 * Visit a parse tree produced by {@link kernmensParser#timesignature}.
+	 * @param ctx the parse tree
+	 * @return the visitor result
+	 */
+	T visitTimesignature(kernmensParser.TimesignatureContext ctx);
+	/**
+	 * Visit a parse tree produced by {@link kernmensParser#fraction}.
+	 * @param ctx the parse tree
+	 * @return the visitor result
+	 */
+	T visitFraction(kernmensParser.FractionContext ctx);
+	/**
+	 * Visit a parse tree produced by {@link kernmensParser#number}.
+	 * @param ctx the parse tree
+	 * @return the visitor result
+	 */
+	T visitNumber(kernmensParser.NumberContext ctx);
+	/**
+	 * Visit a parse tree produced by {@link kernmensParser#metter}.
+	 * @param ctx the parse tree
+	 * @return the visitor result
+	 */
+	T visitMetter(kernmensParser.MetterContext ctx);
+	/**
+	 * Visit a parse tree produced by {@link kernmensParser#common_met}.
+	 * @param ctx the parse tree
+	 * @return the visitor result
+	 */
+	T visitCommon_met(kernmensParser.Common_metContext ctx);
+	/**
+	 * Visit a parse tree produced by {@link kernmensParser#perfect_met}.
+	 * @param ctx the parse tree
+	 * @return the visitor result
+	 */
+	T visitPerfect_met(kernmensParser.Perfect_metContext ctx);
+	/**
+	 * Visit a parse tree produced by {@link kernmensParser#musicalcontent}.
+	 * @param ctx the parse tree
+	 * @return the visitor result
+	 */
+	T visitMusicalcontent(kernmensParser.MusicalcontentContext ctx);
+	/**
+	 * Visit a parse tree produced by {@link kernmensParser#measure}.
+	 * @param ctx the parse tree
+	 * @return the visitor result
+	 */
+	T visitMeasure(kernmensParser.MeasureContext ctx);
+	/**
+	 * Visit a parse tree produced by {@link kernmensParser#items}.
+	 * @param ctx the parse tree
+	 * @return the visitor result
+	 */
+	T visitItems(kernmensParser.ItemsContext ctx);
+	/**
+	 * Visit a parse tree produced by {@link kernmensParser#item}.
+	 * @param ctx the parse tree
+	 * @return the visitor result
+	 */
+	T visitItem(kernmensParser.ItemContext ctx);
+	/**
+	 * Visit a parse tree produced by {@link kernmensParser#changeconfiguration}.
+	 * @param ctx the parse tree
+	 * @return the visitor result
+	 */
+	T visitChangeconfiguration(kernmensParser.ChangeconfigurationContext ctx);
+	/**
+	 * Visit a parse tree produced by {@link kernmensParser#slurs}.
+	 * @param ctx the parse tree
+	 * @return the visitor result
+	 */
+	T visitSlurs(kernmensParser.SlursContext ctx);
+	/**
+	 * Visit a parse tree produced by {@link kernmensParser#ties}.
+	 * @param ctx the parse tree
+	 * @return the visitor result
+	 */
+	T visitTies(kernmensParser.TiesContext ctx);
+	/**
+	 * Visit a parse tree produced by {@link kernmensParser#notesties}.
+	 * @param ctx the parse tree
+	 * @return the visitor result
+	 */
+	T visitNotesties(kernmensParser.NotestiesContext ctx);
+	/**
+	 * Visit a parse tree produced by {@link kernmensParser#tiesaux}.
+	 * @param ctx the parse tree
+	 * @return the visitor result
+	 */
+	T visitTiesaux(kernmensParser.TiesauxContext ctx);
+	/**
+	 * Visit a parse tree produced by {@link kernmensParser#notes}.
+	 * @param ctx the parse tree
+	 * @return the visitor result
+	 */
+	T visitNotes(kernmensParser.NotesContext ctx);
+	/**
+	 * Visit a parse tree produced by {@link kernmensParser#beaming}.
+	 * @param ctx the parse tree
+	 * @return the visitor result
+	 */
+	T visitBeaming(kernmensParser.BeamingContext ctx);
+	/**
+	 * Visit a parse tree produced by {@link kernmensParser#note}.
+	 * @param ctx the parse tree
+	 * @return the visitor result
+	 */
+	T visitNote(kernmensParser.NoteContext ctx);
+	/**
+	 * Visit a parse tree produced by {@link kernmensParser#time}.
+	 * @param ctx the parse tree
+	 * @return the visitor result
+	 */
+	T visitTime(kernmensParser.TimeContext ctx);
+	/**
+	 * Visit a parse tree produced by {@link kernmensParser#rest}.
+	 * @param ctx the parse tree
+	 * @return the visitor result
+	 */
+	T visitRest(kernmensParser.RestContext ctx);
+	/**
+	 * Visit a parse tree produced by {@link kernmensParser#barlines}.
+	 * @param ctx the parse tree
+	 * @return the visitor result
+	 */
+	T visitBarlines(kernmensParser.BarlinesContext ctx);
+	/**
+	 * Visit a parse tree produced by {@link kernmensParser#chord}.
+	 * @param ctx the parse tree
+	 * @return the visitor result
+	 */
+	T visitChord(kernmensParser.ChordContext ctx);
+	/**
+	 * Visit a parse tree produced by {@link kernmensParser#articulations}.
+	 * @param ctx the parse tree
+	 * @return the visitor result
+	 */
+	T visitArticulations(kernmensParser.ArticulationsContext ctx);
+	/**
+	 * Visit a parse tree produced by {@link kernmensParser#ornaments}.
+	 * @param ctx the parse tree
+	 * @return the visitor result
+	 */
+	T visitOrnaments(kernmensParser.OrnamentsContext ctx);
+	/**
+	 * Visit a parse tree produced by {@link kernmensParser#partial_beaming}.
+	 * @param ctx the parse tree
+	 * @return the visitor result
+	 */
+	T visitPartial_beaming(kernmensParser.Partial_beamingContext ctx);
 	/**
 	 * Visit a parse tree produced by {@link kernmensParser#mens_notation}.
 	 * @param ctx the parse tree
