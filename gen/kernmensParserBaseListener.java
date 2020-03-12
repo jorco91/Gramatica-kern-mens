@@ -1,5 +1,4 @@
-// Generated from jorge/kernmensParser.g4 by ANTLR 4.8
-package jorge;
+// Generated from /Users/jorgemarco/IdeaProjects/ProyectoTFG/src/main/antlr4/jorge/kernmensParser.g4 by ANTLR 4.8
 
 import org.antlr.v4.runtime.ParserRuleContext;
 import org.antlr.v4.runtime.tree.ErrorNode;
@@ -412,18 +411,6 @@ public class kernmensParserBaseListener implements kernmensParserListener {
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterEdit_accident(kernmensParser.Edit_accidentContext ctx) { }
-	/**
-	 * {@inheritDoc}
-	 *
-	 * <p>The default implementation does nothing.</p>
-	 */
-	@Override public void exitEdit_accident(kernmensParser.Edit_accidentContext ctx) { }
-	/**
-	 * {@inheritDoc}
-	 *
-	 * <p>The default implementation does nothing.</p>
-	 */
 	@Override public void enterDoubleBarline(kernmensParser.DoubleBarlineContext ctx) { }
 	/**
 	 * {@inheritDoc}
@@ -431,54 +418,6 @@ public class kernmensParserBaseListener implements kernmensParserListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitDoubleBarline(kernmensParser.DoubleBarlineContext ctx) { }
-	/**
-	 * {@inheritDoc}
-	 *
-	 * <p>The default implementation does nothing.</p>
-	 */
-	@Override public void enterRightRepeatBarline(kernmensParser.RightRepeatBarlineContext ctx) { }
-	/**
-	 * {@inheritDoc}
-	 *
-	 * <p>The default implementation does nothing.</p>
-	 */
-	@Override public void exitRightRepeatBarline(kernmensParser.RightRepeatBarlineContext ctx) { }
-	/**
-	 * {@inheritDoc}
-	 *
-	 * <p>The default implementation does nothing.</p>
-	 */
-	@Override public void enterLeftRepeatBarline(kernmensParser.LeftRepeatBarlineContext ctx) { }
-	/**
-	 * {@inheritDoc}
-	 *
-	 * <p>The default implementation does nothing.</p>
-	 */
-	@Override public void exitLeftRepeatBarline(kernmensParser.LeftRepeatBarlineContext ctx) { }
-	/**
-	 * {@inheritDoc}
-	 *
-	 * <p>The default implementation does nothing.</p>
-	 */
-	@Override public void enterDoubleRepeatBarline(kernmensParser.DoubleRepeatBarlineContext ctx) { }
-	/**
-	 * {@inheritDoc}
-	 *
-	 * <p>The default implementation does nothing.</p>
-	 */
-	@Override public void exitDoubleRepeatBarline(kernmensParser.DoubleRepeatBarlineContext ctx) { }
-	/**
-	 * {@inheritDoc}
-	 *
-	 * <p>The default implementation does nothing.</p>
-	 */
-	@Override public void enterEndBarline(kernmensParser.EndBarlineContext ctx) { }
-	/**
-	 * {@inheritDoc}
-	 *
-	 * <p>The default implementation does nothing.</p>
-	 */
-	@Override public void exitEndBarline(kernmensParser.EndBarlineContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
@@ -695,42 +634,6 @@ public class kernmensParserBaseListener implements kernmensParserListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitNoteNameCl(kernmensParser.NoteNameClContext ctx) { }
-	/**
-	 * {@inheritDoc}
-	 *
-	 * <p>The default implementation does nothing.</p>
-	 */
-	@Override public void enterNot_hide(kernmensParser.Not_hideContext ctx) { }
-	/**
-	 * {@inheritDoc}
-	 *
-	 * <p>The default implementation does nothing.</p>
-	 */
-	@Override public void exitNot_hide(kernmensParser.Not_hideContext ctx) { }
-	/**
-	 * {@inheritDoc}
-	 *
-	 * <p>The default implementation does nothing.</p>
-	 */
-	@Override public void enterBracket(kernmensParser.BracketContext ctx) { }
-	/**
-	 * {@inheritDoc}
-	 *
-	 * <p>The default implementation does nothing.</p>
-	 */
-	@Override public void exitBracket(kernmensParser.BracketContext ctx) { }
-	/**
-	 * {@inheritDoc}
-	 *
-	 * <p>The default implementation does nothing.</p>
-	 */
-	@Override public void enterParenthe(kernmensParser.ParentheContext ctx) { }
-	/**
-	 * {@inheritDoc}
-	 *
-	 * <p>The default implementation does nothing.</p>
-	 */
-	@Override public void exitParenthe(kernmensParser.ParentheContext ctx) { }
 
 	/**
 	 * {@inheritDoc}

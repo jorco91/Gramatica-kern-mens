@@ -1,5 +1,4 @@
-// Generated from jorge/kernmensParser.g4 by ANTLR 4.8
-package jorge;
+// Generated from /Users/jorgemarco/IdeaProjects/ProyectoTFG/src/main/antlr4/jorge/kernmensParser.g4 by ANTLR 4.8
 import org.antlr.v4.runtime.tree.ParseTreeListener;
 
 /**
@@ -338,16 +337,6 @@ public interface kernmensParserListener extends ParseTreeListener {
 	 */
 	void exitPartial_beaming(kernmensParser.Partial_beamingContext ctx);
 	/**
-	 * Enter a parse tree produced by {@link kernmensParser#edit_accident}.
-	 * @param ctx the parse tree
-	 */
-	void enterEdit_accident(kernmensParser.Edit_accidentContext ctx);
-	/**
-	 * Exit a parse tree produced by {@link kernmensParser#edit_accident}.
-	 * @param ctx the parse tree
-	 */
-	void exitEdit_accident(kernmensParser.Edit_accidentContext ctx);
-	/**
 	 * Enter a parse tree produced by {@link kernmensParser#doubleBarline}.
 	 * @param ctx the parse tree
 	 */
@@ -357,46 +346,6 @@ public interface kernmensParserListener extends ParseTreeListener {
 	 * @param ctx the parse tree
 	 */
 	void exitDoubleBarline(kernmensParser.DoubleBarlineContext ctx);
-	/**
-	 * Enter a parse tree produced by {@link kernmensParser#rightRepeatBarline}.
-	 * @param ctx the parse tree
-	 */
-	void enterRightRepeatBarline(kernmensParser.RightRepeatBarlineContext ctx);
-	/**
-	 * Exit a parse tree produced by {@link kernmensParser#rightRepeatBarline}.
-	 * @param ctx the parse tree
-	 */
-	void exitRightRepeatBarline(kernmensParser.RightRepeatBarlineContext ctx);
-	/**
-	 * Enter a parse tree produced by {@link kernmensParser#leftRepeatBarline}.
-	 * @param ctx the parse tree
-	 */
-	void enterLeftRepeatBarline(kernmensParser.LeftRepeatBarlineContext ctx);
-	/**
-	 * Exit a parse tree produced by {@link kernmensParser#leftRepeatBarline}.
-	 * @param ctx the parse tree
-	 */
-	void exitLeftRepeatBarline(kernmensParser.LeftRepeatBarlineContext ctx);
-	/**
-	 * Enter a parse tree produced by {@link kernmensParser#doubleRepeatBarline}.
-	 * @param ctx the parse tree
-	 */
-	void enterDoubleRepeatBarline(kernmensParser.DoubleRepeatBarlineContext ctx);
-	/**
-	 * Exit a parse tree produced by {@link kernmensParser#doubleRepeatBarline}.
-	 * @param ctx the parse tree
-	 */
-	void exitDoubleRepeatBarline(kernmensParser.DoubleRepeatBarlineContext ctx);
-	/**
-	 * Enter a parse tree produced by {@link kernmensParser#endBarline}.
-	 * @param ctx the parse tree
-	 */
-	void enterEndBarline(kernmensParser.EndBarlineContext ctx);
-	/**
-	 * Exit a parse tree produced by {@link kernmensParser#endBarline}.
-	 * @param ctx the parse tree
-	 */
-	void exitEndBarline(kernmensParser.EndBarlineContext ctx);
 	/**
 	 * Enter a parse tree produced by {@link kernmensParser#mens_notation}.
 	 * @param ctx the parse tree
@@ -577,34 +526,4 @@ public interface kernmensParserListener extends ParseTreeListener {
 	 * @param ctx the parse tree
 	 */
 	void exitNoteNameCl(kernmensParser.NoteNameClContext ctx);
-	/**
-	 * Enter a parse tree produced by {@link kernmensParser#not_hide}.
-	 * @param ctx the parse tree
-	 */
-	void enterNot_hide(kernmensParser.Not_hideContext ctx);
-	/**
-	 * Exit a parse tree produced by {@link kernmensParser#not_hide}.
-	 * @param ctx the parse tree
-	 */
-	void exitNot_hide(kernmensParser.Not_hideContext ctx);
-	/**
-	 * Enter a parse tree produced by {@link kernmensParser#bracket}.
-	 * @param ctx the parse tree
-	 */
-	void enterBracket(kernmensParser.BracketContext ctx);
-	/**
-	 * Exit a parse tree produced by {@link kernmensParser#bracket}.
-	 * @param ctx the parse tree
-	 */
-	void exitBracket(kernmensParser.BracketContext ctx);
-	/**
-	 * Enter a parse tree produced by {@link kernmensParser#parenthe}.
-	 * @param ctx the parse tree
-	 */
-	void enterParenthe(kernmensParser.ParentheContext ctx);
-	/**
-	 * Exit a parse tree produced by {@link kernmensParser#parenthe}.
-	 * @param ctx the parse tree
-	 */
-	void exitParenthe(kernmensParser.ParentheContext ctx);
 }

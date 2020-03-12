@@ -14,7 +14,7 @@ LETTER_L:'L';
 //COMMON:'c';
 
 LETTER_M:'M';
-PERTFECT:'o';
+PERTFECT:'o' | 'O';
 DIGIT:[0-9];
 THREE: '3';
 TWO: '2';
@@ -54,6 +54,8 @@ LETTER_i:'i';
 LETTER_v:'v';
 LETTER_r:'r';
 LETTER_R:'R';
+LETTER_I:'I';
+LETTER_P:'P';
 // NOTES
 LETTER_A:'A';
 LETTER_B:'B';
@@ -62,6 +64,7 @@ LETTER_D:'D';
 LETTER_E:'E';
 LETTER_F:'F';
 LETTER_G:'G';
+LETTER_X: 'X';
 
 LETTER_a:'a';
 LETTER_b:'b';
@@ -70,6 +73,7 @@ LETTER_d:'d';
 LETTER_e:'e';
 LETTER_f:'f';
 LETTER_g:'g';
+
 
 LETTER_J:'J';
 
