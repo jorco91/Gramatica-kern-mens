@@ -33,7 +33,7 @@ public class SkmImporterTest {
                 "rhythm/rhythm.skm",
                 "ties/ties1.skm",
                 "ties/ties2.skm",
-                //"ties/ties3.skm",            // reacer ties por los chords?
+                //"ties/ties3.skm",            // rehacer ties por los chords?
                 "beaming/beaming0.skm",
                 "beaming/beaming1.skm",
                 "beaming/beaming2.skm",
@@ -41,6 +41,26 @@ public class SkmImporterTest {
                 "rests/rest1.skm",
                 "slurs/slur1.skm",
                 "slurs/slur2.skm",
+                "notes/notename.skm",
+                "ornaments/ornaments0.skm",
+                "ornaments/ornaments1.skm",
+                "ornaments/ornaments2.skm",
+                "ornaments/ornaments3.skm",
+                "ornaments/ornaments4.skm",
+                "ornaments/ornaments5.skm",
+                "ornaments/ornaments6.skm",
+                "articulations/articulations0.skm",
+                "articulations/articulations1.skm",
+                "articulations/articulations2.skm",
+                "articulations/articulations3.skm",
+                "articulations/articulations4.skm",
+                "articulations/articulations5.skm",
+                "articulations/articulations6.skm",
+                "articulations/articulations7.skm",
+                "time.skm",
+                "notes/notesFullAdds.skm",
+                "stemDirection/stemdirection0.skm",
+                "stemDirection/stemdirection1.skm",
 
 
         };

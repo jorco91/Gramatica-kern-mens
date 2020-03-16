@@ -19,7 +19,7 @@ DIGIT:[0-9];
 THREE: '3';
 TWO: '2';
 
-M_RHYTHM:('X' | 'L' | 'S' | 'M' | 'U' | 's' | 'm' | 'u');
+
 
 SHARP: '#';
 FLAT:'-';
@@ -42,7 +42,9 @@ RIGHTCURBRACES: '}';
 
 LETTER_K:'K';
 LETTER_k:'k';
-
+LETTER_S: 'S';
+LETTER_s: 's';
+LETTER_u:'u';
 LETTER_m:'m';
 LETTER_T:'T';
 LETTER_t:'t';

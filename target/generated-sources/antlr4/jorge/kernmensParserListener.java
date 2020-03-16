@@ -578,6 +578,16 @@ public interface kernmensParserListener extends ParseTreeListener {
 	 */
 	void exitNoteNameCl(kernmensParser.NoteNameClContext ctx);
 	/**
+	 * Enter a parse tree produced by {@link kernmensParser#m_rhythm}.
+	 * @param ctx the parse tree
+	 */
+	void enterM_rhythm(kernmensParser.M_rhythmContext ctx);
+	/**
+	 * Exit a parse tree produced by {@link kernmensParser#m_rhythm}.
+	 * @param ctx the parse tree
+	 */
+	void exitM_rhythm(kernmensParser.M_rhythmContext ctx);
+	/**
 	 * Enter a parse tree produced by {@link kernmensParser#not_hide}.
 	 * @param ctx the parse tree
 	 */

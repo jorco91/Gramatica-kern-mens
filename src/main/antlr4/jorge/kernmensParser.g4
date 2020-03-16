@@ -44,7 +44,7 @@ rest: time DOT* LETTER_r;
 barlines:EQUAL DIGIT* FLAT?|(EQUAL DIGIT*)? doubleBarline |(EQUAL DIGIT*)? leftRepeatBarline |(EQUAL DIGIT*)? rightRepeatBarline | endBarline |(EQUAL DIGIT*)? doubleRepeatBarline;
 chord:note (COMA note)+;
 articulations: APOSTROPHE | CIRCUNFLEX | GRAVE_ACCENT | COLOURED | APOSTROPHE COLOURED| APOSTROPHE CIRCUNFLEX| CIRCUNFLEX CIRCUNFLEX| SEMICOLON;
-ornaments: LETTER_t | LETTER_T |LETTER_m | LETTER_M | LETTER_W | LETTER_w;
+ornaments: LETTER_t | LETTER_T | LETTER_m | LETTER_M | LETTER_W | LETTER_w;
 partial_beaming:LETTER_K |LETTER_k;
 edit_accident: (bracket | parenthe);
 
@@ -64,9 +64,9 @@ m_musicalcontent: m_measure+ | m_items;
 m_measure: m_items | m_barlines;
 m_items: m_item+;
 m_item: m_note | m_rest | m_slurs | m_ligature;
-m_note: M_RHYTHM m_dot? (m_perfect | m_imperfect)? COLOURED? pitch m_notesuffix? stem_direction?;
+m_note: m_rhythm m_dot? (m_perfect | m_imperfect)? COLOURED? pitch m_notesuffix? stem_direction?;
 m_barlines: EQUAL FLAT | EQUAL BARLINE BARLINE;
-m_rest: M_RHYTHM LETTER_r;
+m_rest: m_rhythm LETTER_r;
 m_slurs: LEFTPAR | RIGHTPAR;
 m_ligature: LESS | GREATER;
 m_dot: LETTER_p COLON;
@@ -78,7 +78,7 @@ m_imperfect: LETTER_i;
 
 noteName:(LETTER_a | LETTER_b | LETTER_c | LETTER_d | LETTER_e | LETTER_f | LETTER_g);
 noteNameCl:(LETTER_A | LETTER_B | LETTER_C | LETTER_D | LETTER_E | LETTER_F | LETTER_G);
-
+m_rhythm: ('X' | 'L' | 'S' | 'M' | 'U' | 's' | 'm' | 'u');
 not_hide: LETTER_X;
 bracket: LETTER_I;
 parenthe: LETTER_P;

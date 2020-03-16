@@ -700,6 +700,18 @@ public class kernmensParserBaseListener implements kernmensParserListener {
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
+	@Override public void enterM_rhythm(kernmensParser.M_rhythmContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 *
+	 * <p>The default implementation does nothing.</p>
+	 */
+	@Override public void exitM_rhythm(kernmensParser.M_rhythmContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 *
+	 * <p>The default implementation does nothing.</p>
+	 */
 	@Override public void enterNot_hide(kernmensParser.Not_hideContext ctx) { }
 	/**
 	 * {@inheritDoc}
