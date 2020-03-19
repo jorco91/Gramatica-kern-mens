@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="824px" height="393px" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" overflow="visible">
+	<desc>Engraved by Verovio 2.7.0-dev-57a617f</desc>
+	<defs>
+		<symbol id="E062" viewBox="0 0 1000 1000" overflow="inherit">
+			<path transform="scale(1,-1)" d="M158 96c51 0 73 -14 88 -49l16 -39c0 -17 -2 -30 -7 -40c-3 -11 -10 -21 -19 -31c-17 -18 -49 -43 -84 -43c-55 0 -77 13 -112 44c-24 21 -35 55 -35 100c0 46 14 81 32 112c30 52 71 79 137 93l36 6l26 2c154 0 235 -68 274 -182c11 -32 18 -68 18 -107 c0 -103 -26 -182 -68 -250c-89 -145 -234 -230 -412 -288l-30 -5c-9 0 -14 3 -14 8c3 10 5 11 10 16c35 15 70 30 96 44l78 43c96 57 162 136 197 258c9 33 17 60 22 100c3 22 5 35 6 39c-7 69 -16 115 -23 140s-4 22 -16 40c-8 12 -19 23 -31 34c-24 21 -62 44 -118 44 c-48 0 -84 -8 -113 -28c-28 -19 -42 -44 -42 -73v-16c2 -5 3 -9 4 -11c24 22 52 39 84 39zM585 -118c0 32 23 58 57 58c18 0 33 -6 40 -18c9 -15 16 -18 16 -40c0 -9 -2 -16 -5 -21c-6 -19 -27 -37 -51 -37c-34 0 -57 26 -57 58zM642 177c31 0 56 -27 56 -58 c0 -30 -25 -58 -56 -58l-23 3c-19 7 -34 32 -34 55l3 23c9 20 28 35 54 35z" />
+		</symbol>
+		<symbol id="E0A3" viewBox="0 0 1000 1000" overflow="inherit">
+			<path transform="scale(1,-1)" d="M278 64c0 22 -17 39 -43 39c-12 0 -26 -3 -41 -10c-85 -43 -165 -94 -165 -156c5 -25 15 -32 49 -32c67 11 200 95 200 159zM0 -36c0 68 73 174 200 174c66 0 114 -39 114 -97c0 -84 -106 -173 -218 -173c-64 0 -96 32 -96 96z" />
+		</symbol>
+	</defs>
+	<style type="text/css">g.page-margin{font-family:Times;} g.reh, g.tempo{font-weight:bold;} g.dir, g.dynam, g.mNum{font-style:italic;} g.label{font-weight:normal;}</style>
+	<svg class="definition-scale" color="black" viewBox="0 0 8240 3930">
+		<g class="page-margin" transform="translate(500, 500)">
+			<g class="system" id="system-0000000966671972">
+				<g class="section boundaryStart" id="section-L1F1" />
+				<g class="measure" id="measure-L1">
+					<g class="staff" id="staff-0000001015680995">
+						<path d="M0 1584 L7249 1584" stroke="currentColor" stroke-width="13" />
+						<path d="M0 1764 L7249 1764" stroke="currentColor" stroke-width="13" />
+						<path d="M0 1944 L7249 1944" stroke="currentColor" stroke-width="13" />
+						<path d="M0 2124 L7249 2124" stroke="currentColor" stroke-width="13" />
+						<path d="M0 2304 L7249 2304" stroke="currentColor" stroke-width="13" />
+						<g class="clef" id="clef-0000001405274410">
+							<use xlink:href="#E062" href="#E062" x="88" y="1764" height="720px" width="720px" />
+						</g>
+						<g class="ledgerLines above">
+							<path d="M904 1404 L1220 1404" stroke="currentColor" stroke-width="22" />
+							<path d="M1954 1404 L2270 1404" stroke="currentColor" stroke-width="22" />
+							<path d="M3004 1404 L3320 1404" stroke="currentColor" stroke-width="22" />
+							<path d="M904 1224 L1220 1224" stroke="currentColor" stroke-width="22" />
+							<path d="M1954 1224 L2270 1224" stroke="currentColor" stroke-width="22" />
+							<path d="M904 1044 L1220 1044" stroke="currentColor" stroke-width="22" />
+							<path d="M1954 1044 L2270 1044" stroke="currentColor" stroke-width="22" />
+							<path d="M904 864 L1220 864" stroke="currentColor" stroke-width="22" />
+							<path d="M1954 864 L2270 864" stroke="currentColor" stroke-width="22" />
+							<path d="M904 684 L1220 684" stroke="currentColor" stroke-width="22" />
+							<path d="M904 504 L1220 504" stroke="currentColor" stroke-width="22" />
+							<path d="M904 324 L1220 324" stroke="currentColor" stroke-width="22" />
+							<path d="M904 144 L1220 144" stroke="currentColor" stroke-width="22" />
+						</g>
+						<g class="ledgerLines below">
+							<path d="M5104 2484 L5420 2484" stroke="currentColor" stroke-width="22" />
+							<path d="M6154 2484 L6470 2484" stroke="currentColor" stroke-width="22" />
+							<path d="M5104 2664 L5420 2664" stroke="currentColor" stroke-width="22" />
+							<path d="M6154 2664 L6470 2664" stroke="currentColor" stroke-width="22" />
+							<path d="M6154 2844 L6470 2844" stroke="currentColor" stroke-width="22" />
+							<path d="M6154 3024 L6470 3024" stroke="currentColor" stroke-width="22" />
+							<path d="M6154 3204 L6470 3204" stroke="currentColor" stroke-width="22" />
+						</g>
+						<g class="layer" id="layer-L1F1N1">
+							<g class="note" id="note-L3F1">
+								<use xlink:href="#E0A3" href="#E0A3" x="949" y="144" height="720px" width="720px" />
+								<g class="stem" id="stem-0000001316411279">
+									<rect x="949" y="166" height="1778" width="18" />
+								</g>
+								<g class="accid" id="accid-0000000140712332" />
+							</g>
+							<g class="note" id="note-L4F1">
+								<use xlink:href="#E0A3" href="#E0A3" x="1999" y="774" height="720px" width="720px" />
+								<g class="stem" id="stem-0000001547834759">
+									<rect x="1999" y="796" height="1148" width="18" />
+								</g>
+								<g class="accid" id="accid-0000001966551432" />
+							</g>
+							<g class="note" id="note-L5F1">
+								<use xlink:href="#E0A3" href="#E0A3" x="3049" y="1404" height="720px" width="720px" />
+								<g class="stem" id="stem-0000001989378402">
+									<rect x="3049" y="1426" height="608" width="18" />
+								</g>
+								<g class="accid" id="accid-0000001363772793" />
+							</g>
+							<g class="note" id="note-L6F1">
+								<use xlink:href="#E0A3" href="#E0A3" x="4099" y="2034" height="720px" width="720px" />
+								<g class="stem" id="stem-0000001309902271">
+									<rect x="4307" y="1404" height="608" width="18" />
+								</g>
+								<g class="accid" id="accid-0000001548439025" />
+							</g>
+							<g class="note" id="note-L7F1">
+								<use xlink:href="#E0A3" href="#E0A3" x="5149" y="2664" height="720px" width="720px" />
+								<g class="stem" id="stem-0000001672603300">
+									<rect x="5357" y="1944" height="698" width="18" />
+								</g>
+								<g class="accid" id="accid-0000000908516357" />
+							</g>
+							<g class="note" id="note-L8F1">
+								<use xlink:href="#E0A3" href="#E0A3" x="6199" y="3294" height="720px" width="720px" />
+								<g class="stem" id="stem-0000000882723870">
+									<rect x="6407" y="1944" height="1328" width="18" />
+								</g>
+								<g class="accid" id="accid-0000000196853789" />
+							</g>
+						</g>
+					</g>
+					<g class="barLineAttr" id="bline-0000001276853927" />
+				</g>
+				<g class="boundaryEnd section-L1F1" id="bdend-0000001576125865" />
+			</g>
+			<g class="pgHead autogenerated" id="pghead-0000000736627310" />
+		</g>
+	</svg>
+</svg>
