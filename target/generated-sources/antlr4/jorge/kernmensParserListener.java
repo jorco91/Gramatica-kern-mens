@@ -8,15 +8,15 @@ import org.antlr.v4.runtime.tree.ParseTreeListener;
  */
 public interface kernmensParserListener extends ParseTreeListener {
 	/**
-	 * Enter a parse tree produced by {@link kernmensParser#incipit}.
+	 * Enter a parse tree produced by {@link kernmensParser#startRule}.
 	 * @param ctx the parse tree
 	 */
-	void enterIncipit(kernmensParser.IncipitContext ctx);
+	void enterStartRule(kernmensParser.StartRuleContext ctx);
 	/**
-	 * Exit a parse tree produced by {@link kernmensParser#incipit}.
+	 * Exit a parse tree produced by {@link kernmensParser#startRule}.
 	 * @param ctx the parse tree
 	 */
-	void exitIncipit(kernmensParser.IncipitContext ctx);
+	void exitStartRule(kernmensParser.StartRuleContext ctx);
 	/**
 	 * Enter a parse tree produced by {@link kernmensParser#mastercleff}.
 	 * @param ctx the parse tree
@@ -617,4 +617,24 @@ public interface kernmensParserListener extends ParseTreeListener {
 	 * @param ctx the parse tree
 	 */
 	void exitParenthe(kernmensParser.ParentheContext ctx);
+	/**
+	 * Enter a parse tree produced by {@link kernmensParser#digit}.
+	 * @param ctx the parse tree
+	 */
+	void enterDigit(kernmensParser.DigitContext ctx);
+	/**
+	 * Exit a parse tree produced by {@link kernmensParser#digit}.
+	 * @param ctx the parse tree
+	 */
+	void exitDigit(kernmensParser.DigitContext ctx);
+	/**
+	 * Enter a parse tree produced by {@link kernmensParser#clef}.
+	 * @param ctx the parse tree
+	 */
+	void enterClef(kernmensParser.ClefContext ctx);
+	/**
+	 * Exit a parse tree produced by {@link kernmensParser#clef}.
+	 * @param ctx the parse tree
+	 */
+	void exitClef(kernmensParser.ClefContext ctx);
 }

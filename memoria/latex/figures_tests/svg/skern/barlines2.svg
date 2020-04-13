@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="1495px" height="266px" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" overflow="visible">
+	<desc>Engraved by Verovio 2.7.0-dev-02b4f36</desc>
+	<defs>
+		<symbol id="E050" viewBox="0 0 1000 1000" overflow="inherit">
+			<path transform="scale(1,-1)" d="M441 -245c-23 -4 -48 -6 -76 -6c-59 0 -102 7 -130 20c-88 42 -150 93 -187 154c-26 44 -43 103 -48 176c0 6 -1 13 -1 19c0 54 15 111 45 170c29 57 65 106 110 148s96 85 153 127c-3 16 -8 46 -13 92c-4 43 -5 73 -5 89c0 117 16 172 69 257c34 54 64 82 89 82 c21 0 43 -30 69 -92s39 -115 41 -159v-15c0 -109 -21 -162 -67 -241c-13 -20 -63 -90 -98 -118c-13 -9 -25 -19 -37 -29l31 -181c8 1 18 2 28 2c58 0 102 -12 133 -35c59 -43 92 -104 98 -184c1 -7 1 -15 1 -22c0 -123 -87 -209 -181 -248c8 -57 17 -110 25 -162 c5 -31 6 -58 6 -80c0 -30 -5 -53 -14 -70c-35 -64 -88 -99 -158 -103c-5 0 -11 -1 -16 -1c-37 0 -72 10 -108 27c-50 24 -77 59 -80 105v11c0 29 7 55 20 76c18 28 45 42 79 44h6c49 0 93 -42 97 -87v-9c0 -51 -34 -86 -105 -106c17 -24 51 -36 102 -36c62 0 116 43 140 85 c9 16 13 41 13 74c0 20 -1 42 -5 67c-8 53 -18 106 -26 159zM461 939c-95 0 -135 -175 -135 -286c0 -24 2 -48 5 -71c50 39 92 82 127 128c40 53 60 100 60 140v8c-4 53 -22 81 -55 81h-2zM406 119l54 -326c73 25 110 78 110 161c0 7 0 15 -1 23c-7 95 -57 142 -151 142h-12 zM382 117c-72 -2 -128 -47 -128 -120v-7c2 -46 43 -99 75 -115c-3 -2 -7 -5 -10 -10c-70 33 -116 88 -123 172v11c0 68 44 126 88 159c23 17 49 29 78 36l-29 170c-21 -13 -52 -37 -92 -73c-50 -44 -86 -84 -109 -119c-45 -69 -67 -130 -67 -182v-13c5 -68 35 -127 93 -176 s125 -73 203 -73c25 0 50 3 75 9c-19 111 -36 221 -54 331z" />
+		</symbol>
+		<symbol id="E0A2" viewBox="0 0 1000 1000" overflow="inherit">
+			<path transform="scale(1,-1)" d="M198 133c102 0 207 -45 207 -133c0 -92 -98 -133 -207 -133c-101 0 -198 46 -198 133c0 88 93 133 198 133zM293 -21c0 14 -3 29 -8 44c-7 20 -18 38 -33 54c-20 21 -43 31 -68 31l-20 -2c-15 -5 -27 -14 -36 -28c-4 -9 -6 -17 -8 -24s-3 -16 -3 -27c0 -15 3 -34 9 -57 s18 -41 34 -55c15 -15 36 -23 62 -23c4 0 10 1 18 2c19 5 32 15 40 30s13 34 13 55z" />
+		</symbol>
+	</defs>
+	<style type="text/css">g.page-margin{font-family:Times;} g.reh, g.tempo{font-weight:bold;} g.dir, g.dynam, g.mNum{font-style:italic;} g.label{font-weight:normal;}</style>
+	<svg class="definition-scale" color="black" viewBox="0 0 14950 2660">
+		<g class="page-margin" transform="translate(500, 500)">
+			<g class="system" id="system-0000000652710574">
+				<g class="section boundaryStart" id="section-L1F1" />
+				<g class="measure" id="measure-L1">
+					<g class="staff" id="staff-0000000220234355">
+						<path d="M0 720 L2505 720" stroke="currentColor" stroke-width="13" />
+						<path d="M0 900 L2505 900" stroke="currentColor" stroke-width="13" />
+						<path d="M0 1080 L2505 1080" stroke="currentColor" stroke-width="13" />
+						<path d="M0 1260 L2505 1260" stroke="currentColor" stroke-width="13" />
+						<path d="M0 1440 L2505 1440" stroke="currentColor" stroke-width="13" />
+						<g class="clef" id="clef-0000000762162955">
+							<use xlink:href="#E050" x="90" y="1260" height="720px" width="720px" />
+						</g>
+						<g class="ledgerLines below">
+							<path d="M870 1620 L1250 1620" stroke="currentColor" stroke-width="22" />
+						</g>
+						<g class="layer" id="layer-L1F1N1">
+							<g class="note" id="note-L4F1">
+								<use xlink:href="#E0A2" x="915" y="1620" height="720px" width="720px" />
+								<g class="accid" id="accid-0000000696761402" />
+							</g>
+						</g>
+					</g>
+					<g class="barLineAttr" id="bline-0000000592489851" />
+				</g>
+				<g class="measure" id="measure-L5">
+					<g class="staff" id="staff-L5F1N1">
+						<path d="M2505 720 L4378 720" stroke="currentColor" stroke-width="13" />
+						<path d="M2505 900 L4378 900" stroke="currentColor" stroke-width="13" />
+						<path d="M2505 1080 L4378 1080" stroke="currentColor" stroke-width="13" />
+						<path d="M2505 1260 L4378 1260" stroke="currentColor" stroke-width="13" />
+						<path d="M2505 1440 L4378 1440" stroke="currentColor" stroke-width="13" />
+						<g class="layer" id="layer-L5F1N1">
+							<g class="note" id="note-L6F1">
+								<use xlink:href="#E0A2" x="2685" y="1530" height="720px" width="720px" />
+								<g class="accid" id="accid-0000001225498171" />
+							</g>
+						</g>
+					</g>
+					<g class="barLineAttr" id="bline-0000000223937194">
+						<path d="M4275 1440 L4275 720" stroke="currentColor" stroke-width="27" />
+						<path d="M4365 1440 L4365 720" stroke="currentColor" stroke-width="27" />
+					</g>
+				</g>
+				<g class="measure" id="measure-L7">
+					<g class="staff" id="staff-L7F1N1">
+						<path d="M4378 720 L6161 720" stroke="currentColor" stroke-width="13" />
+						<path d="M4378 900 L6161 900" stroke="currentColor" stroke-width="13" />
+						<path d="M4378 1080 L6161 1080" stroke="currentColor" stroke-width="13" />
+						<path d="M4378 1260 L6161 1260" stroke="currentColor" stroke-width="13" />
+						<path d="M4378 1440 L6161 1440" stroke="currentColor" stroke-width="13" />
+						<g class="layer" id="layer-L7F1N1">
+							<g class="note" id="note-L8F1">
+								<use xlink:href="#E0A2" x="4558" y="1440" height="720px" width="720px" />
+								<g class="accid" id="accid-0000001771858515" />
+							</g>
+						</g>
+					</g>
+					<g class="barLineAttr" id="bline-0000001974916039">
+						<path d="M6148 1440 L6148 720" stroke="currentColor" stroke-width="27" />
+					</g>
+				</g>
+				<g class="measure" id="measure-L9">
+					<g class="staff" id="staff-L9F1N1">
+						<path d="M6161 720 L7931 720" stroke="currentColor" stroke-width="13" />
+						<path d="M6161 900 L7931 900" stroke="currentColor" stroke-width="13" />
+						<path d="M6161 1080 L7931 1080" stroke="currentColor" stroke-width="13" />
+						<path d="M6161 1260 L7931 1260" stroke="currentColor" stroke-width="13" />
+						<path d="M6161 1440 L7931 1440" stroke="currentColor" stroke-width="13" />
+						<g class="layer" id="layer-L9F1N1">
+							<g class="note" id="note-L10F1">
+								<use xlink:href="#E0A2" x="6341" y="1350" height="720px" width="720px" />
+								<g class="accid" id="accid-0000000384650852" />
+							</g>
+						</g>
+					</g>
+					<g class="barLineAttr" id="bline-0000001912327705" />
+				</g>
+				<g class="measure" id="measure-L11">
+					<g class="staff" id="staff-L11F1N1">
+						<path d="M7931 720 L10322 720" stroke="currentColor" stroke-width="13" />
+						<path d="M7931 900 L10322 900" stroke="currentColor" stroke-width="13" />
+						<path d="M7931 1080 L10322 1080" stroke="currentColor" stroke-width="13" />
+						<path d="M7931 1260 L10322 1260" stroke="currentColor" stroke-width="13" />
+						<path d="M7931 1440 L10322 1440" stroke="currentColor" stroke-width="13" />
+						<g class="layer" id="layer-L11F1N1">
+							<g class="note" id="note-L12F1">
+								<use xlink:href="#E0A2" x="8489" y="1260" height="720px" width="720px" />
+								<g class="accid" id="accid-0000000782964568" />
+							</g>
+						</g>
+					</g>
+					<g class="barLineAttr" id="bline-0000001580843579">
+						<path d="M8066 1440 L8066 720" stroke="currentColor" stroke-width="90" />
+						<path d="M8183 1440 L8183 720" stroke="currentColor" stroke-width="27" />
+						<ellipse cx="8273" cy="1170" rx="36" ry="36" />
+						<ellipse cx="8273" cy="990" rx="36" ry="36" />
+					</g>
+					<g class="barLineAttr" id="bline-0000000570351569">
+						<path d="M9962 1440 L9962 720" stroke="currentColor" stroke-width="27" />
+						<path d="M10079 1440 L10079 720" stroke="currentColor" stroke-width="90" />
+						<path d="M10196 1440 L10196 720" stroke="currentColor" stroke-width="27" />
+						<ellipse cx="10286" cy="1170" rx="36" ry="36" />
+						<ellipse cx="10286" cy="990" rx="36" ry="36" />
+						<ellipse cx="9872" cy="1170" rx="36" ry="36" />
+						<ellipse cx="9872" cy="990" rx="36" ry="36" />
+					</g>
+				</g>
+				<g class="measure" id="measure-L13">
+					<g class="staff" id="staff-L13F1N1">
+						<path d="M10322 720 L12137 720" stroke="currentColor" stroke-width="13" />
+						<path d="M10322 900 L12137 900" stroke="currentColor" stroke-width="13" />
+						<path d="M10322 1080 L12137 1080" stroke="currentColor" stroke-width="13" />
+						<path d="M10322 1260 L12137 1260" stroke="currentColor" stroke-width="13" />
+						<path d="M10322 1440 L12137 1440" stroke="currentColor" stroke-width="13" />
+						<g class="layer" id="layer-L13F1N1">
+							<g class="note" id="note-L14F1">
+								<use xlink:href="#E0A2" x="10502" y="1170" height="720px" width="720px" />
+								<g class="accid" id="accid-0000000519344775" />
+							</g>
+						</g>
+					</g>
+					<g class="barLineAttr" id="bline-0000002018238912">
+						<path d="M11975 1440 L11975 720" stroke="currentColor" stroke-width="27" />
+						<path d="M12092 1440 L12092 720" stroke="currentColor" stroke-width="90" />
+						<ellipse cx="11885" cy="1170" rx="36" ry="36" />
+						<ellipse cx="11885" cy="990" rx="36" ry="36" />
+					</g>
+				</g>
+				<g class="measure" id="measure-L15">
+					<g class="staff" id="staff-L15F1N1">
+						<path d="M12137 720 L13952 720" stroke="currentColor" stroke-width="13" />
+						<path d="M12137 900 L13952 900" stroke="currentColor" stroke-width="13" />
+						<path d="M12137 1080 L13952 1080" stroke="currentColor" stroke-width="13" />
+						<path d="M12137 1260 L13952 1260" stroke="currentColor" stroke-width="13" />
+						<path d="M12137 1440 L13952 1440" stroke="currentColor" stroke-width="13" />
+						<g class="layer" id="layer-L15F1N1">
+							<g class="note" id="note-L16F1">
+								<use xlink:href="#E0A2" x="12317" y="1080" height="720px" width="720px" />
+								<g class="accid" id="accid-0000001523690330" />
+							</g>
+						</g>
+					</g>
+					<g class="barLineAttr" id="bline-0000000102057092">
+						<path d="M13790 1440 L13790 720" stroke="currentColor" stroke-width="27" />
+						<path d="M13907 1440 L13907 720" stroke="currentColor" stroke-width="90" />
+					</g>
+				</g>
+				<g class="boundaryEnd section-L1F1" id="bdend-0000001010273952" />
+			</g>
+			<g class="pgHead autogenerated" id="pghead-0000001668598082" />
+		</g>
+	</svg>
+</svg>

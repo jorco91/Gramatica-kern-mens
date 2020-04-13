@@ -1,8 +1,8 @@
 #!/bin/bash
-INPUTFOLDER="../../src/test/resources/testdata/io/skm"
+INPUTFOLDER="../../src/test/resources/testdata/io/skm/skern"
 OUTPUTFOLDER="../latex/figures_tests"
-PDFs="${OUTPUTFOLDER}/pdf"
-SVGs="${OUTPUTFOLDER}/svg"
+PDFs="${OUTPUTFOLDER}/pdf/skern"
+SVGs="${OUTPUTFOLDER}/svg/skern"
 VEROVIO="verovio"
 BATIK="batik-1.12"
 
@@ -10,7 +10,7 @@ for skm in $(find $INPUTFOLDER -name *.skm -print); do
 	echo "Processing ${skm}"
 
   filename=$(basename $skm .skm)
-  svg="${OUTPUTFOLDER}/svg/${filename}.svg"
+  svg="${OUTPUTFOLDER}/svg/skern/${filename}.svg"
 
   # change **skm for **kern so that Verovio can process it
   cat ${skm} | sed 's/skern/kern/g' > /tmp/kern

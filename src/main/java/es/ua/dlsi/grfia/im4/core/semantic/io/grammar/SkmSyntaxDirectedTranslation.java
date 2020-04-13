@@ -638,7 +638,7 @@ public class SkmSyntaxDirectedTranslation {
             kernmensParser parser = new kernmensParser(tokens);
             parser.addErrorListener(errorListener);
 
-            ParseTree tree = parser.incipit();
+            ParseTree tree = parser.startRule();
             ParseTreeWalker walker = new ParseTreeWalker();
             Loader loader = new Loader(parser, debug);
             walker.walk(loader, tree);

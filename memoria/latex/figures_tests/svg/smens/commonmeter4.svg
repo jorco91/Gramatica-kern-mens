@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="721px" height="266px" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" overflow="visible">
+	<desc>Engraved by Verovio 2.7.0-dev-02b4f36</desc>
+	<defs>
+		<symbol id="E901" viewBox="0 0 1000 1000" overflow="inherit">
+			<path transform="scale(1,-1)" d="M144 488c30 28 83 110 83 176c0 77 -39 150 -104 150c-15 0 -33 -6 -61 -34c-15 -15 -23 -44 -23 -79c0 -44 14 -96 43 -133c23 -29 44 -58 62 -80zM159 69c-57 0 -104 -31 -104 -98c0 -61 35 -63 51 -75c8 0 23 52 39 92l32 80c-6 1 -12 1 -18 1zM256 -25 c0 -76 -24 -122 -98 -122h-3c-28 0 -66 7 -84 15c-38 17 -71 55 -71 112c0 55 56 114 124 123c25 3 49 8 61 8c12 33 26 89 26 128c0 104 -55 180 -76 211c-51 -65 -79 -110 -90 -178c-1 -6 -4 -25 -4 -46c0 -18 2 -38 10 -50c5 -7 7 -16 7 -24c0 -13 -6 -24 -15 -24 c-5 0 -12 5 -19 17c-12 21 -24 38 -24 96c0 77 23 115 54 151c38 44 26 28 65 68l1 -1c0 3 -16 27 -60 79c-19 22 -58 58 -58 145c0 76 30 100 53 123c25 25 57 38 102 38c62 0 110 -83 110 -168c0 -13 -2 -26 -4 -39c-10 -52 -83 -130 -111 -163c24 -38 8 -3 55 -91 c34 -63 42 -84 42 -119c0 -10 -1 -22 -2 -37c-4 -63 -11 -76 -20 -116c7 0 12 1 21 -1c14 -4 20 -11 20 -19c0 -19 -30 -19 -52 -24c-6 -13 -67 -174 -67 -181c0 -2 9 -4 19 -4c25 0 41 21 56 73c8 28 14 39 22 39s10 -8 10 -19z" />
+		</symbol>
+		<symbol id="E260" viewBox="0 0 1000 1000" overflow="inherit">
+			<path transform="scale(1,-1)" d="M20 110c32 16 54 27 93 27c26 0 35 -3 54 -13c13 -7 24 -20 27 -38l4 -25c0 -28 -16 -57 -45 -89c-23 -25 -39 -44 -65 -68l-88 -79v644h20v-359zM90 106c-32 0 -48 -10 -70 -29v-194c31 31 54 59 71 84c21 32 32 59 32 84c0 9 1 16 1 20c0 14 -3 21 -11 30l-8 3z" />
+		</symbol>
+		<symbol id="E915" viewBox="0 0 1000 1000" overflow="inherit">
+			<path transform="scale(1,-1)" d="M421 96c-46 77 -101 108 -181 108c-113 0 -204 -91 -204 -204s91 -204 204 -204c78 0 129 34 177 110c13 -8 15 -10 15 -10l-3 1s4 -2 21 -13c-41 -74 -120 -124 -210 -124c-132 0 -240 108 -240 240s108 240 240 240c89 0 163 -45 209 -122c-16 -13 -9 -8 -28 -22z" />
+		</symbol>
+		<symbol id="E925" viewBox="0 0 1000 1000" overflow="inherit">
+			<path transform="scale(1,-1)" d="M0 408h36v-816h-36v816z" />
+		</symbol>
+		<symbol id="E082" viewBox="0 0 1000 1000" overflow="inherit">
+			<path transform="scale(1,-1)" d="M104 -185c-18 0 -55 -14 -65 -65h-36l-3 29c0 25 6 46 18 64c11 19 22 30 39 43l121 82l37 29c15 11 27 29 38 54c12 24 18 47 18 70c0 40 -19 88 -94 88c-25 0 -32 0 -50 -8c-14 -5 -23 -12 -26 -22c3 -9 7 -15 10 -18l24 -17c12 -7 17 -11 27 -21c5 -7 7 -16 7 -27 c0 -12 0 -57 -79 -74c-30 0 -76 26 -76 94c0 66 81 135 197 135c72 0 181 -32 181 -150c0 -53 -32 -95 -113 -133l-91 -41c-26 -11 -45 -23 -57 -37l49 7c84 0 115 -41 148 -41c20 0 33 20 39 61h35c0 -152 -68 -168 -114 -168c-17 0 -65 0 -79 7h10l-28 17 c-49 37 -69 40 -87 42z" />
+		</symbol>
+		<symbol id="E93D" viewBox="0 0 1000 1000" overflow="inherit">
+			<path transform="scale(1,-1)" d="M155 194l157 -194l-157 -192l-155 192z" />
+		</symbol>
+		<symbol id="E949" viewBox="0 0 1000 1000" overflow="inherit">
+			<path transform="scale(1,-1)" d="M30 716v-716h-30v760h30l156 -227h-30z" />
+		</symbol>
+	</defs>
+	<style type="text/css">g.page-margin{font-family:Times;} g.reh, g.tempo{font-weight:bold;} g.dir, g.dynam, g.mNum{font-style:italic;} g.label{font-weight:normal;}</style>
+	<svg class="definition-scale" color="black" viewBox="0 0 7210 2660">
+		<g class="page-margin" transform="translate(500, 500)">
+			<g class="system" id="system-0000001713286375">
+				<g class="section boundaryStart" id="section-L1F1" />
+				<g class="measure" id="measure-L1">
+					<g class="staff" id="staff-0000001818581804">
+						<path d="M0 720 L6213 720" stroke="currentColor" stroke-width="13" />
+						<path d="M0 900 L6213 900" stroke="currentColor" stroke-width="13" />
+						<path d="M0 1080 L6213 1080" stroke="currentColor" stroke-width="13" />
+						<path d="M0 1260 L6213 1260" stroke="currentColor" stroke-width="13" />
+						<path d="M0 1440 L6213 1440" stroke="currentColor" stroke-width="13" />
+						<g class="clef" id="clef-0000001682883903">
+							<use xlink:href="#E901" x="90" y="1260" height="720px" width="720px" />
+						</g>
+						<g class="keySig" id="keysig-0000001870126731">
+							<use xlink:href="#E260" x="462" y="1260" height="720px" width="720px" />
+						</g>
+						<g class="mensur" id="mensur-0000001595902568">
+							<use xlink:href="#E915" x="784" y="1080" height="720px" width="720px" />
+							<use xlink:href="#E925" x="944" y="1080" height="720px" width="720px" />
+							<use xlink:href="#E082" x="1179" y="1080" height="720px" width="720px" />
+						</g>
+						<g class="layer" id="layer-L1F1N1">
+							<g class="note" id="note-L5F1">
+								<polygon points="1747,1080 1979,1080 1979,1125 1747,1125 " />
+								<polygon points="1747,1260 1979,1260 1979,1215 1747,1215 " />
+								<rect x="1738" y="1035" height="270" width="18" />
+								<rect x="1970" y="1035" height="270" width="18" />
+								<g class="stem">
+									<rect x="1970" y="1080" height="720" width="18" />
+								</g>
+							</g>
+							<g class="note" id="note-L6F1">
+								<polygon points="4537,1170 4769,1170 4769,1215 4537,1215 " />
+								<polygon points="4537,1350 4769,1350 4769,1305 4537,1305 " />
+								<rect x="4528" y="1125" height="270" width="18" />
+								<rect x="4760" y="1125" height="270" width="18" />
+							</g>
+							<g class="note" id="note-L7F1">
+								<use xlink:href="#E93D" x="5977" y="1170" height="720px" width="720px" />
+								<g class="stem">
+									<use xlink:href="#E949" x="6080" y="1089" height="720px" width="720px" />
+								</g>
+							</g>
+						</g>
+					</g>
+					<g class="barLineAttr" id="bline-0000002071146968" />
+				</g>
+				<g class="boundaryEnd section-L1F1" id="bdend-0000000244161277" />
+			</g>
+			<g class="pgHead autogenerated" id="pghead-0000001924816769" />
+		</g>
+	</svg>
+</svg>

@@ -15,9 +15,16 @@ LETTER_L:'L';
 
 LETTER_M:'M';
 PERTFECT:'o' | 'O';
-DIGIT:[0-9];
+ONE: '1';
+FOUR: '4';
 THREE: '3';
 TWO: '2';
+FIVE:'5';
+SIX:'6';
+SEVEN:'7';
+EIGHT:'8';
+NINE:'9';
+ZERO:'0';
 
 
 
@@ -27,7 +34,6 @@ DOUBLESHARP: '##';
 DOUBLEFLAT: '--';
 NATURAL: 'n';
 
-CLEF: ('G2'|'F2'|'F3'|'F4'|'C5'|'C4'|'C3'|'C2'|'C1'|'G1'|'Gv2');
 
 SPACE:' ';
 GREATER:'>';
@@ -82,7 +88,7 @@ LETTER_J:'J';
 
 WORD_CLEF:'clef';
 WORD_SKERN: 'skern';
-WORD_SMENS:'smens';
+WORD_SMENS:'mens';
 WORD_MET:'met';
 
 

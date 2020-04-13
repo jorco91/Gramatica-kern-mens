@@ -16,13 +16,13 @@ public class kernmensParserBaseListener implements kernmensParserListener {
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterIncipit(kernmensParser.IncipitContext ctx) { }
+	@Override public void enterStartRule(kernmensParser.StartRuleContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitIncipit(kernmensParser.IncipitContext ctx) { }
+	@Override public void exitStartRule(kernmensParser.StartRuleContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
@@ -743,6 +743,30 @@ public class kernmensParserBaseListener implements kernmensParserListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitParenthe(kernmensParser.ParentheContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 *
+	 * <p>The default implementation does nothing.</p>
+	 */
+	@Override public void enterDigit(kernmensParser.DigitContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 *
+	 * <p>The default implementation does nothing.</p>
+	 */
+	@Override public void exitDigit(kernmensParser.DigitContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 *
+	 * <p>The default implementation does nothing.</p>
+	 */
+	@Override public void enterClef(kernmensParser.ClefContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 *
+	 * <p>The default implementation does nothing.</p>
+	 */
+	@Override public void exitClef(kernmensParser.ClefContext ctx) { }
 
 	/**
 	 * {@inheritDoc}
