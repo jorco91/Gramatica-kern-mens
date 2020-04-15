@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="1419px" height="274px" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" overflow="visible">
+	<desc>Engraved by Verovio 2.7.0-dev-02b4f36</desc>
+	<defs>
+		<symbol id="E050" viewBox="0 0 1000 1000" overflow="inherit">
+			<path transform="scale(1,-1)" d="M441 -245c-23 -4 -48 -6 -76 -6c-59 0 -102 7 -130 20c-88 42 -150 93 -187 154c-26 44 -43 103 -48 176c0 6 -1 13 -1 19c0 54 15 111 45 170c29 57 65 106 110 148s96 85 153 127c-3 16 -8 46 -13 92c-4 43 -5 73 -5 89c0 117 16 172 69 257c34 54 64 82 89 82 c21 0 43 -30 69 -92s39 -115 41 -159v-15c0 -109 -21 -162 -67 -241c-13 -20 -63 -90 -98 -118c-13 -9 -25 -19 -37 -29l31 -181c8 1 18 2 28 2c58 0 102 -12 133 -35c59 -43 92 -104 98 -184c1 -7 1 -15 1 -22c0 -123 -87 -209 -181 -248c8 -57 17 -110 25 -162 c5 -31 6 -58 6 -80c0 -30 -5 -53 -14 -70c-35 -64 -88 -99 -158 -103c-5 0 -11 -1 -16 -1c-37 0 -72 10 -108 27c-50 24 -77 59 -80 105v11c0 29 7 55 20 76c18 28 45 42 79 44h6c49 0 93 -42 97 -87v-9c0 -51 -34 -86 -105 -106c17 -24 51 -36 102 -36c62 0 116 43 140 85 c9 16 13 41 13 74c0 20 -1 42 -5 67c-8 53 -18 106 -26 159zM461 939c-95 0 -135 -175 -135 -286c0 -24 2 -48 5 -71c50 39 92 82 127 128c40 53 60 100 60 140v8c-4 53 -22 81 -55 81h-2zM406 119l54 -326c73 25 110 78 110 161c0 7 0 15 -1 23c-7 95 -57 142 -151 142h-12 zM382 117c-72 -2 -128 -47 -128 -120v-7c2 -46 43 -99 75 -115c-3 -2 -7 -5 -10 -10c-70 33 -116 88 -123 172v11c0 68 44 126 88 159c23 17 49 29 78 36l-29 170c-21 -13 -52 -37 -92 -73c-50 -44 -86 -84 -109 -119c-45 -69 -67 -130 -67 -182v-13c5 -68 35 -127 93 -176 s125 -73 203 -73c25 0 50 3 75 9c-19 111 -36 221 -54 331z" />
+		</symbol>
+		<symbol id="E084" viewBox="0 0 1000 1000" overflow="inherit">
+			<path transform="scale(1,-1)" d="M0 -78c84 97 114 180 134 329h170c-13 -32 -82 -132 -99 -151l-84 -97c-33 -36 -59 -63 -80 -81h162v102l127 123v-225h57v-39h-57v-34c0 -43 19 -65 57 -65v-34h-244v36c48 0 60 26 60 70v27h-203v39z" />
+		</symbol>
+		<symbol id="E0A2" viewBox="0 0 1000 1000" overflow="inherit">
+			<path transform="scale(1,-1)" d="M198 133c102 0 207 -45 207 -133c0 -92 -98 -133 -207 -133c-101 0 -198 46 -198 133c0 88 93 133 198 133zM293 -21c0 14 -3 29 -8 44c-7 20 -18 38 -33 54c-20 21 -43 31 -68 31l-20 -2c-15 -5 -27 -14 -36 -28c-4 -9 -6 -17 -8 -24s-3 -16 -3 -27c0 -15 3 -34 9 -57 s18 -41 34 -55c15 -15 36 -23 62 -23c4 0 10 1 18 2c19 5 32 15 40 30s13 34 13 55z" />
+		</symbol>
+		<symbol id="E0A3" viewBox="0 0 1000 1000" overflow="inherit">
+			<path transform="scale(1,-1)" d="M278 64c0 22 -17 39 -43 39c-12 0 -26 -3 -41 -10c-85 -43 -165 -94 -165 -156c5 -25 15 -32 49 -32c67 11 200 95 200 159zM0 -36c0 68 73 174 200 174c66 0 114 -39 114 -97c0 -84 -106 -173 -218 -173c-64 0 -96 32 -96 96z" />
+		</symbol>
+		<symbol id="E0A4" viewBox="0 0 1000 1000" overflow="inherit">
+			<path transform="scale(1,-1)" d="M0 -39c0 68 73 172 200 172c66 0 114 -37 114 -95c0 -84 -106 -171 -218 -171c-64 0 -96 30 -96 94z" />
+		</symbol>
+		<symbol id="E240" viewBox="0 0 1000 1000" overflow="inherit">
+			<path transform="scale(1,-1)" d="M179 -646c15 29 29 55 46 102c18 49 30 108 30 138c0 105 -80 173 -168 200c-18 5 -47 9 -87 16v190h22c8 0 33 -61 71 -95c4 -3 -2 3 61 -56c62 -58 122 -137 122 -241c0 -38 -13 -106 -35 -163c-20 -51 -43 -99 -66 -132c-6 -5 -10 -7 -13 -7s-5 2 -5 5l4 10 c1 3 14 25 18 33z" />
+		</symbol>
+		<symbol id="E242" viewBox="0 0 1000 1000" overflow="inherit">
+			<path transform="scale(1,-1)" d="M206 -748c32 48 49 100 49 149c0 89 -55 168 -168 203c-18 5 -47 9 -87 16v190v190h22c8 0 33 -61 71 -95c4 -3 -2 3 61 -56c62 -58 122 -137 122 -241c0 -32 -7 -65 -17 -96c11 -29 17 -60 17 -94c0 -71 -32 -148 -67 -190c-6 -5 -10 -7 -13 -7s-5 2 -5 5l4 10 c1 3 6 8 11 16zM248 -463c4 18 7 38 7 57c0 105 -80 173 -168 200c-11 3 -27 6 -47 9c9 -17 23 -61 53 -88c4 -3 -2 3 61 -56c36 -33 71 -74 94 -122z" />
+		</symbol>
+		<symbol id="E244" viewBox="0 0 1000 1000" overflow="inherit">
+			<path transform="scale(1,-1)" d="M248 -463c4 18 7 38 7 57c0 105 -80 173 -168 200c-11 3 -27 6 -47 9c9 -17 23 -61 53 -88c4 -3 -2 3 61 -56c36 -33 71 -74 94 -122zM206 -748c32 48 49 100 49 149c0 89 -55 168 -168 203c-18 5 -47 9 -87 16v190v190v190h22c8 0 33 -61 71 -95c4 -3 -2 3 61 -56 c61 -57 122 -134 122 -235v-6c-1 -59 -10 -80 -19 -91c12 -30 19 -63 19 -99c0 -32 -7 -65 -17 -96c11 -29 17 -60 17 -94c0 -71 -32 -148 -67 -190c-6 -5 -10 -7 -13 -7s-5 2 -5 5l4 10c1 3 6 8 11 16zM247 -270c4 11 8 28 8 54c0 105 -80 173 -168 200c-11 3 -27 6 -47 9 c9 -17 23 -61 53 -88c4 -3 -2 3 61 -56c35 -33 70 -72 93 -119z" />
+		</symbol>
+		<symbol id="E246" viewBox="0 0 1000 1000" overflow="inherit">
+			<path transform="scale(1,-1)" d="M247 -79c4 11 8 28 8 53c0 105 -80 173 -168 200c-11 3 -27 6 -47 9c9 -17 23 -61 53 -88c4 -3 -2 3 61 -56c35 -32 69 -72 93 -118zM248 -463c4 18 7 38 7 57c0 105 -80 173 -168 200c-11 3 -27 6 -47 9c9 -17 23 -61 53 -88c4 -3 -2 3 61 -56c36 -33 71 -74 94 -122z M206 -748c32 48 49 100 49 149c0 89 -55 168 -168 203c-18 5 -47 9 -87 16v190v190v190v190h34c8 0 21 -61 59 -95c4 -3 -2 3 61 -56c61 -57 122 -134 122 -235v-6c-1 -57 -9 -78 -18 -90c12 -29 18 -60 18 -94v-6c-1 -59 -10 -80 -19 -91c12 -30 19 -63 19 -99 c0 -32 -7 -65 -17 -96c11 -29 17 -60 17 -94c0 -71 -32 -148 -67 -190c-6 -5 -10 -7 -13 -7s-5 2 -5 5l4 10c1 3 6 8 11 16zM247 -270c4 11 8 28 8 54c0 105 -80 173 -168 200c-11 3 -27 6 -47 9c9 -17 23 -61 53 -88c4 -3 -2 3 61 -56c35 -33 70 -72 93 -119z" />
+		</symbol>
+		<symbol id="E883" viewBox="0 0 1000 1000" overflow="inherit">
+			<path transform="scale(1,-1)" d="M161 326c52 0 94 -17 94 -68c0 -50 -40 -76 -82 -94c26 -21 39 -42 39 -64c0 -52 -56 -100 -118 -100h-12c-40 0 -82 23 -82 56c0 30 12 49 37 49c17 0 31 -16 34 -31c0 -5 -4 -12 -11 -21c-7 -5 -13 -10 -13 -21l11 -9l17 -4c21 0 40 12 56 37c13 21 19 45 19 70 c-9 30 -28 35 -66 35l6 23c34 0 60 4 77 13c20 11 30 35 30 70c0 28 -12 38 -39 40l-20 -3c-8 -3 -12 -9 -12 -16c2 -7 4 -11 5 -14l4 -11l3 -10l-3 -12c-5 -6 -11 -11 -20 -13c-2 0 -4 -1 -6 -1c-16 0 -30 13 -30 28c0 39 43 71 82 71z" />
+		</symbol>
+		<symbol id="E881" viewBox="0 0 1000 1000" overflow="inherit">
+			<path transform="scale(1,-1)" d="M207 311l-85 -275c-4 -6 7 -11 13 -13l18 -2h11l-6 -21h-158l6 21h15c7 0 14 2 21 5c9 1 16 8 20 20l55 176l-71 -56l-10 10l109 135h62z" />
+		</symbol>
+	</defs>
+	<style type="text/css">g.page-margin{font-family:Times;} g.reh, g.tempo{font-weight:bold;} g.dir, g.dynam, g.mNum{font-style:italic;} g.label{font-weight:normal;}</style>
+	<svg class="definition-scale" color="black" viewBox="0 0 14190 2740">
+		<g class="page-margin" transform="translate(500, 500)">
+			<g class="system" id="system-0000002002977442">
+				<g class="section boundaryStart" id="section-L1F1" />
+				<g class="measure" id="measure-L1">
+					<g class="staff" id="staff-0000000945475961">
+						<path d="M0 805 L13192 805" stroke="currentColor" stroke-width="13" />
+						<path d="M0 985 L13192 985" stroke="currentColor" stroke-width="13" />
+						<path d="M0 1165 L13192 1165" stroke="currentColor" stroke-width="13" />
+						<path d="M0 1345 L13192 1345" stroke="currentColor" stroke-width="13" />
+						<path d="M0 1525 L13192 1525" stroke="currentColor" stroke-width="13" />
+						<g class="clef" id="clef-0000001579649051">
+							<use xlink:href="#E050" x="90" y="1345" height="720px" width="720px" />
+						</g>
+						<g class="meterSig" id="msig-0000000453101025">
+							<use xlink:href="#E084" x="825" y="985" height="720px" width="720px" />
+							<use xlink:href="#E084" x="825" y="1345" height="720px" width="720px" />
+						</g>
+						<g class="layer" id="layer-L1F1N1">
+							<g class="note" id="note-L4F1">
+								<polygon points="1382,1165 1614,1165 1614,1210 1382,1210 " />
+								<polygon points="1382,1345 1614,1345 1614,1300 1382,1300 " />
+								<rect x="1373" y="1120" height="270" width="18" />
+								<rect x="1605" y="1120" height="270" width="18" />
+								<g class="stem">
+									<rect x="1605" y="1165" height="720" width="18" />
+								</g>
+								<g class="accid" id="accid-0000000045814761" />
+							</g>
+							<g class="note" id="note-L5F1">
+								<polygon points="5052,1165 5284,1165 5284,1210 5052,1210 " />
+								<polygon points="5052,1345 5284,1345 5284,1300 5052,1300 " />
+								<rect x="5043" y="1120" height="270" width="18" />
+								<rect x="5275" y="1120" height="270" width="18" />
+								<g class="accid" id="accid-0000000700611805" />
+							</g>
+							<g class="note" id="note-L6F1">
+								<use xlink:href="#E0A2" x="7472" y="1255" height="720px" width="720px" />
+								<g class="accid" id="accid-0000000379441676" />
+							</g>
+							<g class="note" id="note-L7F1">
+								<use xlink:href="#E0A3" x="9062" y="1255" height="720px" width="720px" />
+								<g class="stem" id="stem-0000002062244039">
+									<rect x="9270" y="625" height="608" width="18" />
+								</g>
+								<g class="accid" id="accid-0000001697319378" />
+							</g>
+							<g class="note" id="note-L8F1">
+								<use xlink:href="#E0A4" x="10112" y="1255" height="720px" width="720px" />
+								<g class="stem" id="stem-0000001896984540">
+									<rect x="10320" y="625" height="608" width="18" />
+								</g>
+								<g class="accid" id="accid-0000001620608630" />
+							</g>
+							<g class="note" id="note-L9F1">
+								<use xlink:href="#E0A4" x="10802" y="1255" height="720px" width="720px" />
+								<g class="stem" id="stem-0000001076940418">
+									<rect x="11010" y="625" height="608" width="18" />
+									<g class="flag" id="flag-0000001145428410">
+										<use xlink:href="#E240" x="11010" y="625" height="720px" width="720px" />
+									</g>
+								</g>
+								<g class="accid" id="accid-0000001365642592" />
+							</g>
+							<g class="note" id="note-L10F1">
+								<use xlink:href="#E0A4" x="11298" y="1255" height="720px" width="720px" />
+								<g class="stem" id="stem-0000001171875162">
+									<rect x="11506" y="625" height="608" width="18" />
+									<g class="flag" id="flag-0000001133321097">
+										<use xlink:href="#E242" x="11506" y="625" height="720px" width="720px" />
+									</g>
+								</g>
+								<g class="accid" id="accid-0000002031047973" />
+							</g>
+							<g class="note" id="note-L11F1">
+								<use xlink:href="#E0A4" x="11794" y="1255" height="720px" width="720px" />
+								<g class="stem" id="stem-0000001695212036">
+									<rect x="12002" y="625" height="608" width="18" />
+									<g class="flag" id="flag-0000000763144303">
+										<use xlink:href="#E244" x="12002" y="625" height="720px" width="720px" />
+									</g>
+								</g>
+								<g class="accid" id="accid-0000002106855898" />
+							</g>
+							<g class="note" id="note-L12F1">
+								<use xlink:href="#E0A4" x="12290" y="1255" height="720px" width="720px" />
+								<g class="stem" id="stem-0000001393960637">
+									<rect x="12498" y="625" height="608" width="18" />
+									<g class="flag" id="flag-0000001397320936">
+										<use xlink:href="#E246" x="12498" y="625" height="720px" width="720px" />
+									</g>
+								</g>
+								<g class="accid" id="accid-0000001630593494" />
+							</g>
+							<g class="tuplet" id="tuplet-L13F1">
+								<g class="tupletNum" id="num-0000000531671329">
+									<use xlink:href="#E883" x="12732" y="279" height="720px" width="720px" />
+									<use xlink:href="#E881" x="12915" y="279" height="720px" width="720px" />
+								</g>
+								<g class="tupletBracket" id="bracket-0000002039291407">
+									<polygon points="12786,180 12714,180 12714,162 12786,162 " />
+									<polygon points="13082,180 13012,180 13012,162 13082,162 " />
+									<rect x="12786" y="180" height="108" width="18" />
+									<rect x="12994" y="180" height="108" width="18" />
+								</g>
+								<g class="note" id="note-L13F1">
+									<use xlink:href="#E0A4" x="12786" y="1255" height="720px" width="720px" />
+									<g class="stem" id="stem-0000000120571336">
+										<rect x="12994" y="625" height="608" width="18" />
+										<g class="flag" id="flag-0000001365365031">
+											<use xlink:href="#E246" x="12994" y="625" height="720px" width="720px" />
+										</g>
+									</g>
+									<g class="accid" id="accid-0000000865425128" />
+								</g>
+							</g>
+						</g>
+					</g>
+					<g class="barLineAttr" id="bline-0000000320674106" />
+				</g>
+				<g class="boundaryEnd section-L1F1" id="bdend-0000001053230536" />
+			</g>
+			<g class="pgHead autogenerated" id="pghead-0000002085399978" />
+		</g>
+	</svg>
+</svg>

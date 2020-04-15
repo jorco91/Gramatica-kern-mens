@@ -42,7 +42,7 @@ note: time DOT* pitch notesuffix? edit_accident? not_hide? ornaments? articulati
 time: digit+;
 rest: time DOT* LETTER_r;
 barlines:EQUAL digit* FLAT?|(EQUAL digit*)? doubleBarline |(EQUAL digit*)? leftRepeatBarline |(EQUAL digit*)? rightRepeatBarline | endBarline |(EQUAL digit*)? doubleRepeatBarline;
-chord:note (COMA note)+;
+chord:note (SPACE note)+;
 articulations: APOSTROPHE | CIRCUNFLEX | GRAVE_ACCENT | COLOURED | APOSTROPHE COLOURED| APOSTROPHE CIRCUNFLEX| CIRCUNFLEX CIRCUNFLEX| SEMICOLON;
 ornaments: LETTER_t | LETTER_T | LETTER_m | LETTER_M | LETTER_W | LETTER_w;
 partial_beaming:LETTER_K |LETTER_k;

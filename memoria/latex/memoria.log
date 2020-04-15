@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.13)  13 APR 2020 17:58
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.13)  15 APR 2020 13:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -344,28 +344,32 @@ File: l3backend-pdfmode.def 2020-03-12 L3 backend support: PDF mode
 \l__kernel_color_stack_int=\count270
 \l__pdf_internal_box=\box48
 )
-No file memoria.aux.
+(./memoria.aux
+LaTeX Info: Redefining \. on input line 25.
+LaTeX Info: Redefining \% on input line 25.
+)
 \openout1 = `memoria.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Info: Redefining \. on input line 22.
-LaTeX Info: Redefining \% on input line 22.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Info: Redefining \. on input line 21.
+LaTeX Info: Redefining \% on input line 21.
 \AtBeginShipoutBox=\box49
+
 (/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/color.sty
 Package: color 2019/11/23 v1.2a Standard LaTeX Color (DPC)
 
@@ -374,7 +378,7 @@ File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package color Info: Driver file: pdftex.def on input line 147.
 )
-Package hyperref Info: Link coloring ON on input line 22.
+Package hyperref Info: Link coloring ON on input line 21.
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
@@ -388,5 +392,732 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count271
 )
-LaTeX Info: Redefining \ref on input line 22.
-LaTe
+LaTeX Info: Redefining \ref on input line 21.
+LaTeX Info: Redefining \pageref on input line 21.
+LaTeX Info: Redefining \nameref on input line 21.
+ (./memoria.out) (./memoria.out)
+\@outlinefile=\write3
+\openout3 = `memoria.out'.
+
+
+(/usr/local/texlive/2020/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count272
+\scratchdimen=\dimen161
+\scratchbox=\box50
+\nofMPsegments=\count273
+\nofMParguments=\count274
+\everyMPshowfont=\toks24
+\MPscratchCnt=\count275
+\MPscratchDim=\dimen162
+\MPnumerator=\count276
+\makeMPintoPDFobject=\count277
+\everyMPtoPDFconversion=\toks25
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 2
+3.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/lm/ot1lmr.fd
+File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 2
+3.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/lm/omllmm.fd
+File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
+23.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/lm/omslmsy.fd
+File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
+23.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/lm/omxlmex.fd
+File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <12> on input line 23.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <8> on input line 23.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <6> on input line 23.
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 3
+1.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/lm/t1lmtt.fd
+File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10> on input line 31.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7> on input line 31.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5> on input line 31.
+ [1
+
+{/usr/local/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2]
+<figures_tests/pdf/skern/accident1.pdf, id=155, 428.60126pt x 200.75pt>
+File: figures_tests/pdf/skern/accident1.pdf Graphic file (type pdf)
+<use figures_tests/pdf/skern/accident1.pdf>
+Package pdftex.def Info: figures_tests/pdf/skern/accident1.pdf  used on input l
+ine 97.
+(pdftex.def)             Requested size: 214.3001pt x 100.37474pt.
+<figures_tests/pdf/skern/accident2.pdf, id=156, 428.60126pt x 200.75pt>
+File: figures_tests/pdf/skern/accident2.pdf Graphic file (type pdf)
+<use figures_tests/pdf/skern/accident2.pdf>
+Package pdftex.def Info: figures_tests/pdf/skern/accident2.pdf  used on input l
+ine 99.
+(pdftex.def)             Requested size: 214.3001pt x 100.37474pt.
+<figures_tests/pdf/skern/articulations0.pdf, id=157, 282.05376pt x 200.75pt>
+File: figures_tests/pdf/skern/articulations0.pdf Graphic file (type pdf)
+<use figures_tests/pdf/skern/articulations0.pdf>
+Package pdftex.def Info: figures_tests/pdf/skern/articulations0.pdf  used on in
+put line 102.
+(pdftex.def)             Requested size: 141.02652pt x 100.37474pt.
+<figures_tests/pdf/skern/articulations1.pdf, id=158, 282.05376pt x 200.75pt>
+File: figures_tests/pdf/skern/articulations1.pdf Graphic file (type pdf)
+<use figures_tests/pdf/skern/articulations1.pdf>
+Package pdftex.def Info: figures_tests/pdf/skern/articulations1.pdf  used on in
+put line 104.
+(pdftex.def)             Requested size: 141.02652pt x 100.37474pt.
+ [3 <./figures_tests/pdf/skern/accident1.pdf> <./figures_tests/pdf/skern/accide
+nt2.pdf> <./figures_tests/pdf/skern/articulations0.pdf>]
+<figures_tests/pdf/skern/articulations2.pdf, id=167, 282.05376pt x 200.75pt>
+File: figures_tests/pdf/skern/articulations2.pdf Graphic file (type pdf)
+<use figures_tests/pdf/skern/articulations2.pdf>
+Package pdftex.def Info: figures_tests/pdf/skern/articulations2.pdf  used on in
+put line 106.
+(pdftex.def)             Requested size: 141.02652pt x 100.37474pt.
+<figures_tests/pdf/skern/articulations3.pdf, id=168, 282.05376pt x 200.75pt>
+File: figures_tests/pdf/skern/articulations3.pdf Graphic file (type pdf)
+<use figures_tests/pdf/skern/articulations3.pdf>
+Package pdftex.def Info: figures_tests/pdf/skern/articulations3.pdf  used on in
+put line 108.
+(pdftex.def)             Requested size: 141.02652pt x 100.37474pt.
+<figures_tests/pdf/skern/articulations4.pdf, id=169, 282.05376pt x 200.75pt>
+File: figures_tests/pdf/skern/articulations4.pdf Graphic file (type pdf)
+<use figures_tests/pdf/skern/articulations4.pdf>
+Package pdftex.def Info: figures_tests/pdf/skern/articulations4.pdf  used on in
+put line 110.
+(pdftex.def)             Requested size: 141.02652pt x 100.37474pt.
+<figures_tests/pdf/skern/articulations5.pdf, id=170, 282.05376pt x 200.75pt>
+File: figures_tests/pdf/skern/articulations5.pdf Graphic file (type pdf)
+<use figures_tests/pdf/skern/articulations5.pdf>
+Package pdftex.def Info: figures_tests/pdf/skern/articulations5.pdf  used on in
+put line 112.
+(pdftex.def)             Requested size: 141.02652pt x 100.37474pt.
+<figures_tests/pdf/skern/articulations6.pdf, id=171, 282.05376pt x 200.75pt>
+File: figures_tests/pdf/skern/articulations6.pdf Graphic file (type pdf)
+<use figures_tests/pdf/skern/articulations6.pdf>
+Package pdftex.def Info: figures_tests/pdf/skern/articulations6.pdf  used on in
+put line 114.
+(pdftex.def)             Requested size: 141.02652pt x 100.37474pt.
+ [4 <./figures_tests/pdf/skern/articulations1.pdf> <./figures_tests/pdf/skern/a
+rticulations2.pdf> <./figures_tests/pdf/skern/articulations3.pdf> <./figures_te
+sts/pdf/skern/articulations4.pdf> <./figures_tests/pdf/skern/articulations5.pdf
+>]
+<figures_tests/pdf/skern/articulations7.pdf, id=181, 282.05376pt x 200.75pt>
+File: figures_tests/pdf/skern/articulations7.pdf Graphic file (type pdf)
+<use figures_tests/pdf/skern/articulations7.pdf>
+Package pdftex.def Info: figures_tests/pdf/skern/articulations7.pdf  used on in
+put line 116.
+(pdftex.def)             Requested size: 141.02652pt x 100.37474pt.
+<figures_tests/pdf/skern/augmentationDots.pdf, id=182, 1115.16624pt x 200.75pt>
+
+File: figures_tests/pdf/skern/augmentationDots.pdf Graphic file (type pdf)
+<use figures_tests/pdf/skern/augmentationDots.pdf>
+Package pdftex.def Info: figures_tests/pdf/skern/augmentationDots.pdf  used on 
+input line 120.
+(pdftex.def)             Requested size: 390.31404pt x 70.26353pt.
+
+Overfull \hbox (60.31404pt too wide) in paragraph at lines 120--121
+[][] 
+ []
+
+<figures_tests/pdf/skern/barlines.pdf, id=183, 401.5pt x 200.75pt>
+File: figures_tests/pdf/skern/barlines.pdf Graphic file (type pdf)
+<use figures_tests/pdf/skern/barlines.pdf>
+Package pdftex.def Info: figures_tests/pdf/skern/barlines.pdf  used on input li
+ne 124.
+(pdftex.def)             Requested size: 200.7495pt x 100.37474pt.
+<figures_tests/pdf/skern/barlines2.pdf, id=184, 1125.20375pt x 200.75pt>
+File: figures_tests/pdf/skern/barlines2.pdf Graphic file (type pdf)
+<use figures_tests/pdf/skern/barlines2.pdf>
+Package pdftex.def Info: figures_tests/pdf/skern/barlines2.pdf  used on input l
+ine 126.
+(pdftex.def)             Requested size: 393.82721pt x 70.26353pt.
+
+Overfull \hbox (63.82721pt too wide) in paragraph at lines 126--127
+[][] 
+ []
+
+<figures_tests/pdf/skern/beaming0.pdf, id=185, 282.05376pt x 200.75pt>
+File: figures_tests/pdf/skern/beaming0.pdf Graphic file (type pdf)
+<use figures_tests/pdf/skern/beaming0.pdf>
+Package pdftex.def Info: figures_tests/pdf/skern/beaming0.pdf  used on input li
+ne 130.
+(pdftex.def)             Requested size: 141.02652pt x 100.37474pt.
+[5 <./figures_tests/pdf/skern/articulations6.pdf> <./figures_tests/pdf/skern/ar
+ticulations7.pdf> <./figures_tests/pdf/skern/augmentationDots.pdf> <./figures_t
+ests/pdf/skern/barlines.pdf> <./figures_tests/pdf/skern/barlines2.pdf>]
+<figures_tests/pdf/skern/beaming1.pdf, id=196, 397.485pt x 200.75pt>
+File: figures_tests/pdf/skern/beaming1.pdf Graphic file (type pdf)
+<use figures_tests/pdf/skern/beaming1.pdf>
+Package pdftex.def Info: figures_tests/pdf/skern/beaming1.pdf  used on input li
+ne 132.
+(pdftex.def)             Requested size: 198.742pt x 100.37474pt.
+<figures_tests/pdf/skern/beaming2.pdf, id=197, 350.30875pt x 200.75pt>
+File: figures_tests/pdf/skern/beaming2.pdf Graphic file (type pdf)
+<use figures_tests/pdf/skern/beaming2.pdf>
+Package pdftex.def Info: figures_tests/pdf/skern/beaming2.pdf  used on input li
+ne 134.
+(pdftex.def)             Requested size: 175.15395pt x 100.37474pt.
+<figures_tests/pdf/skern/partialbeaming0.pdf, id=198, 387.4475pt x 200.75pt>
+File: figures_tests/pdf/skern/partialbeaming0.pdf Graphic file (type pdf)
+<use figures_tests/pdf/skern/partialbeaming0.pdf>
+Package pdftex.def Info: figures_tests/pdf/skern/partialbeaming0.pdf  used on i
+nput line 136.
+(pdftex.def)             Requested size: 193.72327pt x 100.37474pt.
+<figures_tests/pdf/skern/commonmeter1.pdf, id=199, 366.36874pt x 200.75pt>
+File: figures_tests/pdf/skern/commonmeter1.pdf Graphic file (type pdf)
+<use figures_tests/pdf/skern/commonmeter1.pdf>
+Package pdftex.def Info: figures_tests/pdf/skern/commonmeter1.pdf  used on inpu
+t line 140.
+(pdftex.def)             Requested size: 183.18391pt x 100.37474pt.
+
+[6 <./figures_tests/pdf/skern/beaming0.pdf> <./figures_tests/pdf/skern/beaming1
+.pdf> <./figures_tests/pdf/skern/beaming2.pdf> <./figures_tests/pdf/skern/parti
+albeaming0.pdf>]
+<figures_tests/pdf/skern/commonmeter2.pdf, id=208, 366.36874pt x 200.75pt>
+File: figures_tests/pdf/skern/commonmeter2.pdf Graphic file (type pdf)
+<use figures_tests/pdf/skern/commonmeter2.pdf>
+Package pdftex.def Info: figures_tests/pdf/skern/commonmeter2.pdf  used on inpu
+t line 142.
+(pdftex.def)             Requested size: 183.18391pt x 100.37474pt.
+<figures_tests/pdf/skern/commonmeter3.pdf, id=209, 364.36125pt x 200.75pt>
+File: figures_tests/pdf/skern/commonmeter3.pdf Graphic file (type pdf)
+<use figures_tests/pdf/skern/commonmeter3.pdf>
+Package pdftex.def Info: figures_tests/pdf/skern/commonmeter3.pdf  used on inpu
+t line 144.
+(pdftex.def)             Requested size: 182.18018pt x 100.37474pt.
+<figures_tests/pdf/skern/commonmeter4.pdf, id=210, 374.39874pt x 200.75pt>
+File: figures_tests/pdf/skern/commonmeter4.pdf Graphic file (type pdf)
+<use figures_tests/pdf/skern/commonmeter4.pdf>
+Package pdftex.def Info: figures_tests/pdf/skern/commonmeter4.pdf  used on inpu
+t line 146.
+(pdftex.def)             Requested size: 187.19891pt x 100.37474pt.
+<figures_tests/pdf/skern/perfectmeter1.pdf, id=211, 364.36125pt x 200.75pt>
+File: figures_tests/pdf/skern/perfectmeter1.pdf Graphic file (type pdf)
+<use figures_tests/pdf/skern/perfectmeter1.pdf>
+Package pdftex.def Info: figures_tests/pdf/skern/perfectmeter1.pdf  used on inp
+ut line 149.
+(pdftex.def)             Requested size: 182.18018pt x 100.37474pt.
+<figures_tests/pdf/skern/perfectmeter2.pdf, id=212, 364.36125pt x 200.75pt>
+File: figures_tests/pdf/skern/perfectmeter2.pdf Graphic file (type pdf)
+<use figures_tests/pdf/skern/perfectmeter2.pdf>
+Package pdftex.def Info: figures_tests/pdf/skern/perfectmeter2.pdf  used on inp
+ut line 151.
+(pdftex.def)             Requested size: 182.18018pt x 100.37474pt.
+ [7 <./figures_tests/pdf/skern/commonmeter1.pdf> <./figures_tests/pdf/skern/com
+monmeter2.pdf> <./figures_tests/pdf/skern/commonmeter3.pdf> <./figures_tests/pd
+f/skern/commonmeter4.pdf> <./figures_tests/pdf/skern/perfectmeter1.pdf>]
+<figures_tests/pdf/skern/perfectmeter3.pdf, id=223, 364.36125pt x 200.75pt>
+File: figures_tests/pdf/skern/perfectmeter3.pdf Graphic file (type pdf)
+<use figures_tests/pdf/skern/perfectmeter3.pdf>
+Package pdftex.def Info: figures_tests/pdf/skern/perfectmeter3.pdf  used on inp
+ut line 153.
+(pdftex.def)             Requested size: 182.18018pt x 100.37474pt.
+<figures_tests/pdf/skern/keysignature1.pdf, id=224, 369.38pt x 200.75pt>
+File: figures_tests/pdf/skern/keysignature1.pdf Graphic file (type pdf)
+<use figures_tests/pdf/skern/keysignature1.pdf>
+Package pdftex.def Info: figures_tests/pdf/skern/keysignature1.pdf  used on inp
+ut line 156.
+(pdftex.def)             Requested size: 184.68954pt x 100.37474pt.
+<figures_tests/pdf/skern/keysignature2.pdf, id=225, 423.5825pt x 200.75pt>
+File: figures_tests/pdf/skern/keysignature2.pdf Graphic file (type pdf)
+<use figures_tests/pdf/skern/keysignature2.pdf>
+Package pdftex.def Info: figures_tests/pdf/skern/keysignature2.pdf  used on inp
+ut line 158.
+(pdftex.def)             Requested size: 211.79073pt x 100.37474pt.
+<figures_tests/pdf/skern/keysignature3.pdf, id=226, 383.4325pt x 200.75pt>
+File: figures_tests/pdf/skern/keysignature3.pdf Graphic file (type pdf)
+<use figures_tests/pdf/skern/keysignature3.pdf>
+Package pdftex.def Info: figures_tests/pdf/skern/keysignature3.pdf  used on inp
+ut line 160.
+(pdftex.def)             Requested size: 191.71577pt x 100.37474pt.
+<figures_tests/pdf/skern/notename.pdf, id=227, 542.025pt x 200.75pt>
+File: figures_tests/pdf/skern/notename.pdf Graphic file (type pdf)
+<use figures_tests/pdf/skern/notename.pdf>
+Package pdftex.def Info: figures_tests/pdf/skern/notename.pdf  used on input li
+ne 163.
+(pdftex.def)             Requested size: 271.01183pt x 100.37474pt.
+ [8 <./figures_tests/pdf/skern/perfectmeter2.pdf> <./figures_tests/pdf/skern/pe
+rfectmeter3.pdf> <./figures_tests/pdf/skern/keysignature1.pdf> <./figures_tests
+/pdf/skern/keysignature2.pdf> <./figures_tests/pdf/skern/keysignature3.pdf>]
+<figures_tests/pdf/skern/notesFullAdds.pdf, id=237, 279.0425pt x 257.96375pt>
+File: figures_tests/pdf/skern/notesFullAdds.pdf Graphic file (type pdf)
+<use figures_tests/pdf/skern/notesFullAdds.pdf>
+Package pdftex.def Info: figures_tests/pdf/skern/notesFullAdds.pdf  used on inp
+ut line 165.
+(pdftex.def)             Requested size: 139.5209pt x 128.98155pt.
+<figures_tests/pdf/skern/ornaments0.pdf, id=238, 282.05376pt x 208.78pt>
+File: figures_tests/pdf/skern/ornaments0.pdf Graphic file (type pdf)
+<use figures_tests/pdf/skern/ornaments0.pdf>
+Package pdftex.def Info: figures_tests/pdf/skern/ornaments0.pdf  used on input 
+line 168.
+(pdftex.def)             Requested size: 141.02652pt x 104.38972pt.
+<figures_tests/pdf/skern/ornaments1.pdf, id=239, 282.05376pt x 200.75pt>
+File: figures_tests/pdf/skern/ornaments1.pdf Graphic file (type pdf)
+<use figures_tests/pdf/skern/ornaments1.pdf>
+Package pdftex.def Info: figures_tests/pdf/skern/ornaments1.pdf  used on input 
+line 170.
+(pdftex.def)             Requested size: 141.02652pt x 100.37474pt.
+<figures_tests/pdf/skern/ornaments2.pdf, id=240, 282.05376pt x 200.75pt>
+File: figures_tests/pdf/skern/ornaments2.pdf Graphic file (type pdf)
+<use figures_tests/pdf/skern/ornaments2.pdf>
+Package pdftex.def Info: figures_tests/pdf/skern/ornaments2.pdf  used on input 
+line 172.
+(pdftex.def)             Requested size: 141.02652pt x 100.37474pt.
+ [9 <./figures_tests/pdf/skern/notename.pdf> <./figures_tests/pdf/skern/notesFu
+llAdds.pdf> <./figures_tests/pdf/skern/ornaments0.pdf> <./figures_tests/pdf/ske
+rn/ornaments1.pdf>]
+<figures_tests/pdf/skern/ornaments3.pdf, id=249, 282.05376pt x 200.75pt>
+File: figures_tests/pdf/skern/ornaments3.pdf Graphic file (type pdf)
+<use figures_tests/pdf/skern/ornaments3.pdf>
+Package pdftex.def Info: figures_tests/pdf/skern/ornaments3.pdf  used on input 
+line 174.
+(pdftex.def)             Requested size: 141.02652pt x 100.37474pt.
+<figures_tests/pdf/skern/ornaments4.pdf, id=250, 282.05376pt x 200.75pt>
+File: figures_tests/pdf/skern/ornaments4.pdf Graphic file (type pdf)
+<use figures_tests/pdf/skern/ornaments4.pdf>
+Package pdftex.def Info: figures_tests/pdf/skern/ornaments4.pdf  used on input 
+line 176.
+(pdftex.def)             Requested size: 141.02652pt x 100.37474pt.
+<figures_tests/pdf/skern/ornaments5.pdf, id=251, 282.05376pt x 200.75pt>
+File: figures_tests/pdf/skern/ornaments5.pdf Graphic file (type pdf)
+<use figures_tests/pdf/skern/ornaments5.pdf>
+Package pdftex.def Info: figures_tests/pdf/skern/ornaments5.pdf  used on input 
+line 178.
+(pdftex.def)             Requested size: 141.02652pt x 100.37474pt.
+<figures_tests/pdf/skern/ornaments6.pdf, id=252, 282.05376pt x 208.78pt>
+File: figures_tests/pdf/skern/ornaments6.pdf Graphic file (type pdf)
+<use figures_tests/pdf/skern/ornaments6.pdf>
+Package pdftex.def Info: figures_tests/pdf/skern/ornaments6.pdf  used on input 
+line 180.
+(pdftex.def)             Requested size: 141.02652pt x 104.38972pt.
+<figures_tests/pdf/skern/rest1.pdf, id=253, 668.4975pt x 200.75pt>
+File: figures_tests/pdf/skern/rest1.pdf Graphic file (type pdf)
+<use figures_tests/pdf/skern/rest1.pdf>
+Package pdftex.def Info: figures_tests/pdf/skern/rest1.pdf  used on input line 
+183.
+(pdftex.def)             Requested size: 334.24792pt x 100.37474pt.
+
+Overfull \hbox (4.24792pt too wide) in paragraph at lines 183--184
+[][] 
+ []
+
+[10 <./figures_tests/pdf/skern/ornaments2.pdf> <./figures_tests/pdf/skern/ornam
+ents3.pdf> <./figures_tests/pdf/skern/ornaments4.pdf> <./figures_tests/pdf/sker
+n/ornaments5.pdf> <./figures_tests/pdf/skern/ornaments6.pdf>]
+<figures_tests/pdf/skern/rhythm.pdf, id=263, 1439.3775pt x 208.78pt>
+File: figures_tests/pdf/skern/rhythm.pdf Graphic file (type pdf)
+<use figures_tests/pdf/skern/rhythm.pdf>
+Package pdftex.def Info: figures_tests/pdf/skern/rhythm.pdf  used on input line
+ 186.
+(pdftex.def)             Requested size: 431.81659pt x 62.63448pt.
+
+Overfull \hbox (101.81659pt too wide) in paragraph at lines 186--187
+[][] 
+ []
+
+<figures_tests/pdf/skern/time.pdf, id=264, 1067.99pt x 205.76875pt>
+File: figures_tests/pdf/skern/time.pdf Graphic file (type pdf)
+<use figures_tests/pdf/skern/time.pdf>
+Package pdftex.def Info: figures_tests/pdf/skern/time.pdf  used on input line 1
+88.
+(pdftex.def)             Requested size: 320.39948pt x 61.7311pt.
+<figures_tests/pdf/skern/slur1.pdf, id=265, 612.2875pt x 200.75pt>
+File: figures_tests/pdf/skern/slur1.pdf Graphic file (type pdf)
+<use figures_tests/pdf/skern/slur1.pdf>
+Package pdftex.def Info: figures_tests/pdf/skern/slur1.pdf  used on input line 
+191.
+(pdftex.def)             Requested size: 306.143pt x 100.37474pt.
+<figures_tests/pdf/skern/slur2.pdf, id=266, 612.2875pt x 200.75pt>
+File: figures_tests/pdf/skern/slur2.pdf Graphic file (type pdf)
+<use figures_tests/pdf/skern/slur2.pdf>
+Package pdftex.def Info: figures_tests/pdf/skern/slur2.pdf  used on input line 
+193.
+(pdftex.def)             Requested size: 306.143pt x 100.37474pt.
+<figures_tests/pdf/skern/stemdirection0.pdf, id=267, 282.05376pt x 200.75pt>
+File: figures_tests/pdf/skern/stemdirection0.pdf Graphic file (type pdf)
+<use figures_tests/pdf/skern/stemdirection0.pdf>
+Package pdftex.def Info: figures_tests/pdf/skern/stemdirection0.pdf  used on in
+put line 196.
+(pdftex.def)             Requested size: 141.02652pt x 100.37474pt.
+[11 <./figures_tests/pdf/skern/rest1.pdf> <./figures_tests/pdf/skern/rhythm.pdf
+> <./figures_tests/pdf/skern/time.pdf> <./figures_tests/pdf/skern/slur1.pdf> <.
+/figures_tests/pdf/skern/slur2.pdf>]
+<figures_tests/pdf/skern/stemdirection1.pdf, id=277, 282.05376pt x 200.75pt>
+File: figures_tests/pdf/skern/stemdirection1.pdf Graphic file (type pdf)
+<use figures_tests/pdf/skern/stemdirection1.pdf>
+Package pdftex.def Info: figures_tests/pdf/skern/stemdirection1.pdf  used on in
+put line 198.
+(pdftex.def)             Requested size: 141.02652pt x 100.37474pt.
+<figures_tests/pdf/skern/ties1.pdf, id=278, 315.1775pt x 200.75pt>
+File: figures_tests/pdf/skern/ties1.pdf Graphic file (type pdf)
+<use figures_tests/pdf/skern/ties1.pdf>
+Package pdftex.def Info: figures_tests/pdf/skern/ties1.pdf  used on input line 
+201.
+(pdftex.def)             Requested size: 157.58836pt x 100.37474pt.
+<figures_tests/pdf/skern/ties2.pdf, id=279, 367.3725pt x 200.75pt>
+File: figures_tests/pdf/skern/ties2.pdf Graphic file (type pdf)
+<use figures_tests/pdf/skern/ties2.pdf>
+Package pdftex.def Info: figures_tests/pdf/skern/ties2.pdf  used on input line 
+203.
+(pdftex.def)             Requested size: 183.68579pt x 100.37474pt.
+<figures_tests/pdf/skern/ties3.pdf, id=280, 459.7175pt x 200.75pt>
+File: figures_tests/pdf/skern/ties3.pdf Graphic file (type pdf)
+<use figures_tests/pdf/skern/ties3.pdf>
+Package pdftex.def Info: figures_tests/pdf/skern/ties3.pdf  used on input line 
+205.
+(pdftex.def)             Requested size: 229.85818pt x 100.37474pt.
+ [12 <./figures_tests/pdf/skern/stemdirection0.pdf> <./figures_tests/pdf/skern/
+stemdirection1.pdf> <./figures_tests/pdf/skern/ties1.pdf> <./figures_tests/pdf/
+skern/ties2.pdf>]
+<figures_tests/pdf/skern/timesignature.pdf, id=289, 388.45125pt x 200.75pt>
+File: figures_tests/pdf/skern/timesignature.pdf Graphic file (type pdf)
+<use figures_tests/pdf/skern/timesignature.pdf>
+Package pdftex.def Info: figures_tests/pdf/skern/timesignature.pdf  used on inp
+ut line 208.
+(pdftex.def)             Requested size: 194.22514pt x 100.37474pt.
+<figures_tests/pdf/skern/timesignature1.pdf, id=290, 575.14874pt x 200.75pt>
+File: figures_tests/pdf/skern/timesignature1.pdf Graphic file (type pdf)
+<use figures_tests/pdf/skern/timesignature1.pdf>
+Package pdftex.def Info: figures_tests/pdf/skern/timesignature1.pdf  used on in
+put line 210.
+(pdftex.def)             Requested size: 287.57367pt x 100.37474pt.
+<figures_tests/pdf/skern/timesignature3.pdf, id=291, 442.65375pt x 200.75pt>
+File: figures_tests/pdf/skern/timesignature3.pdf Graphic file (type pdf)
+<use figures_tests/pdf/skern/timesignature3.pdf>
+Package pdftex.def Info: figures_tests/pdf/skern/timesignature3.pdf  used on in
+put line 212.
+(pdftex.def)             Requested size: 221.32632pt x 100.37474pt.
+<figures_tests/pdf/skern/octaves.pdf, id=292, 620.3175pt x 296.10625pt>
+File: figures_tests/pdf/skern/octaves.pdf Graphic file (type pdf)
+<use figures_tests/pdf/skern/octaves.pdf>
+Package pdftex.def Info: figures_tests/pdf/skern/octaves.pdf  used on input lin
+e 215.
+(pdftex.def)             Requested size: 310.15799pt x 148.05275pt.
+ [13 <./figures_tests/pdf/skern/ties3.pdf> <./figures_tests/pdf/skern/timesigna
+ture.pdf> <./figures_tests/pdf/skern/timesignature1.pdf> <./figures_tests/pdf/s
+kern/timesignature3.pdf>]
+<figures_tests/pdf/skern/changeconfiguration.pdf, id=302, 455.7025pt x 200.75pt
+>
+File: figures_tests/pdf/skern/changeconfiguration.pdf Graphic file (type pdf)
+<use figures_tests/pdf/skern/changeconfiguration.pdf>
+Package pdftex.def Info: figures_tests/pdf/skern/changeconfiguration.pdf  used 
+on input line 218.
+(pdftex.def)             Requested size: 227.85068pt x 100.37474pt.
+<figures_tests/pdf/skern/chords.pdf, id=303, 419.5675pt x 200.75pt>
+File: figures_tests/pdf/skern/chords.pdf Graphic file (type pdf)
+<use figures_tests/pdf/skern/chords.pdf>
+Package pdftex.def Info: figures_tests/pdf/skern/chords.pdf  used on input line
+ 221.
+(pdftex.def)             Requested size: 209.78323pt x 100.37474pt.
+<figures_tests/pdf/smens/barlines1.pdf, id=304, 1105.12875pt x 383.4325pt>
+File: figures_tests/pdf/smens/barlines1.pdf Graphic file (type pdf)
+<use figures_tests/pdf/smens/barlines1.pdf>
+Package pdftex.def Info: figures_tests/pdf/smens/barlines1.pdf  used on input l
+ine 229.
+(pdftex.def)             Requested size: 442.04367pt x 153.37029pt.
+
+Overfull \hbox (112.04367pt too wide) in paragraph at lines 229--230
+[][] 
+ []
+
+[14 <./figures_tests/pdf/skern/octaves.pdf> <./figures_tests/pdf/skern/changeco
+nfiguration.pdf> <./figures_tests/pdf/skern/chords.pdf>]
+<figures_tests/pdf/smens/dot1.pdf, id=312, 634.37pt x 200.75pt>
+File: figures_tests/pdf/smens/dot1.pdf Graphic file (type pdf)
+<use figures_tests/pdf/smens/dot1.pdf>
+Package pdftex.def Info: figures_tests/pdf/smens/dot1.pdf  used on input line 2
+32.
+(pdftex.def)             Requested size: 317.18422pt x 100.37474pt.
+<figures_tests/pdf/smens/ligature.pdf, id=313, 342.27875pt x 200.75pt>
+File: figures_tests/pdf/smens/ligature.pdf Graphic file (type pdf)
+<use figures_tests/pdf/smens/ligature.pdf>
+Package pdftex.def Info: figures_tests/pdf/smens/ligature.pdf  used on input li
+ne 235.
+(pdftex.def)             Requested size: 171.13895pt x 100.37474pt.
+<figures_tests/pdf/smens/commonmeter1.pdf, id=314, 479.7925pt x 200.75pt>
+File: figures_tests/pdf/smens/commonmeter1.pdf Graphic file (type pdf)
+<use figures_tests/pdf/smens/commonmeter1.pdf>
+Package pdftex.def Info: figures_tests/pdf/smens/commonmeter1.pdf  used on inpu
+t line 239.
+(pdftex.def)             Requested size: 239.89565pt x 100.37474pt.
+ [15 <./figures_tests/pdf/smens/barlines1.pdf> <./figures_tests/pdf/smens/dot1.
+pdf> <./figures_tests/pdf/smens/ligature.pdf>]
+<figures_tests/pdf/smens/commonmeter2.pdf, id=322, 497.86pt x 200.75pt>
+File: figures_tests/pdf/smens/commonmeter2.pdf Graphic file (type pdf)
+<use figures_tests/pdf/smens/commonmeter2.pdf>
+Package pdftex.def Info: figures_tests/pdf/smens/commonmeter2.pdf  used on inpu
+t line 241.
+(pdftex.def)             Requested size: 248.92938pt x 100.37474pt.
+<figures_tests/pdf/smens/commonmeter3.pdf, id=323, 472.76625pt x 200.75pt>
+File: figures_tests/pdf/smens/commonmeter3.pdf Graphic file (type pdf)
+<use figures_tests/pdf/smens/commonmeter3.pdf>
+Package pdftex.def Info: figures_tests/pdf/smens/commonmeter3.pdf  used on inpu
+t line 243.
+(pdftex.def)             Requested size: 236.38254pt x 100.37474pt.
+<figures_tests/pdf/smens/commonmeter4.pdf, id=324, 543.02875pt x 200.75pt>
+File: figures_tests/pdf/smens/commonmeter4.pdf Graphic file (type pdf)
+<use figures_tests/pdf/smens/commonmeter4.pdf>
+Package pdftex.def Info: figures_tests/pdf/smens/commonmeter4.pdf  used on inpu
+t line 245.
+(pdftex.def)             Requested size: 271.5137pt x 100.37474pt.
+<figures_tests/pdf/smens/commonmeter5.pdf, id=325, 681.54625pt x 200.75pt>
+File: figures_tests/pdf/smens/commonmeter5.pdf Graphic file (type pdf)
+<use figures_tests/pdf/smens/commonmeter5.pdf>
+Package pdftex.def Info: figures_tests/pdf/smens/commonmeter5.pdf  used on inpu
+t line 247.
+(pdftex.def)             Requested size: 340.7723pt x 100.37474pt.
+
+Overfull \hbox (10.7723pt too wide) in paragraph at lines 247--248
+[][] 
+ []
+
+<figures_tests/pdf/smens/commonmeter6.pdf, id=326, 939.51pt x 200.75pt>
+File: figures_tests/pdf/smens/commonmeter6.pdf Graphic file (type pdf)
+<use figures_tests/pdf/smens/commonmeter6.pdf>
+Package pdftex.def Info: figures_tests/pdf/smens/commonmeter6.pdf  used on inpu
+t line 249.
+(pdftex.def)             Requested size: 469.75385pt x 100.37474pt.
+
+Overfull \hbox (139.75385pt too wide) in paragraph at lines 249--250
+[][] 
+ []
+
+[16 <./figures_tests/pdf/smens/commonmeter1.pdf> <./figures_tests/pdf/smens/com
+monmeter2.pdf> <./figures_tests/pdf/smens/commonmeter3.pdf> <./figures_tests/pd
+f/smens/commonmeter4.pdf> <./figures_tests/pdf/smens/commonmeter5.pdf>]
+<figures_tests/pdf/smens/commonmeter8.pdf, id=338, 681.54625pt x 200.75pt>
+File: figures_tests/pdf/smens/commonmeter8.pdf Graphic file (type pdf)
+<use figures_tests/pdf/smens/commonmeter8.pdf>
+Package pdftex.def Info: figures_tests/pdf/smens/commonmeter8.pdf  used on inpu
+t line 251.
+(pdftex.def)             Requested size: 340.7723pt x 100.37474pt.
+
+Overfull \hbox (10.7723pt too wide) in paragraph at lines 251--252
+[][] 
+ []
+
+<figures_tests/pdf/smens/commonmeter9.pdf, id=339, 543.02875pt x 200.75pt>
+File: figures_tests/pdf/smens/commonmeter9.pdf Graphic file (type pdf)
+<use figures_tests/pdf/smens/commonmeter9.pdf>
+Package pdftex.def Info: figures_tests/pdf/smens/commonmeter9.pdf  used on inpu
+t line 253.
+(pdftex.def)             Requested size: 271.5137pt x 100.37474pt.
+<figures_tests/pdf/smens/commonmeter10.pdf, id=340, 472.76625pt x 200.75pt>
+File: figures_tests/pdf/smens/commonmeter10.pdf Graphic file (type pdf)
+<use figures_tests/pdf/smens/commonmeter10.pdf>
+Package pdftex.def Info: figures_tests/pdf/smens/commonmeter10.pdf  used on inp
+ut line 255.
+(pdftex.def)             Requested size: 236.38254pt x 100.37474pt.
+<figures_tests/pdf/smens/commonmeter11.pdf, id=341, 681.54625pt x 200.75pt>
+File: figures_tests/pdf/smens/commonmeter11.pdf Graphic file (type pdf)
+<use figures_tests/pdf/smens/commonmeter11.pdf>
+Package pdftex.def Info: figures_tests/pdf/smens/commonmeter11.pdf  used on inp
+ut line 257.
+(pdftex.def)             Requested size: 340.7723pt x 100.37474pt.
+
+Overfull \hbox (10.7723pt too wide) in paragraph at lines 257--258
+[][] 
+ []
+
+<figures_tests/pdf/smens/commonmeter12.pdf, id=342, 681.54625pt x 200.75pt>
+File: figures_tests/pdf/smens/commonmeter12.pdf Graphic file (type pdf)
+<use figures_tests/pdf/smens/commonmeter12.pdf>
+Package pdftex.def Info: figures_tests/pdf/smens/commonmeter12.pdf  used on inp
+ut line 259.
+(pdftex.def)             Requested size: 340.7723pt x 100.37474pt.
+
+Overfull \hbox (10.7723pt too wide) in paragraph at lines 259--260
+[][] 
+ []
+
+[17 <./figures_tests/pdf/smens/commonmeter6.pdf> <./figures_tests/pdf/smens/com
+monmeter8.pdf> <./figures_tests/pdf/smens/commonmeter9.pdf> <./figures_tests/pd
+f/smens/commonmeter10.pdf> <./figures_tests/pdf/smens/commonmeter11.pdf>]
+<figures_tests/pdf/smens/perfectmeter1.pdf, id=352, 481.8pt x 200.75pt>
+File: figures_tests/pdf/smens/perfectmeter1.pdf Graphic file (type pdf)
+<use figures_tests/pdf/smens/perfectmeter1.pdf>
+Package pdftex.def Info: figures_tests/pdf/smens/perfectmeter1.pdf  used on inp
+ut line 262.
+(pdftex.def)             Requested size: 240.8994pt x 100.37474pt.
+<figures_tests/pdf/smens/perfectmeter2.pdf, id=353, 399.4925pt x 200.75pt>
+File: figures_tests/pdf/smens/perfectmeter2.pdf Graphic file (type pdf)
+<use figures_tests/pdf/smens/perfectmeter2.pdf>
+Package pdftex.def Info: figures_tests/pdf/smens/perfectmeter2.pdf  used on inp
+ut line 264.
+(pdftex.def)             Requested size: 199.74576pt x 100.37474pt.
+<figures_tests/pdf/smens/perfectmeter3.pdf, id=354, 353.32pt x 200.75pt>
+File: figures_tests/pdf/smens/perfectmeter3.pdf Graphic file (type pdf)
+<use figures_tests/pdf/smens/perfectmeter3.pdf>
+Package pdftex.def Info: figures_tests/pdf/smens/perfectmeter3.pdf  used on inp
+ut line 266.
+(pdftex.def)             Requested size: 176.65956pt x 100.37474pt.
+<figures_tests/pdf/smens/perfectmeter4.pdf, id=355, 481.8pt x 200.75pt>
+File: figures_tests/pdf/smens/perfectmeter4.pdf Graphic file (type pdf)
+<use figures_tests/pdf/smens/perfectmeter4.pdf>
+Package pdftex.def Info: figures_tests/pdf/smens/perfectmeter4.pdf  used on inp
+ut line 268.
+(pdftex.def)             Requested size: 240.8994pt x 100.37474pt.
+<figures_tests/pdf/smens/perfectmeter5.pdf, id=356, 353.32pt x 200.75pt>
+File: figures_tests/pdf/smens/perfectmeter5.pdf Graphic file (type pdf)
+<use figures_tests/pdf/smens/perfectmeter5.pdf>
+Package pdftex.def Info: figures_tests/pdf/smens/perfectmeter5.pdf  used on inp
+ut line 270.
+(pdftex.def)             Requested size: 176.65956pt x 100.37474pt.
+
+[18 <./figures_tests/pdf/smens/commonmeter12.pdf> <./figures_tests/pdf/smens/pe
+rfectmeter1.pdf> <./figures_tests/pdf/smens/perfectmeter2.pdf> <./figures_tests
+/pdf/smens/perfectmeter3.pdf> <./figures_tests/pdf/smens/perfectmeter4.pdf>]
+<figures_tests/pdf/smens/perfectmeter6.pdf, id=367, 778.91pt x 200.75pt>
+File: figures_tests/pdf/smens/perfectmeter6.pdf Graphic file (type pdf)
+<use figures_tests/pdf/smens/perfectmeter6.pdf>
+Package pdftex.def Info: figures_tests/pdf/smens/perfectmeter6.pdf  used on inp
+ut line 272.
+(pdftex.def)             Requested size: 389.45406pt x 100.37474pt.
+
+Overfull \hbox (59.45406pt too wide) in paragraph at lines 272--273
+[][] 
+ []
+
+<figures_tests/pdf/smens/perfectmeter7.pdf, id=368, 481.8pt x 200.75pt>
+File: figures_tests/pdf/smens/perfectmeter7.pdf Graphic file (type pdf)
+<use figures_tests/pdf/smens/perfectmeter7.pdf>
+Package pdftex.def Info: figures_tests/pdf/smens/perfectmeter7.pdf  used on inp
+ut line 274.
+(pdftex.def)             Requested size: 240.8994pt x 100.37474pt.
+<figures_tests/pdf/smens/perfectmeter8.pdf, id=369, 438.63875pt x 200.75pt>
+File: figures_tests/pdf/smens/perfectmeter8.pdf Graphic file (type pdf)
+<use figures_tests/pdf/smens/perfectmeter8.pdf>
+Package pdftex.def Info: figures_tests/pdf/smens/perfectmeter8.pdf  used on inp
+ut line 276.
+(pdftex.def)             Requested size: 219.31883pt x 100.37474pt.
+<figures_tests/pdf/smens/perfectmeter9.pdf, id=370, 353.32pt x 200.75pt>
+File: figures_tests/pdf/smens/perfectmeter9.pdf Graphic file (type pdf)
+<use figures_tests/pdf/smens/perfectmeter9.pdf>
+Package pdftex.def Info: figures_tests/pdf/smens/perfectmeter9.pdf  used on inp
+ut line 278.
+(pdftex.def)             Requested size: 176.65956pt x 100.37474pt.
+<figures_tests/pdf/smens/perfectmeter10.pdf, id=371, 399.4925pt x 200.75pt>
+File: figures_tests/pdf/smens/perfectmeter10.pdf Graphic file (type pdf)
+<use figures_tests/pdf/smens/perfectmeter10.pdf>
+Package pdftex.def Info: figures_tests/pdf/smens/perfectmeter10.pdf  used on in
+put line 280.
+(pdftex.def)             Requested size: 199.74576pt x 100.37474pt.
+[19 <./figures_tests/pdf/smens/perfectmeter5.pdf> <./figures_tests/pdf/smens/pe
+rfectmeter6.pdf> <./figures_tests/pdf/smens/perfectmeter7.pdf> <./figures_tests
+/pdf/smens/perfectmeter8.pdf> <./figures_tests/pdf/smens/perfectmeter9.pdf>]
+<figures_tests/pdf/smens/note1.pdf, id=382, 285.065pt x 200.75pt>
+File: figures_tests/pdf/smens/note1.pdf Graphic file (type pdf)
+<use figures_tests/pdf/smens/note1.pdf>
+Package pdftex.def Info: figures_tests/pdf/smens/note1.pdf  used on input line 
+283.
+(pdftex.def)             Requested size: 142.53215pt x 100.37474pt.
+<figures_tests/pdf/smens/notesufix.pdf, id=383, 1730.465pt x 200.75pt>
+File: figures_tests/pdf/smens/notesufix.pdf Graphic file (type pdf)
+<use figures_tests/pdf/smens/notesufix.pdf>
+Package pdftex.def Info: figures_tests/pdf/smens/notesufix.pdf  used on input l
+ine 286.
+(pdftex.def)             Requested size: 484.5269pt x 56.20961pt.
+
+Overfull \hbox (154.5269pt too wide) in paragraph at lines 286--287
+[][] 
+ []
+
+<figures_tests/pdf/smens/rest1.pdf, id=384, 1411.2725pt x 200.75pt>
+File: figures_tests/pdf/smens/rest1.pdf Graphic file (type pdf)
+<use figures_tests/pdf/smens/rest1.pdf>
+Package pdftex.def Info: figures_tests/pdf/smens/rest1.pdf  used on input line 
+289.
+(pdftex.def)             Requested size: 423.38503pt x 60.22545pt.
+
+Overfull \hbox (93.38503pt too wide) in paragraph at lines 289--290
+[][] 
+ []
+
+<figures_tests/pdf/smens/rhythm1.pdf, id=385, 1423.3175pt x 200.75pt>
+File: figures_tests/pdf/smens/rhythm1.pdf Graphic file (type pdf)
+<use figures_tests/pdf/smens/rhythm1.pdf>
+Package pdftex.def Info: figures_tests/pdf/smens/rhythm1.pdf  used on input lin
+e 292.
+(pdftex.def)             Requested size: 426.99855pt x 60.22545pt.
+
+Overfull \hbox (96.99855pt too wide) in paragraph at lines 292--293
+[][] 
+ []
+
+<figures_tests/pdf/smens/slur1.pdf, id=386, 361.35pt x 200.75pt>
+File: figures_tests/pdf/smens/slur1.pdf Graphic file (type pdf)
+<use figures_tests/pdf/smens/slur1.pdf>
+Package pdftex.def Info: figures_tests/pdf/smens/slur1.pdf  used on input line 
+295.
+(pdftex.def)             Requested size: 216.81168pt x 120.45091pt.
+[20 <./figures_tests/pdf/smens/perfectmeter10.pdf> <./figures_tests/pdf/smens/n
+ote1.pdf> <./figures_tests/pdf/smens/notesufix.pdf> <./figures_tests/pdf/smens/
+rest1.pdf> <./figures_tests/pdf/smens/rhythm1.pdf>]
+<figures_tests/pdf/smens/slur2.pdf, id=396, 361.35pt x 200.75pt>
+File: figures_tests/pdf/smens/slur2.pdf Graphic file (type pdf)
+<use figures_tests/pdf/smens/slur2.pdf>
+Package pdftex.def Info: figures_tests/pdf/smens/slur2.pdf  used on input line 
+298.
+(pdftex.def)             Requested size: 216.81168pt x 120.45091pt.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 301.
+ [21 <./figures_tests/pdf/smens/slur1.pdf> <./figures_tests/pdf/smens/slur2.pdf
+>]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 301.
+ (./memoria.aux
+LaTeX Info: Redefining \. on input line 25.
+LaTeX Info: Redefining \% on input line 25.
+)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 301.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 301.
+Package rerunfilecheck Info: File `memoria.out' has not changed.
+(rerunfilecheck)             Checksum: 21964ECD3109483C7640D8F0534B4403;2243.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 301.
+ ) 
+Here is how much of TeX's memory you used:
+ 8342 strings out of 480608
+ 139575 string characters out of 5903630
+ 395465 words of memory out of 5000000
+ 23948 multiletter control sequences out of 15000+600000
+ 575462 words of font info for 51 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 37i,6n,35p,290b,361s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}</usr/local/
+texlive/2020/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/local/texlive/20
+20/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/local/texlive/2020/texmf-d
+ist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/2020/texmf-dist/fonts/t
+ype1/public/lm/lmr12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public
+/lm/lmr17.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmtt10.
+pfb>
+Output written on memoria.pdf (21 pages, 349013 bytes).
+PDF statistics:
+ 441 PDF objects out of 1000 (max. 8388607)
+ 326 compressed objects within 4 object streams
+ 58 named destinations out of 1000 (max. 500000)
+ 683 words of extra memory for PDF output out of 10000 (max. 10000000)
+

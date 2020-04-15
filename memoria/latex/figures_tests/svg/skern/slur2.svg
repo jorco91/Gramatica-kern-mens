@@ -15,19 +15,19 @@
 	<style type="text/css">g.page-margin{font-family:Times;} g.reh, g.tempo{font-weight:bold;} g.dir, g.dynam, g.mNum{font-style:italic;} g.label{font-weight:normal;}</style>
 	<svg class="definition-scale" color="black" viewBox="0 0 8130 2660">
 		<g class="page-margin" transform="translate(500, 500)">
-			<g class="system" id="system-0000001143204672">
+			<g class="system" id="system-0000002040054176">
 				<g class="section boundaryStart" id="section-L1F1" />
 				<g class="measure" id="measure-L1">
-					<g class="staff" id="staff-0000001034126617">
+					<g class="staff" id="staff-0000000284767787">
 						<path d="M0 720 L4146 720" stroke="currentColor" stroke-width="13" />
 						<path d="M0 900 L4146 900" stroke="currentColor" stroke-width="13" />
 						<path d="M0 1080 L4146 1080" stroke="currentColor" stroke-width="13" />
 						<path d="M0 1260 L4146 1260" stroke="currentColor" stroke-width="13" />
 						<path d="M0 1440 L4146 1440" stroke="currentColor" stroke-width="13" />
-						<g class="clef" id="clef-0000000877396213">
+						<g class="clef" id="clef-0000001163944073">
 							<use xlink:href="#E050" x="90" y="1260" height="720px" width="720px" />
 						</g>
-						<g class="meterSig" id="msig-0000000393441258">
+						<g class="meterSig" id="msig-0000001900024861">
 							<use xlink:href="#E084" x="825" y="900" height="720px" width="720px" />
 							<use xlink:href="#E084" x="825" y="1260" height="720px" width="720px" />
 						</g>
@@ -37,31 +37,31 @@
 						<g class="layer" id="layer-L1F1N1">
 							<g class="note" id="note-L5F1">
 								<use xlink:href="#E0A4" x="1373" y="1620" height="720px" width="720px" />
-								<g class="stem" id="stem-0000000512088289">
+								<g class="stem" id="stem-0000000786176098">
 									<rect x="1581" y="990" height="608" width="18" />
 								</g>
-								<g class="accid" id="accid-0000000334061776" />
+								<g class="accid" id="accid-0000001363314200" />
 							</g>
 							<g class="note" id="note-L6F1">
 								<use xlink:href="#E0A4" x="2063" y="1530" height="720px" width="720px" />
-								<g class="stem" id="stem-0000001700899694">
+								<g class="stem" id="stem-0000001942282742">
 									<rect x="2271" y="900" height="608" width="18" />
 								</g>
-								<g class="accid" id="accid-0000000253870915" />
+								<g class="accid" id="accid-0000000885128702" />
 							</g>
 							<g class="note" id="note-L7F1">
 								<use xlink:href="#E0A4" x="2753" y="1440" height="720px" width="720px" />
-								<g class="stem" id="stem-0000001866331841">
+								<g class="stem" id="stem-0000000047126747">
 									<rect x="2961" y="810" height="608" width="18" />
 								</g>
-								<g class="accid" id="accid-0000001359317989" />
+								<g class="accid" id="accid-0000001466971261" />
 							</g>
 							<g class="note" id="note-L8F1">
 								<use xlink:href="#E0A4" x="3443" y="1350" height="720px" width="720px" />
-								<g class="stem" id="stem-0000001293103605">
+								<g class="stem" id="stem-0000001785254733">
 									<rect x="3651" y="720" height="608" width="18" />
 								</g>
-								<g class="accid" id="accid-0000001409343654" />
+								<g class="accid" id="accid-0000002021923351" />
 							</g>
 						</g>
 					</g>
@@ -77,7 +77,7 @@
 					<g class="slur" id="slur-L8F1-L13F1">
 						<path d="M3556,1508 C4115,1892 5885,2053 6505,1774 C5880,2106 4110,1945 3556,1508" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="9" />
 					</g>
-					<g class="barLineAttr" id="bline-0000000338590750">
+					<g class="barLineAttr" id="bline-0000001131445118">
 						<path d="M4133 1440 L4133 720" stroke="currentColor" stroke-width="27" />
 					</g>
 				</g>
@@ -94,42 +94,42 @@
 						<g class="layer" id="layer-L9F1N1">
 							<g class="note" id="note-L10F1">
 								<use xlink:href="#E0A4" x="4326" y="1260" height="720px" width="720px" />
-								<g class="stem" id="stem-0000000657781595">
+								<g class="stem" id="stem-0000000134781647">
 									<rect x="4534" y="630" height="608" width="18" />
 								</g>
-								<g class="accid" id="accid-0000000719986983" />
+								<g class="accid" id="accid-0000001449645460" />
 							</g>
 							<g class="note" id="note-L11F1">
 								<use xlink:href="#E0A4" x="5016" y="1350" height="720px" width="720px" />
-								<g class="stem" id="stem-0000000089452409">
+								<g class="stem" id="stem-0000001827377191">
 									<rect x="5224" y="720" height="608" width="18" />
 								</g>
-								<g class="accid" id="accid-0000000506143502" />
+								<g class="accid" id="accid-0000000859385961" />
 							</g>
 							<g class="note" id="note-L12F1">
 								<use xlink:href="#E0A4" x="5706" y="1440" height="720px" width="720px" />
-								<g class="stem" id="stem-0000000188085163">
+								<g class="stem" id="stem-0000001564813390">
 									<rect x="5914" y="810" height="608" width="18" />
 								</g>
-								<g class="accid" id="accid-0000001580797586" />
+								<g class="accid" id="accid-0000001011957273" />
 							</g>
 							<g class="note" id="note-L13F1">
 								<use xlink:href="#E0A4" x="6396" y="1620" height="720px" width="720px" />
-								<g class="stem" id="stem-0000000051406157">
+								<g class="stem" id="stem-0000001733904568">
 									<rect x="6604" y="990" height="608" width="18" />
 								</g>
-								<g class="accid" id="accid-0000002071240715" />
+								<g class="accid" id="accid-0000000828521190" />
 							</g>
 						</g>
 					</g>
-					<g class="barLineAttr" id="bline-0000000509760929">
+					<g class="barLineAttr" id="bline-0000000378792353">
 						<path d="M6969 1440 L6969 720" stroke="currentColor" stroke-width="27" />
 						<path d="M7086 1440 L7086 720" stroke="currentColor" stroke-width="90" />
 					</g>
 				</g>
-				<g class="boundaryEnd section-L1F1" id="bdend-0000001191014843" />
+				<g class="boundaryEnd section-L1F1" id="bdend-0000000147645279" />
 			</g>
-			<g class="pgHead autogenerated" id="pghead-0000000691392614" />
+			<g class="pgHead autogenerated" id="pghead-0000001130591868" />
 		</g>
 	</svg>
 </svg>

@@ -18,11 +18,11 @@ public class SkmImporterTest {
 
                         KERN  TESTS
                  */
-                "jorge.skm", // Ejemplo 1
-                "octaves.skm", // Octavas 1
+                "skern/jorge.skm", // Ejemplo 1
+                "skern/octaves.skm", // Octavas 1
                 "skern/barlines/barlines.skm",
                 "skern/barlines/barlines2.skm",
-                "changeconfiguration.skm",
+                "skern/changeconfiguration.skm",
                 "skern/timesignature/timesignature.skm",    // Basic configuration
                 "skern/timesignature/timesignature1.skm",    // Common metter different times
                 "skern/timesignature/timesignature3.skm",       //Perfect metter
@@ -33,7 +33,7 @@ public class SkmImporterTest {
                 "skern/keysignature/keysignature2.skm",    //
                 "skern/keysignature/keysignature3.skm",    // Deberia dar error?
                 "skern/dots/augmentationDots.skm",
-                "chords.skm",            // dejar los chord con comas entre ellos?
+                "skern/chords.skm",            // dejar los chord con comas entre ellos?
                 "skern/rhythm/rhythm.skm",
                 "skern/ties/ties1.skm",
                 "skern/ties/ties2.skm",
@@ -61,7 +61,7 @@ public class SkmImporterTest {
                 "skern/articulations/articulations5.skm",
                 "skern/articulations/articulations6.skm",
                 "skern/articulations/articulations7.skm",
-                "time.skm",
+                "skern/time.skm",
                 "skern/notes/notesFullAdds.skm",
                 "skern/stemDirection/stemdirection0.skm",
                 "skern/stemDirection/stemdirection1.skm",

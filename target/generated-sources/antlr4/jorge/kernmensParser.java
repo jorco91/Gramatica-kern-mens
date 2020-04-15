@@ -2500,9 +2500,9 @@ public class kernmensParser extends Parser {
 		public NoteContext note(int i) {
 			return getRuleContext(NoteContext.class,i);
 		}
-		public List<TerminalNode> COMA() { return getTokens(kernmensParser.COMA); }
-		public TerminalNode COMA(int i) {
-			return getToken(kernmensParser.COMA, i);
+		public List<TerminalNode> SPACE() { return getTokens(kernmensParser.SPACE); }
+		public TerminalNode SPACE(int i) {
+			return getToken(kernmensParser.SPACE, i);
 		}
 		public ChordContext(ParserRuleContext parent, int invokingState) {
 			super(parent, invokingState);
@@ -2534,7 +2534,7 @@ public class kernmensParser extends Parser {
 				{
 				{
 				setState(444);
-				match(COMA);
+				match(SPACE);
 				setState(445);
 				note();
 				}
@@ -2542,7 +2542,7 @@ public class kernmensParser extends Parser {
 				setState(448); 
 				_errHandler.sync(this);
 				_la = _input.LA(1);
-			} while ( _la==COMA );
+			} while ( _la==SPACE );
 			}
 		}
 		catch (RecognitionException re) {
@@ -4857,19 +4857,19 @@ public class kernmensParser extends Parser {
 		"\2\2\u01b7\u01b5\3\2\2\2\u01b8\u01b1\3\2\2\2\u01b8\u01b9\3\2\2\2\u01b9"+
 		"\u01ba\3\2\2\2\u01ba\u01bc\5L\'\2\u01bb\u0188\3\2\2\2\u01bb\u0199\3\2"+
 		"\2\2\u01bb\u01a3\3\2\2\2\u01bb\u01ad\3\2\2\2\u01bb\u01b0\3\2\2\2\u01bb"+
-		"\u01b8\3\2\2\2\u01bc;\3\2\2\2\u01bd\u01c0\5\64\33\2\u01be\u01bf\7R\2\2"+
-		"\u01bf\u01c1\5\64\33\2\u01c0\u01be\3\2\2\2\u01c1\u01c2\3\2\2\2\u01c2\u01c0"+
-		"\3\2\2\2\u01c2\u01c3\3\2\2\2\u01c3=\3\2\2\2\u01c4\u01d0\7L\2\2\u01c5\u01d0"+
-		"\7K\2\2\u01c6\u01d0\7P\2\2\u01c7\u01d0\7O\2\2\u01c8\u01c9\7L\2\2\u01c9"+
-		"\u01d0\7O\2\2\u01ca\u01cb\7L\2\2\u01cb\u01d0\7K\2\2\u01cc\u01cd\7K\2\2"+
-		"\u01cd\u01d0\7K\2\2\u01ce\u01d0\7M\2\2\u01cf\u01c4\3\2\2\2\u01cf\u01c5"+
-		"\3\2\2\2\u01cf\u01c6\3\2\2\2\u01cf\u01c7\3\2\2\2\u01cf\u01c8\3\2\2\2\u01cf"+
-		"\u01ca\3\2\2\2\u01cf\u01cc\3\2\2\2\u01cf\u01ce\3\2\2\2\u01d0?\3\2\2\2"+
-		"\u01d1\u01d2\t\b\2\2\u01d2A\3\2\2\2\u01d3\u01d4\t\t\2\2\u01d4C\3\2\2\2"+
-		"\u01d5\u01d8\5x=\2\u01d6\u01d8\5z>\2\u01d7\u01d5\3\2\2\2\u01d7\u01d6\3"+
-		"\2\2\2\u01d8E\3\2\2\2\u01d9\u01da\7F\2\2\u01da\u01db\7F\2\2\u01dbG\3\2"+
-		"\2\2\u01dc\u01dd\7N\2\2\u01dd\u01de\7F\2\2\u01de\u01df\7Q\2\2\u01dfI\3"+
-		"\2\2\2\u01e0\u01e1\7Q\2\2\u01e1\u01e2\7F\2\2\u01e2\u01e3\7N\2\2\u01e3"+
+		"\u01b8\3\2\2\2\u01bc;\3\2\2\2\u01bd\u01c0\5\64\33\2\u01be\u01bf\7\26\2"+
+		"\2\u01bf\u01c1\5\64\33\2\u01c0\u01be\3\2\2\2\u01c1\u01c2\3\2\2\2\u01c2"+
+		"\u01c0\3\2\2\2\u01c2\u01c3\3\2\2\2\u01c3=\3\2\2\2\u01c4\u01d0\7L\2\2\u01c5"+
+		"\u01d0\7K\2\2\u01c6\u01d0\7P\2\2\u01c7\u01d0\7O\2\2\u01c8\u01c9\7L\2\2"+
+		"\u01c9\u01d0\7O\2\2\u01ca\u01cb\7L\2\2\u01cb\u01d0\7K\2\2\u01cc\u01cd"+
+		"\7K\2\2\u01cd\u01d0\7K\2\2\u01ce\u01d0\7M\2\2\u01cf\u01c4\3\2\2\2\u01cf"+
+		"\u01c5\3\2\2\2\u01cf\u01c6\3\2\2\2\u01cf\u01c7\3\2\2\2\u01cf\u01c8\3\2"+
+		"\2\2\u01cf\u01ca\3\2\2\2\u01cf\u01cc\3\2\2\2\u01cf\u01ce\3\2\2\2\u01d0"+
+		"?\3\2\2\2\u01d1\u01d2\t\b\2\2\u01d2A\3\2\2\2\u01d3\u01d4\t\t\2\2\u01d4"+
+		"C\3\2\2\2\u01d5\u01d8\5x=\2\u01d6\u01d8\5z>\2\u01d7\u01d5\3\2\2\2\u01d7"+
+		"\u01d6\3\2\2\2\u01d8E\3\2\2\2\u01d9\u01da\7F\2\2\u01da\u01db\7F\2\2\u01db"+
+		"G\3\2\2\2\u01dc\u01dd\7N\2\2\u01dd\u01de\7F\2\2\u01de\u01df\7Q\2\2\u01df"+
+		"I\3\2\2\2\u01e0\u01e1\7Q\2\2\u01e1\u01e2\7F\2\2\u01e2\u01e3\7N\2\2\u01e3"+
 		"K\3\2\2\2\u01e4\u01e5\7N\2\2\u01e5\u01e6\7F\2\2\u01e6\u01e7\7Q\2\2\u01e7"+
 		"\u01e8\7F\2\2\u01e8\u01e9\7N\2\2\u01e9M\3\2\2\2\u01ea\u01eb\7G\2\2\u01eb"+
 		"\u01ec\7G\2\2\u01ecO\3\2\2\2\u01ed\u01ee\7J\2\2\u01ee\u01ef\7J\2\2\u01ef"+

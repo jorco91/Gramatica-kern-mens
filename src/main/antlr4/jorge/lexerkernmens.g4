@@ -2,7 +2,7 @@ lexer grammar lexerkernmens;
 
 
 // ESPACIOS Y DEM'AS (CAMBIO?)
-WS  :   (' '|'\r'|'\n'|'\t') -> skip;
+WS  :   ('\r'|'\n'|'\t') -> skip;
 
 
 
