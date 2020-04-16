@@ -1,0 +1,2 @@
+chord  ::= note ('space' note)+
+
