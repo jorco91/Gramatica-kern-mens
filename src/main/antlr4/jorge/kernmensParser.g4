@@ -64,7 +64,7 @@ m_musicalcontent: m_measure+ | m_items;
 m_measure: m_items+ m_barlines;
 m_items: m_item+;
 m_item: m_note | m_rest | m_slurs | m_ligature;
-m_note: m_rhythm m_dot? (m_perfect | m_imperfect)? COLOURED? pitch m_notesuffix? stem_direction?;
+m_note: m_rhythm m_dot? (m_perfect | m_imperfect)? COLOURED? pitch (m_notesuffix (bracket | parenthe)?)? stem_direction?;
 m_barlines: EQUAL FLAT | EQUAL BARLINE BARLINE;
 m_rest: m_rhythm LETTER_r;
 m_slurs: SLURS_COUNT* LEFTPAR |SLURS_COUNT* RIGHTPAR;

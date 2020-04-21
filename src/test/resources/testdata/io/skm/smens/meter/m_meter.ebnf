@@ -1,0 +1,1 @@
+mensural_signs ::= (('c' | 'C') ('|' ('THREE' | 'TWO' | '/' ('TWO' | 'THREE') | 'r')? | 'TWO' | 'THREE' | '.' ('|')? | 'r')?) | ('O' (('TWO' | 'THREE' | '|' ('THREE')? | '/' 'THREE' | 'DOT')? |'THREE' '/' 'TWO' | 'THREE' | 'TWO'))
