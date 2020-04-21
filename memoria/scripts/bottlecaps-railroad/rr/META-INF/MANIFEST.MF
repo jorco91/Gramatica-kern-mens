@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+FatJar-Jars: WEB-INF/lib/rr.jar WEB-INF/lib/Saxon-HE-10.0.jar WEB-INF/
+ lib/tagsoup-1.2.1.jar WEB-INF/lib/batik-all-1.12.jar WEB-INF/lib/xml-
+ apis-ext-1.3.04.jar WEB-INF/lib/xmlgraphics-commons-2.4.jar
+Implementation-Version: 1.62
+Build-Timestamp: 2020-04-20T19:18:00.896+0200
+FatJar-Main-Class: de.bottlecaps.railroad.Railroad
+Main-Class: de.bottlecaps.fatjar.Loader
+

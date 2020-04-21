@@ -106,6 +106,8 @@ public class SkmImporterTest {
                 "smens/barlines/barlines1.skm",
                 "smens/notes/note1.skm",
 
+                "horizontalTest/prueba.skm"
+
         };
 
         for (String testFileName: testFileNames) {

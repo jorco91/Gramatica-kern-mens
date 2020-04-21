@@ -1,0 +1,1 @@
+note ::= time '.'* pitch notesuffix? edit_accident? not_hide? ornaments? articulations? stem_direction?

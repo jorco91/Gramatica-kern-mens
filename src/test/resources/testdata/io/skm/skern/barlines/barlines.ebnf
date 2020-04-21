@@ -1,0 +1,1 @@
+barlines ::= '=' digit* "-"?|("=" digit*)? doubleBarline |("=" digit*)? leftRepeatBarline |("=" digit*)? rightRepeatBarline | endBarline |("=" digit*)? doubleRepeatBarline
