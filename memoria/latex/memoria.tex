@@ -1,5 +1,11 @@
 \documentclass{article}
 
+% Put % before of what you want disabled
+
+% Select what to do with todonotes:
+% \usepackage[disable]{todonotes} % notes not showed
+\usepackage[draft]{todonotes}   % notes showed
+
 
 \usepackage{lmodern}
 \usepackage[T1]{fontenc}
@@ -22,19 +28,22 @@
 \maketitle
 
 \section{Antecedentes}
+\todo[inline]{Antes de meterte en OMR tienes que hablar de gramáticas musicales, por qué se han codificado, etc... - ¿Te pasé el libro Beyond MIDI: The Handbook of Musical Codes, no?}
+
 \subsection{Optical Music Recognition (OMR)}
 
- Estos últimos años, la disponibilidad de grandes colecciones de partituras digitales ha facilitado tanto la práctica
-profesional de la musica como el acceso del aficionado a fuentes impresas que eran difíciles de obtener en el pasado.
+Estos últimos años, la disponibilidad de grandes colecciones de partituras digitales ha facilitado tanto la práctica
+profesional de la música como el acceso del aficionado a fuentes impresas que eran difíciles de obtener en el pasado.
 Podemos encontrar ejemplos de estas colecciones en diferentes páginas web que llegan a almacenar cientos de miles de partituras
-como es el caso de IMSLP. Además, las bibliotecas públicas y privadas realizan muchos esfuerzos para publicar sus coleciones
+como es el caso de IMSLP \todo[inline]{Añadir enlace}. Además, las bibliotecas públicas y privadas realizan muchos esfuerzos para publicar sus coleciones
 online como es en el caso de \url{https://drm.ccarh.org}. Sin embargo, a demás de esta accesibilidad a contenido musical, las
 ventajas de tener una imagen digitalizada de cualquier obra no se limita a la facilidad de copiarlas y distribuirlas, dichas obras 
 digitalizadas ofrecen una ausencia de desgaste que el recurso físico no es capaz de ofrecer.
 
 Las grandes posibilidades que las aplicaciones actuales basadas en música pueden ofrecer están restringidas a partituras codificadas
-simbólicamente. El problema de este método es que la transcripción de las partituras se realiza de forma manual. Al hacerse de esta
-forma, el costo, tanto en tiempo como en recursos, es prohibitivo. Para paliar este inconveniente sería necesario recurrir a un sistema
+simbólicamente\todo[inline]{Tienes que añadir alguna sección para explicar qué es una codificación simbólica frente a imagen y audio digital}.
+El problema de este método es que la transcripción de las partituras se realiza de forma manual\todo[inline]{Lleva cuidado que hay demasiado copiado de nuestros papers}.
+Al hacerse de esta forma, el costo, tanto en tiempo como en recursos, es prohibitivo. Para paliar este inconveniente sería necesario recurrir a un sistema
  de transcripción automática. El llamado Optical Music Recognition (OMR) se define como la investigación sobre cómo enseñar a las
 computadoras a leer notación musical, con el fin de poder exportar su contenido al formato deseado de manera automática, similar a la
 utilidad de una caja negra. A pesar de las grandes ventajas que supone su desarrollo, en estos momentos, OMR está a mitad de camino de
@@ -48,23 +57,29 @@ Una cosa que cabe señalar y que resulta fundamental en este trabajo es que OMR 
 únicamente se tiene en cuenta el punto de vista gráfico a la hora de transcribir las partituras. Este trabajo intenta mejorar esta
 inteligencia artificial (OMR) por medio de una representación semántica, la cual, codifica los símbolos de acuerdo con su significado
 musical. Aqui entra en uso la gramática que se va a realizar en este trabajo: Kern y Mens, dado una notación moderna o mensural respectivamente.
+\todo[inline]{Esta frase no está bien. Puedes decir que el OMR nuestro (pones referencias de los papers) permite trabajar con agnóstico y semántico.
+Que en el semántico - paper PRIMUS - la gramática la diseñamos nosotros. Ahora mismo estamos trabajando con **kern pero nos da dificultades.
+Estamos haciendo "apaños" como introducir un código para los multirests, y que tú, en este trabajo vas a hacer una primera formalización
+(nosotros no paramos y estamos otros cambios que no vas a meter en tu TFG).}
 
 \subsection{Kern y Mens}
- Actualmente hay varios sistemas de representación musical como puede ser DARMS, SCORE, EsAC, Kern, etcétera. Estos sistemas
-de representación han sido usados para simbolizar partituras, ya sea para codificarlas a PDF y obtener escritos de ellas, o para
+ Actualmente hay varios sistemas de representación musical como puede ser DARMS, SCORE, EsAC, Kern\todo{Referencias a todos}. Estos sistemas
+de representación han sido usados para codificar simbólicamente partituras, ya sea para renderizarlas a PDF y obtener escritos de ellas, o para
 reproducirlas, obteniendo de dichos símbolos una melodía.
 
-Humdrums ha diseñado una representación secuencial musical de manera vertical. En el que cada columna representa una voz de cada melodia
-con el fin de representar finalmente una partitura. Esta representación vertical se denomina Kern, la cual, soporta notaciones trandicional del Oeste,
+Humdrum\todo{Introduce qué es antes - para qué vale - y pon una referencia} ha diseñado una representación secuencial musical de manera vertical
+en el que cada columna representa una voz de cada melodía\todo{cuidado con los acentos, estoy corrigiendo unos cuantos}
+con el fin de representar finalmente una partitura. Esta representación vertical se denomina **kern, la cual,
+soporta notaciones trandicional del Oeste\todo[inline]{no sé si has usado un traductor, pero suena muy raro - es notación moderna occidental - puedes ponerlo también en inglés},
 también denominada notación moderna y en ella podemos manipular:
 
-    El tono: accidentes, claves, posición de claves, armadura, formula de compás...
+    El tono: accidentes\todo{alteraciones}, claves, posición de claves, armadura, formula de compás...
     La duración: silencios, puntos, ligaduras, ligados...
     Articulaciones y Ornamentos: staccato, tenuto, pizzicato...
 
-Ademas de otros aspectos que podemos manipular en este tipo de representación.
+\todo[inline]{Pon lo de antes usando listas}
 
- Una variante de la representación de Kern es Mens. Este tipo de representación acoje todo tipo de notación mensural blanca
+Una variante de la representación de Kern es Mens\todo{Se escribe **kern y **mens - añade referencias}. Este tipo de representación acoje todo tipo de notación mensural blanca
 con muchas coincidencias con Kern a la hora de representarse, ya que este tipo de notación también es vertical y se gestiona
 de una forma muy parecida a la de notación moderna.
 
@@ -73,6 +88,7 @@ a este trabajo.
 
 \subsection{Gramática}
     Como diría el diccionario, gramática es un conjunto de normas y reglas que se usan para hablar y escribir correctamente una lengua.
+\todo{Vas a tener un tribunal de informáticos, debes hacer una introducción más técnica}
 La finalidad de este trabajo es crear una gramática lo mayormente competente como para poder, a partir de dichas normas y reglas, representar
 cualquier tipo de notación musical de la manera más correcta posible. En este caso, la notación Kern y Mens será la adecuada para la creación
 de la gramática.
@@ -86,9 +102,9 @@ el fin de llegar a una regla principal.
 
 Nosotros utilizaremos un analizador sintáctico descendente ya que dada la complejidad que nos puede suponer una gramática musical,
 uno de las cosas positivas del analizador sintáctico descendente respecto al ascendente es, además de su eficiencia, su sencillez a
-la hora de implementarlo.
+la hora de implementarlo. \todo{Debes ser más extenso en esto}
 
-Para implmentar nuestro analizador usaremos una herramienta denominada ANTLR4. Con esta herramienta podemos contruir reconocedores
+Para implementar nuestro analizador usaremos una herramienta denominada ANTLR4\todo{referencia al libro}. Con esta herramienta podemos contruir reconocedores
 , intérpretes, compiladores y traductores de lenguajes a partir de descripciones gramaticales de los mismos.
 
 \section{Banco de ejemplos}
@@ -282,7 +298,7 @@ Para implmentar nuestro analizador usaremos una herramienta denominada ANTLR4. C
     \subsubsection{Notes}
         \includegraphics[scale=0.5]{figures_tests/pdf/smens/note1.pdf}
 
-    \subsubsection{Note Sufix}
+    \subsubsection{Note Suffix}
         \includegraphics[scale=0.28]{figures_tests/pdf/smens/notesufix.pdf}
 
     \subsubsection{Rest}
@@ -297,5 +313,8 @@ Para implmentar nuestro analizador usaremos una herramienta denominada ANTLR4. C
 
         \includegraphics[scale=0.6]{figures_tests/pdf/smens/slur2.pdf}
 
+        \todo{Cuidado, las ligaduras / slurs se usan poco en mensural, mejor un ejemplo de notación mdoerna}
+
+    \todo{Los títulos de las secciones en español}
 
 \end{document}
