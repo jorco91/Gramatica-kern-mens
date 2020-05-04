@@ -1,7 +1,7 @@
 RR - Railroad Diagram Generator
 
-  version 1.61
-  released Apr 14, 2020
+  version 1.62
+  released Apr 20, 2020
   from https://bottlecaps.de/rr
 
 Usage: java -jar rr.war {-suppressebnf|-keeprecursion|-nofactoring|-noinline|-noepsilon|-color:COLOR|-offset:OFFSET|-png|-md|-out:FILE|width:PIXELS}... GRAMMAR

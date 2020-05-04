@@ -1,0 +1,1 @@
+beaming ::= (note | chord) 'L'+ | (note | chord) 'J'+ | (note | chord) 'L'* partial_beaming | (note | chord) 'J'* partial_beaming

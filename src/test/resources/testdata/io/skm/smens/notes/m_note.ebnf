@@ -1,0 +1,1 @@
+m_note ::= m_rhythm m_dot? (m_perfect | m_imperfect)? '~'? pitch (m_notesuffix (bracket | parenthe)?)? stem_direction?

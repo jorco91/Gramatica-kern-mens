@@ -37,17 +37,15 @@ public class ReadAndInvertMatix {
         FileWriter fichero = null;
         PrintWriter pw = null;
 
-        System.out.println("MOCO");
         try
         {
-            System.out.println(mtr);
-            fichero = new FileWriter("src/main/resources/prueba.txt");
+            fichero = new FileWriter("src/test/resources/testdata/io/skm/horizontalTest/prueba.skm");
             pw = new PrintWriter(fichero);
             for(int i = 0; i<mtr.size(); i++) {
                 for (int j = 0; j < mtr.get(0).size(); j++) {
                     pw.print(mtr.get(i).get(j));
                     if(j != mtr.get(0).size()-1)
-                        pw.print(" ");
+                        pw.print("");
                     System.out.println(mtr.get(i).get(j));
                 }
                 if( i != mtr.size()-1)
