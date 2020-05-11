@@ -25,24 +25,21 @@ timesignature:ASTERISK LETTER_M fraction (metter)?;
 fraction:number SLASH number;
 number: digit+;
 metter:ASTERISK WORD_MET LEFTPAR (common_met | perfect_met) RIGHTPAR;
-common_met:(LETTER_c|LETTER_C) (BARLINE | DOT | (LETTER_R | LETTER_r))?;
-perfect_met: PERTFECT (BARLINE | DOT)?;
+common_met:LETTER_c (BARLINE)?;
 musicalcontent:barlines? measure+ | items;
 measure: items barlines;
 items: item+;
 item: notes | rest | changeconfiguration | slurs | ties;
 changeconfiguration:(mastercleff | timesignature | keysignature)+;
 slurs: LETTER_U? SLURS_COUNT* LEFTPAR | SLURS_COUNT* RIGHTPAR;
-ties:LETTER_U? LEFTBRACKET notes barlines? notesties;
-notesties: tiesaux | barlines? notes RIGHTBRACKET;
-tiesaux: LETTER_U? LEFTBRACKET notes RIGHTBRACKET barlines? notesties;
+ties: LETTER_U? LEFTBRACKET note | note RIGHTBRACKET | LEFTBRACKET note RIGHTBRACKET; // ultima condicion por si encadenan los ties
 notes: beaming |note |chord  ;
-beaming: (note | chord) LETTER_L+ | (note | chord) LETTER_J+ | (note | chord) LETTER_L* partial_beaming | (note | chord) LETTER_J* partial_beaming;     ///  CAMBIADO POR RECURSIVIDAD 'INVALIDA'
+beaming: ((note | ties) | chord) LETTER_L+ | ((note | ties) | chord) LETTER_J+ | ((note | ties) | chord) LETTER_L* partial_beaming | ((note | ties) | chord) LETTER_J* partial_beaming;     ///  CAMBIADO POR RECURSIVIDAD 'INVALIDA'
 note: time DOT* pitch notesuffix? edit_accident? not_hide? ornaments? articulations? stem_direction?;
 time: digit+;
 rest: time DOT* LETTER_r;
 barlines:EQUAL digit* FLAT?|(EQUAL digit*)? doubleBarline |(EQUAL digit*)? leftRepeatBarline |(EQUAL digit*)? rightRepeatBarline | endBarline |(EQUAL digit*)? doubleRepeatBarline;
-chord:note (SPACE note)+;
+chord:(note | ties) (SPACE (note | ties))+;
 articulations: APOSTROPHE | CIRCUNFLEX | GRAVE_ACCENT | COLOURED | APOSTROPHE COLOURED| APOSTROPHE CIRCUNFLEX| CIRCUNFLEX CIRCUNFLEX| SEMICOLON;
 ornaments: LETTER_t | LETTER_T | LETTER_m | LETTER_M | LETTER_W | LETTER_w;
 partial_beaming:LETTER_K |LETTER_k;
@@ -71,7 +68,9 @@ m_slurs: SLURS_COUNT* LEFTPAR |SLURS_COUNT* RIGHTPAR;
 m_ligature: LESS | GREATER;
 m_dot: LETTER_p COLON;
 m_notesuffix: LETTER_U? notesuffix;
-mensural_signs: ((LETTER_c | LETTER_C) (BARLINE (THREE | TWO | SLASH (TWO | THREE) | LETTER_r)? | TWO | THREE | DOT (BARLINE)? | LETTER_r)?) | (PERTFECT ((TWO | THREE | BARLINE (THREE)? | SLASH THREE | DOT)? |THREE SLASH TWO | THREE | TWO));
+mensural_signs: signs_c | signs_p;
+signs_c:(LETTER_C) (BARLINE (THREE | TWO | SLASH (TWO | THREE) | LETTER_r)? | TWO | THREE | DOT (BARLINE)? | LETTER_r)?);
+signs_p:(PERTFECT ((TWO | THREE | BARLINE (THREE)? | SLASH THREE | DOT)? |THREE SLASH TWO | THREE | TWO));
 m_perfect: LETTER_p;
 m_imperfect: LETTER_i;
 

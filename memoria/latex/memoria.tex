@@ -21,7 +21,7 @@
     urlcolor=cyan,
 }
 \usepackage{graphicx}
-\title{TFG}
+\title{Diseño de gramática para la codificación semántica de partituras musicales basada en Humdrum}
 \author{Jorge Marco Esteve}
 
 \begin{document}
@@ -29,13 +29,32 @@
 
 \section{Antecedentes}
 \todo[inline]{Antes de meterte en OMR tienes que hablar de gramáticas musicales, por qué se han codificado, etc... - ¿Te pasé el libro Beyond MIDI: The Handbook of Musical Codes, no?}
+\subsection{Representación Musical}
+Los códigos musicales han sido utilizado desde sus inicios para facilitar la transcripción de sonidos, desde los neumas
+que se representaban el canto en monasterios medievales, al solfeo de música pedagógica del siglo actual. Muchos códigos
+musicales son de uso común, particularmente en la música pedagógica, solfeo. El cual su propósito principal es
+inculcar en la mente del cantante la manera de relacionar cada tono con sus vecinos y, por lo tanto,
+proporcionar una base sólida para cantar con precisión a simple vista.
+
+Los número de los dedos en piano, los ideogramas los cuales denominamos tablaturas para guitarra y otros instrumentos con trastes,
+las notas de notación moderna y muchos símbolos especiales diseñados para transmitir formas particulares de tocar la batería
+son códigos de un tipo u otro. En este ámbito, el  código de lenguaje más utilizado y completo para representar el sonido
+es la notación musical común o notación musical moderna.
+
+La notación musical moderna o común es la piedra angular en pivota la gran mayoría de sistemas de representación musical actual
+y de los últimos siglos.
+
+Entre el s.XIV y el s.XX fueron inventaron diferentes códigos con el fin de alcanzar objetivos que historiadores musicales,
+himnógrafos y etnomusicólogos. Pero, desde el siglo XX a la actualidad se ha contemplado la creación de notación para
+computadores de una manera sólida, ya que debido a su eficiencia y su memoria resulta una oportunidad codiciosa para,
+por ejemplo, representar largas obras musicales con tantos atributos como queramos codificar.
 
 \subsection{Optical Music Recognition (OMR)}
 
 Estos últimos años, la disponibilidad de grandes colecciones de partituras digitales ha facilitado tanto la práctica
 profesional de la música como el acceso del aficionado a fuentes impresas que eran difíciles de obtener en el pasado.
 Podemos encontrar ejemplos de estas colecciones en diferentes páginas web que llegan a almacenar cientos de miles de partituras
-como es el caso de IMSLP \todo[inline]{Añadir enlace}. Además, las bibliotecas públicas y privadas realizan muchos esfuerzos para publicar sus coleciones
+como es el caso de IMSLP \url{http://www.imslp.org}. Además, las bibliotecas públicas y privadas realizan muchos esfuerzos para publicar sus coleciones
 online como es en el caso de \url{https://drm.ccarh.org}. Sin embargo, a demás de esta accesibilidad a contenido musical, las
 ventajas de tener una imagen digitalizada de cualquier obra no se limita a la facilidad de copiarlas y distribuirlas, dichas obras 
 digitalizadas ofrecen una ausencia de desgaste que el recurso físico no es capaz de ofrecer.
@@ -63,23 +82,27 @@ Estamos haciendo "apaños" como introducir un código para los multirests, y que
 (nosotros no paramos y estamos otros cambios que no vas a meter en tu TFG).}
 
 \subsection{Kern y Mens}
- Actualmente hay varios sistemas de representación musical como puede ser DARMS, SCORE, EsAC, Kern\todo{Referencias a todos}. Estos sistemas
-de representación han sido usados para codificar simbólicamente partituras, ya sea para renderizarlas a PDF y obtener escritos de ellas, o para
-reproducirlas, obteniendo de dichos símbolos una melodía.
+ Actualmente hay varios sistemas de representación musical como puede ser DARMS\cite{darms}, SCORE\cite{score},
+EsAC\cite{esac}, Kern\cite{kern}\todo{Referencias a todos}. Estos sistemas de representación han sido usados para
+codificar simbólicamente partituras, ya sea para renderizarlas a PDF y obtener escritos de ellas, o para reproducirlas,
+obteniendo de dichos símbolos una melodía.
 
-Humdrum\todo{Introduce qué es antes - para qué vale - y pon una referencia} ha diseñado una representación secuencial musical de manera vertical
+Humdrum\cite{humdrum} es un software creado por David Huron en la década de los 80s. Dicho software es empleado con el fin de obtener
+diferentes recursos musicales a nivel computacional. Junto a su tipo de notación, **kern, se puede obtener PDFs de partituras
+e incluso se puede reproducir la melodía previamente implementada. Esta notacion, **kern, es una representación secuencial musical de manera vertical
 en el que cada columna representa una voz de cada melodía\todo{cuidado con los acentos, estoy corrigiendo unos cuantos}
-con el fin de representar finalmente una partitura. Esta representación vertical se denomina **kern, la cual,
-soporta notaciones trandicional del Oeste\todo[inline]{no sé si has usado un traductor, pero suena muy raro - es notación moderna occidental - puedes ponerlo también en inglés},
-también denominada notación moderna y en ella podemos manipular:
+con el fin de representar finalmente una partitura. En esta representación podemos implementar cualquier tipo de notación
+moderna occidental además de poder manipular los siguientes apartados:
 
-    El tono: accidentes\todo{alteraciones}, claves, posición de claves, armadura, formula de compás...
-    La duración: silencios, puntos, ligaduras, ligados...
-    Articulaciones y Ornamentos: staccato, tenuto, pizzicato...
+    \begin{itemize}
+        \item El tono: alteraciones musicales, claves, posición de claves, armadura, formula de compás
+        \item La duración: silencios, puntos, ligaduras, ligados.
+        \item Articulaciones y Ornamentos: staccato, tenuto, pizzicato.
+    \end{itemize}
 
 \todo[inline]{Pon lo de antes usando listas}
 
-Una variante de la representación de Kern es Mens\todo{Se escribe **kern y **mens - añade referencias}. Este tipo de representación acoje todo tipo de notación mensural blanca
+Una variante de la representación **kern\cite{kern} es **mens\cite{mens}. Este tipo de representación acoje todo tipo de notación mensural blanca
 con muchas coincidencias con Kern a la hora de representarse, ya que este tipo de notación también es vertical y se gestiona
 de una forma muy parecida a la de notación moderna.
 
@@ -104,17 +127,21 @@ Nosotros utilizaremos un analizador sintáctico descendente ya que dada la compl
 uno de las cosas positivas del analizador sintáctico descendente respecto al ascendente es, además de su eficiencia, su sencillez a
 la hora de implementarlo. \todo{Debes ser más extenso en esto}
 
-Para implementar nuestro analizador usaremos una herramienta denominada ANTLR4\todo{referencia al libro}. Con esta herramienta podemos contruir reconocedores
+Para implementar nuestro analizador usaremos una herramienta denominada ANTLR4\cite{antlr4}. Con esta herramienta podemos contruir reconocedores
 , intérpretes, compiladores y traductores de lenguajes a partir de descripciones gramaticales de los mismos.
 
 \section{Banco de ejemplos}
 \subsection{SKERN}
-\subsubsection{Accidents}
+\subsubsection{Accidentes}
+\includegraphics[scale=0.5]{figures_railroad/pdf/skern/accidents.pdf}
+
 \includegraphics[scale=0.5]{figures_tests/pdf/skern/accident1.pdf}
 
 \includegraphics[scale=0.5]{figures_tests/pdf/skern/accident2.pdf}
 
-\subsubsection{Articulations}
+\subsubsection{Articulationes}
+\includegraphics[scale=0.5]{figures_railroad/pdf/skern/articulations.pdf}
+
 \includegraphics[scale=0.5]{figures_tests/pdf/skern/articulations0.pdf}
 
 \includegraphics[scale=0.5]{figures_tests/pdf/skern/articulations1.pdf}
@@ -132,17 +159,23 @@ Para implementar nuestro analizador usaremos una herramienta denominada ANTLR4\t
 \includegraphics[scale=0.5]{figures_tests/pdf/skern/articulations7.pdf}
 
 
-\subsubsection{Dots}
+\subsubsection{Puntillo}
+
 \includegraphics[scale=0.35]{figures_tests/pdf/skern/augmentationDots.pdf}
 
 
-\subsubsection{Barlines}
+\subsubsection{Barra de compás}
+
+\includegraphics[scale=0.5]{figures_railroad/pdf/skern/barlines.pdf}
+
 \includegraphics[scale=0.5]{figures_tests/pdf/skern/barlines.pdf}
 
 \includegraphics[scale=0.35]{figures_tests/pdf/skern/barlines2.pdf}
 
 
-\subsubsection{Beaming}
+\subsubsection{Corcheas}
+
+
 \includegraphics[scale=0.5]{figures_tests/pdf/skern/beaming0.pdf}
 
 \includegraphics[scale=0.5]{figures_tests/pdf/skern/beaming1.pdf}
@@ -153,6 +186,12 @@ Para implementar nuestro analizador usaremos una herramienta denominada ANTLR4\t
 
 
 \subsubsection{Meter}
+
+
+\includegraphics[scale=0.5]{figures_railroad/pdf/skern/meter.pdf}
+
+\includegraphics[scale=0.5]{figures_railroad/pdf/skern/commonMeter.pdf}
+
 \includegraphics[scale=0.5]{figures_tests/pdf/skern/commonmeter1.pdf}
 
 \includegraphics[scale=0.5]{figures_tests/pdf/skern/commonmeter2.pdf}
@@ -162,25 +201,25 @@ Para implementar nuestro analizador usaremos una herramienta denominada ANTLR4\t
 \includegraphics[scale=0.5]{figures_tests/pdf/skern/commonmeter4.pdf}
 
 
-\includegraphics[scale=0.5]{figures_tests/pdf/skern/perfectmeter1.pdf}
+\subsubsection{Armadura}
 
-\includegraphics[scale=0.5]{figures_tests/pdf/skern/perfectmeter2.pdf}
-
-\includegraphics[scale=0.5]{figures_tests/pdf/skern/perfectmeter3.pdf}
-
-\subsubsection{Keysignature}
+\includegraphics[scale=0.5]{figures_railroad/pdf/skern/keysignature.pdf}
 \includegraphics[scale=0.5]{figures_tests/pdf/skern/keysignature1.pdf}
 
 \includegraphics[scale=0.5]{figures_tests/pdf/skern/keysignature2.pdf}
 
 \includegraphics[scale=0.5]{figures_tests/pdf/skern/keysignature3.pdf}
 
-\subsubsection{Notes}
+\subsubsection{Notas}
+
+\includegraphics[scale=0.5]{figures_railroad/pdf/skern/notes.pdf}
 \includegraphics[scale=0.5]{figures_tests/pdf/skern/notename.pdf}
 
 \includegraphics[scale=0.5]{figures_tests/pdf/skern/notesFullAdds.pdf}
 
-\subsubsection{Ornaments}
+\subsubsection{Ornamentos}
+
+\includegraphics[scale=0.5]{figures_railroad/pdf/skern/ornaments.pdf}
 \includegraphics[scale=0.5]{figures_tests/pdf/skern/ornaments0.pdf}
 
 \includegraphics[scale=0.5]{figures_tests/pdf/skern/ornaments1.pdf}
@@ -195,45 +234,60 @@ Para implementar nuestro analizador usaremos una herramienta denominada ANTLR4\t
 
 \includegraphics[scale=0.5]{figures_tests/pdf/skern/ornaments6.pdf}
 
-\subsubsection{Rests}
+\subsubsection{Silencios}
+
+\includegraphics[scale=0.5]{figures_railroad/pdf/skern/rests.pdf}
 \includegraphics[scale=0.5]{figures_tests/pdf/skern/rest1.pdf}
 
-\subsubsection{Rhythm}
+\subsubsection{Ritmo}
+
 \includegraphics[scale=0.3]{figures_tests/pdf/skern/rhythm.pdf}
 
 \includegraphics[scale=0.3]{figures_tests/pdf/skern/time.pdf}
 
-\subsubsection{Slurs}
+\subsubsection{Ligado}
+
+\includegraphics[scale=0.5]{figures_railroad/pdf/skern/slurs.pdf}
 \includegraphics[scale=0.5]{figures_tests/pdf/skern/slur1.pdf}
 
 \includegraphics[scale=0.5]{figures_tests/pdf/skern/slur2.pdf}
 
-\subsubsection{Stem Direction}
+\subsubsection{Dirección de la plica}
+
+\includegraphics[scale=0.5]{figures_railroad/pdf/skern/stemDirection.pdf}
 \includegraphics[scale=0.5]{figures_tests/pdf/skern/stemdirection0.pdf}
 
 \includegraphics[scale=0.5]{figures_tests/pdf/skern/stemdirection1.pdf}
 
-\subsubsection{Ties}
+\subsubsection{Ligadura}
+
+\includegraphics[scale=0.5]{figures_railroad/pdf/skern/ties.pdf}
 \includegraphics[scale=0.5]{figures_tests/pdf/skern/ties1.pdf}
 
 \includegraphics[scale=0.5]{figures_tests/pdf/skern/ties2.pdf}
 
 \includegraphics[scale=0.5]{figures_tests/pdf/skern/ties3.pdf}
 
-\subsubsection{Time Signature}
+\subsubsection{Formula de compas}
+
+\includegraphics[scale=0.5]{figures_railroad/pdf/skern/timesignature.pdf}
+
 \includegraphics[scale=0.5]{figures_tests/pdf/skern/timesignature.pdf}
 
 \includegraphics[scale=0.5]{figures_tests/pdf/skern/timesignature1.pdf}
 
 \includegraphics[scale=0.5]{figures_tests/pdf/skern/timesignature3.pdf}
 
-\subsubsection{Octaves}
+\subsubsection{Octavas}
+
+\includegraphics[scale=0.5]{figures_railroad/pdf/skern/octaves.pdf}
+
 \includegraphics[scale=0.5]{figures_tests/pdf/skern/octaves.pdf}
 
-\subsubsection{Chage configuration}
+\subsubsection{Cambio de configuración}
 \includegraphics[scale=0.5]{figures_tests/pdf/skern/changeconfiguration.pdf}
 
-\subsubsection{Chords}
+\subsubsection{Acordes}
 \includegraphics[scale=0.5]{figures_tests/pdf/skern/chords.pdf}
 
 
@@ -242,6 +296,8 @@ Para implementar nuestro analizador usaremos una herramienta denominada ANTLR4\t
 
 \subsection{SMENS}
     \subsubsection{Barlines}
+
+
         \includegraphics[scale=0.4]{figures_tests/pdf/smens/barlines1.pdf}
 
     \subsubsection{Dot}
@@ -316,5 +372,35 @@ Para implementar nuestro analizador usaremos una herramienta denominada ANTLR4\t
         \todo{Cuidado, las ligaduras / slurs se usan poco en mensural, mejor un ejemplo de notación mdoerna}
 
     \todo{Los títulos de las secciones en español}
+
+\medskip
+
+\begin{thebibliography}{9}
+    \bibitem{darms}
+    Digital Alternate Representation of Musical Scores creado en 1966 por Stefan Bauer-Mengelberg.
+
+    \bibitem{score}
+    Sistema de representación musical creado en 1971 por Leland Smith.
+
+    \bibitem{esac}
+    Sistema de representación desarrollado para crear música monofónica a finales de los 80s por Helmut Schaffrasth.
+
+    \bibitem{kern}
+    Notación musical creada por David Huron en la decada de 1980.
+    \texttt{https://www.humdrum.org/guide/ch02/}
+
+    \bibitem{humdrum}
+    \texttt{https://www.humdrum.org}.
+
+    \bibitem{mens}
+    Notación mensural blanca derivada de **kern
+    \texttt{https://doc.verovio.humdrum.org/humdrum/mens/}
+
+    \bibitem{antlr4}
+    Terrence Par (2012), \textit{The Definitive ANTLR 4 Reference}. The Pragmatic Programmers, LLC.
+
+
+
+\end{thebibliography}
 
 \end{document}

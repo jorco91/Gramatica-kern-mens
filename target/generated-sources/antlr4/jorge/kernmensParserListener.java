@@ -218,26 +218,6 @@ public interface kernmensParserListener extends ParseTreeListener {
 	 */
 	void exitTies(kernmensParser.TiesContext ctx);
 	/**
-	 * Enter a parse tree produced by {@link kernmensParser#notesties}.
-	 * @param ctx the parse tree
-	 */
-	void enterNotesties(kernmensParser.NotestiesContext ctx);
-	/**
-	 * Exit a parse tree produced by {@link kernmensParser#notesties}.
-	 * @param ctx the parse tree
-	 */
-	void exitNotesties(kernmensParser.NotestiesContext ctx);
-	/**
-	 * Enter a parse tree produced by {@link kernmensParser#tiesaux}.
-	 * @param ctx the parse tree
-	 */
-	void enterTiesaux(kernmensParser.TiesauxContext ctx);
-	/**
-	 * Exit a parse tree produced by {@link kernmensParser#tiesaux}.
-	 * @param ctx the parse tree
-	 */
-	void exitTiesaux(kernmensParser.TiesauxContext ctx);
-	/**
 	 * Enter a parse tree produced by {@link kernmensParser#notes}.
 	 * @param ctx the parse tree
 	 */

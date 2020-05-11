@@ -39,19 +39,19 @@
 	<style type="text/css">g.page-margin{font-family:Times;} g.reh, g.tempo{font-weight:bold;} g.dir, g.dynam, g.mNum{font-style:italic;} g.label{font-weight:normal;}</style>
 	<svg class="definition-scale" color="black" viewBox="0 0 14190 2740">
 		<g class="page-margin" transform="translate(500, 500)">
-			<g class="system" id="system-0000002002977442">
+			<g class="system" id="system-0000000633479711">
 				<g class="section boundaryStart" id="section-L1F1" />
 				<g class="measure" id="measure-L1">
-					<g class="staff" id="staff-0000000945475961">
+					<g class="staff" id="staff-0000001752727292">
 						<path d="M0 805 L13192 805" stroke="currentColor" stroke-width="13" />
 						<path d="M0 985 L13192 985" stroke="currentColor" stroke-width="13" />
 						<path d="M0 1165 L13192 1165" stroke="currentColor" stroke-width="13" />
 						<path d="M0 1345 L13192 1345" stroke="currentColor" stroke-width="13" />
 						<path d="M0 1525 L13192 1525" stroke="currentColor" stroke-width="13" />
-						<g class="clef" id="clef-0000001579649051">
+						<g class="clef" id="clef-0000001959691790">
 							<use xlink:href="#E050" x="90" y="1345" height="720px" width="720px" />
 						</g>
-						<g class="meterSig" id="msig-0000000453101025">
+						<g class="meterSig" id="msig-0000001071427329">
 							<use xlink:href="#E084" x="825" y="985" height="720px" width="720px" />
 							<use xlink:href="#E084" x="825" y="1345" height="720px" width="720px" />
 						</g>
@@ -64,79 +64,79 @@
 								<g class="stem">
 									<rect x="1605" y="1165" height="720" width="18" />
 								</g>
-								<g class="accid" id="accid-0000000045814761" />
+								<g class="accid" id="accid-0000001626206161" />
 							</g>
 							<g class="note" id="note-L5F1">
 								<polygon points="5052,1165 5284,1165 5284,1210 5052,1210 " />
 								<polygon points="5052,1345 5284,1345 5284,1300 5052,1300 " />
 								<rect x="5043" y="1120" height="270" width="18" />
 								<rect x="5275" y="1120" height="270" width="18" />
-								<g class="accid" id="accid-0000000700611805" />
+								<g class="accid" id="accid-0000001036654122" />
 							</g>
 							<g class="note" id="note-L6F1">
 								<use xlink:href="#E0A2" x="7472" y="1255" height="720px" width="720px" />
-								<g class="accid" id="accid-0000000379441676" />
+								<g class="accid" id="accid-0000000595660448" />
 							</g>
 							<g class="note" id="note-L7F1">
 								<use xlink:href="#E0A3" x="9062" y="1255" height="720px" width="720px" />
-								<g class="stem" id="stem-0000002062244039">
+								<g class="stem" id="stem-0000000293774225">
 									<rect x="9270" y="625" height="608" width="18" />
 								</g>
-								<g class="accid" id="accid-0000001697319378" />
+								<g class="accid" id="accid-0000001748669073" />
 							</g>
 							<g class="note" id="note-L8F1">
 								<use xlink:href="#E0A4" x="10112" y="1255" height="720px" width="720px" />
-								<g class="stem" id="stem-0000001896984540">
+								<g class="stem" id="stem-0000000398495122">
 									<rect x="10320" y="625" height="608" width="18" />
 								</g>
-								<g class="accid" id="accid-0000001620608630" />
+								<g class="accid" id="accid-0000000121936063" />
 							</g>
 							<g class="note" id="note-L9F1">
 								<use xlink:href="#E0A4" x="10802" y="1255" height="720px" width="720px" />
-								<g class="stem" id="stem-0000001076940418">
+								<g class="stem" id="stem-0000001653504108">
 									<rect x="11010" y="625" height="608" width="18" />
-									<g class="flag" id="flag-0000001145428410">
+									<g class="flag" id="flag-0000002005150976">
 										<use xlink:href="#E240" x="11010" y="625" height="720px" width="720px" />
 									</g>
 								</g>
-								<g class="accid" id="accid-0000001365642592" />
+								<g class="accid" id="accid-0000000047042287" />
 							</g>
 							<g class="note" id="note-L10F1">
 								<use xlink:href="#E0A4" x="11298" y="1255" height="720px" width="720px" />
-								<g class="stem" id="stem-0000001171875162">
+								<g class="stem" id="stem-0000000111581261">
 									<rect x="11506" y="625" height="608" width="18" />
-									<g class="flag" id="flag-0000001133321097">
+									<g class="flag" id="flag-0000000593029796">
 										<use xlink:href="#E242" x="11506" y="625" height="720px" width="720px" />
 									</g>
 								</g>
-								<g class="accid" id="accid-0000002031047973" />
+								<g class="accid" id="accid-0000000818569277" />
 							</g>
 							<g class="note" id="note-L11F1">
 								<use xlink:href="#E0A4" x="11794" y="1255" height="720px" width="720px" />
-								<g class="stem" id="stem-0000001695212036">
+								<g class="stem" id="stem-0000000580175645">
 									<rect x="12002" y="625" height="608" width="18" />
-									<g class="flag" id="flag-0000000763144303">
+									<g class="flag" id="flag-0000001436308135">
 										<use xlink:href="#E244" x="12002" y="625" height="720px" width="720px" />
 									</g>
 								</g>
-								<g class="accid" id="accid-0000002106855898" />
+								<g class="accid" id="accid-0000000297492549" />
 							</g>
 							<g class="note" id="note-L12F1">
 								<use xlink:href="#E0A4" x="12290" y="1255" height="720px" width="720px" />
-								<g class="stem" id="stem-0000001393960637">
+								<g class="stem" id="stem-0000000167149018">
 									<rect x="12498" y="625" height="608" width="18" />
-									<g class="flag" id="flag-0000001397320936">
+									<g class="flag" id="flag-0000000364935250">
 										<use xlink:href="#E246" x="12498" y="625" height="720px" width="720px" />
 									</g>
 								</g>
-								<g class="accid" id="accid-0000001630593494" />
+								<g class="accid" id="accid-0000001899519084" />
 							</g>
 							<g class="tuplet" id="tuplet-L13F1">
-								<g class="tupletNum" id="num-0000000531671329">
+								<g class="tupletNum" id="num-0000001289506825">
 									<use xlink:href="#E883" x="12732" y="279" height="720px" width="720px" />
 									<use xlink:href="#E881" x="12915" y="279" height="720px" width="720px" />
 								</g>
-								<g class="tupletBracket" id="bracket-0000002039291407">
+								<g class="tupletBracket" id="bracket-0000000253450918">
 									<polygon points="12786,180 12714,180 12714,162 12786,162 " />
 									<polygon points="13082,180 13012,180 13012,162 13082,162 " />
 									<rect x="12786" y="180" height="108" width="18" />
@@ -144,22 +144,22 @@
 								</g>
 								<g class="note" id="note-L13F1">
 									<use xlink:href="#E0A4" x="12786" y="1255" height="720px" width="720px" />
-									<g class="stem" id="stem-0000000120571336">
+									<g class="stem" id="stem-0000000336242251">
 										<rect x="12994" y="625" height="608" width="18" />
-										<g class="flag" id="flag-0000001365365031">
+										<g class="flag" id="flag-0000001194037300">
 											<use xlink:href="#E246" x="12994" y="625" height="720px" width="720px" />
 										</g>
 									</g>
-									<g class="accid" id="accid-0000000865425128" />
+									<g class="accid" id="accid-0000001033872469" />
 								</g>
 							</g>
 						</g>
 					</g>
-					<g class="barLineAttr" id="bline-0000000320674106" />
+					<g class="barLineAttr" id="bline-0000000482645137" />
 				</g>
-				<g class="boundaryEnd section-L1F1" id="bdend-0000001053230536" />
+				<g class="boundaryEnd section-L1F1" id="bdend-0000002030735402" />
 			</g>
-			<g class="pgHead autogenerated" id="pghead-0000002085399978" />
+			<g class="pgHead autogenerated" id="pghead-0000000612299643" />
 		</g>
 	</svg>
 </svg>

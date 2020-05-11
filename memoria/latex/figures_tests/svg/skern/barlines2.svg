@@ -12,16 +12,16 @@
 	<style type="text/css">g.page-margin{font-family:Times;} g.reh, g.tempo{font-weight:bold;} g.dir, g.dynam, g.mNum{font-style:italic;} g.label{font-weight:normal;}</style>
 	<svg class="definition-scale" color="black" viewBox="0 0 14950 2660">
 		<g class="page-margin" transform="translate(500, 500)">
-			<g class="system" id="system-0000002004257020">
+			<g class="system" id="system-0000001951297098">
 				<g class="section boundaryStart" id="section-L1F1" />
 				<g class="measure" id="measure-L1">
-					<g class="staff" id="staff-0000000638263577">
+					<g class="staff" id="staff-0000000258441977">
 						<path d="M0 720 L2505 720" stroke="currentColor" stroke-width="13" />
 						<path d="M0 900 L2505 900" stroke="currentColor" stroke-width="13" />
 						<path d="M0 1080 L2505 1080" stroke="currentColor" stroke-width="13" />
 						<path d="M0 1260 L2505 1260" stroke="currentColor" stroke-width="13" />
 						<path d="M0 1440 L2505 1440" stroke="currentColor" stroke-width="13" />
-						<g class="clef" id="clef-0000001081387409">
+						<g class="clef" id="clef-0000001658354807">
 							<use xlink:href="#E050" x="90" y="1260" height="720px" width="720px" />
 						</g>
 						<g class="ledgerLines below">
@@ -30,11 +30,11 @@
 						<g class="layer" id="layer-L1F1N1">
 							<g class="note" id="note-L4F1">
 								<use xlink:href="#E0A2" x="915" y="1620" height="720px" width="720px" />
-								<g class="accid" id="accid-0000000027436519" />
+								<g class="accid" id="accid-0000000162802583" />
 							</g>
 						</g>
 					</g>
-					<g class="barLineAttr" id="bline-0000001080109540" />
+					<g class="barLineAttr" id="bline-0000001350505250" />
 				</g>
 				<g class="measure" id="measure-L5">
 					<g class="staff" id="staff-L5F1N1">
@@ -46,11 +46,11 @@
 						<g class="layer" id="layer-L5F1N1">
 							<g class="note" id="note-L6F1">
 								<use xlink:href="#E0A2" x="2685" y="1530" height="720px" width="720px" />
-								<g class="accid" id="accid-0000001088674336" />
+								<g class="accid" id="accid-0000001568913148" />
 							</g>
 						</g>
 					</g>
-					<g class="barLineAttr" id="bline-0000001600665421">
+					<g class="barLineAttr" id="bline-0000001058315886">
 						<path d="M4275 1440 L4275 720" stroke="currentColor" stroke-width="27" />
 						<path d="M4365 1440 L4365 720" stroke="currentColor" stroke-width="27" />
 					</g>
@@ -65,11 +65,11 @@
 						<g class="layer" id="layer-L7F1N1">
 							<g class="note" id="note-L8F1">
 								<use xlink:href="#E0A2" x="4558" y="1440" height="720px" width="720px" />
-								<g class="accid" id="accid-0000000897411350" />
+								<g class="accid" id="accid-0000000103210137" />
 							</g>
 						</g>
 					</g>
-					<g class="barLineAttr" id="bline-0000001226986867">
+					<g class="barLineAttr" id="bline-0000001087066490">
 						<path d="M6148 1440 L6148 720" stroke="currentColor" stroke-width="27" />
 					</g>
 				</g>
@@ -83,11 +83,11 @@
 						<g class="layer" id="layer-L9F1N1">
 							<g class="note" id="note-L10F1">
 								<use xlink:href="#E0A2" x="6341" y="1350" height="720px" width="720px" />
-								<g class="accid" id="accid-0000000124371949" />
+								<g class="accid" id="accid-0000000460655995" />
 							</g>
 						</g>
 					</g>
-					<g class="barLineAttr" id="bline-0000001314221362" />
+					<g class="barLineAttr" id="bline-0000000236232526" />
 				</g>
 				<g class="measure" id="measure-L11">
 					<g class="staff" id="staff-L11F1N1">
@@ -99,17 +99,17 @@
 						<g class="layer" id="layer-L11F1N1">
 							<g class="note" id="note-L12F1">
 								<use xlink:href="#E0A2" x="8489" y="1260" height="720px" width="720px" />
-								<g class="accid" id="accid-0000001390397895" />
+								<g class="accid" id="accid-0000000695593844" />
 							</g>
 						</g>
 					</g>
-					<g class="barLineAttr" id="bline-0000002027752853">
+					<g class="barLineAttr" id="bline-0000001330084263">
 						<path d="M8066 1440 L8066 720" stroke="currentColor" stroke-width="90" />
 						<path d="M8183 1440 L8183 720" stroke="currentColor" stroke-width="27" />
 						<ellipse cx="8273" cy="1170" rx="36" ry="36" />
 						<ellipse cx="8273" cy="990" rx="36" ry="36" />
 					</g>
-					<g class="barLineAttr" id="bline-0000002024206128">
+					<g class="barLineAttr" id="bline-0000001568926618">
 						<path d="M9962 1440 L9962 720" stroke="currentColor" stroke-width="27" />
 						<path d="M10079 1440 L10079 720" stroke="currentColor" stroke-width="90" />
 						<path d="M10196 1440 L10196 720" stroke="currentColor" stroke-width="27" />
@@ -129,11 +129,11 @@
 						<g class="layer" id="layer-L13F1N1">
 							<g class="note" id="note-L14F1">
 								<use xlink:href="#E0A2" x="10502" y="1170" height="720px" width="720px" />
-								<g class="accid" id="accid-0000000112913544" />
+								<g class="accid" id="accid-0000000715307035" />
 							</g>
 						</g>
 					</g>
-					<g class="barLineAttr" id="bline-0000001624123161">
+					<g class="barLineAttr" id="bline-0000000324856506">
 						<path d="M11975 1440 L11975 720" stroke="currentColor" stroke-width="27" />
 						<path d="M12092 1440 L12092 720" stroke="currentColor" stroke-width="90" />
 						<ellipse cx="11885" cy="1170" rx="36" ry="36" />
@@ -150,18 +150,18 @@
 						<g class="layer" id="layer-L15F1N1">
 							<g class="note" id="note-L16F1">
 								<use xlink:href="#E0A2" x="12317" y="1080" height="720px" width="720px" />
-								<g class="accid" id="accid-0000000366648074" />
+								<g class="accid" id="accid-0000001965774241" />
 							</g>
 						</g>
 					</g>
-					<g class="barLineAttr" id="bline-0000001308835804">
+					<g class="barLineAttr" id="bline-0000002029680746">
 						<path d="M13790 1440 L13790 720" stroke="currentColor" stroke-width="27" />
 						<path d="M13907 1440 L13907 720" stroke="currentColor" stroke-width="90" />
 					</g>
 				</g>
-				<g class="boundaryEnd section-L1F1" id="bdend-0000002032216292" />
+				<g class="boundaryEnd section-L1F1" id="bdend-0000001167156467" />
 			</g>
-			<g class="pgHead autogenerated" id="pghead-0000001879297756" />
+			<g class="pgHead autogenerated" id="pghead-0000001283109171" />
 		</g>
 	</svg>
 </svg>

@@ -1,8 +1,10 @@
 package es.ua.dlsi.grfia.im4.core.semantic.io.grammar;
 
+import com.sun.xml.internal.rngom.digested.DGrammarPattern;
 import es.ua.dlsi.grfia.im4.core.IM4Exception;
 import es.ua.dlsi.grfia.im4.core.TestFileUtils;
 import es.ua.dlsi.grfia.im4.core.semantic.SemanticComposition;
+import javafx.scene.control.TreeView;
 import org.junit.Test;
 
 import java.io.File;
@@ -37,7 +39,7 @@ public class SkmImporterTest {
                 "skern/rhythm/rhythm.skm",
                 "skern/ties/ties1.skm",
                 "skern/ties/ties2.skm",
-                //"ties/ties3.skm",            // rehacer ties por los chords?
+                "skern/ties/ties3.skm",            // rehacer ties por los chords?
                 "skern/beaming/beaming0.skm",
                 "skern/beaming/beaming1.skm",
                 "skern/beaming/beaming2.skm",
@@ -111,6 +113,7 @@ public class SkmImporterTest {
         };
 
         for (String testFileName: testFileNames) {
+
             SkmSyntaxDirectedTranslation skmSyntaxDirectedTranslation = new SkmSyntaxDirectedTranslation();
             File file = TestFileUtils.getFile("/testdata/io/skm/" + testFileName);
             SemanticComposition imported = skmSyntaxDirectedTranslation.importSkm(file);
