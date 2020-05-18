@@ -172,18 +172,6 @@ public class kernmensParserBaseListener implements kernmensParserListener {
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterPerfect_met(kernmensParser.Perfect_metContext ctx) { }
-	/**
-	 * {@inheritDoc}
-	 *
-	 * <p>The default implementation does nothing.</p>
-	 */
-	@Override public void exitPerfect_met(kernmensParser.Perfect_metContext ctx) { }
-	/**
-	 * {@inheritDoc}
-	 *
-	 * <p>The default implementation does nothing.</p>
-	 */
 	@Override public void enterMusicalcontent(kernmensParser.MusicalcontentContext ctx) { }
 	/**
 	 * {@inheritDoc}
@@ -623,6 +611,30 @@ public class kernmensParserBaseListener implements kernmensParserListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitMensural_signs(kernmensParser.Mensural_signsContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 *
+	 * <p>The default implementation does nothing.</p>
+	 */
+	@Override public void enterSigns_c(kernmensParser.Signs_cContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 *
+	 * <p>The default implementation does nothing.</p>
+	 */
+	@Override public void exitSigns_c(kernmensParser.Signs_cContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 *
+	 * <p>The default implementation does nothing.</p>
+	 */
+	@Override public void enterSigns_p(kernmensParser.Signs_pContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 *
+	 * <p>The default implementation does nothing.</p>
+	 */
+	@Override public void exitSigns_p(kernmensParser.Signs_pContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *

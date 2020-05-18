@@ -138,16 +138,6 @@ public interface kernmensParserListener extends ParseTreeListener {
 	 */
 	void exitCommon_met(kernmensParser.Common_metContext ctx);
 	/**
-	 * Enter a parse tree produced by {@link kernmensParser#perfect_met}.
-	 * @param ctx the parse tree
-	 */
-	void enterPerfect_met(kernmensParser.Perfect_metContext ctx);
-	/**
-	 * Exit a parse tree produced by {@link kernmensParser#perfect_met}.
-	 * @param ctx the parse tree
-	 */
-	void exitPerfect_met(kernmensParser.Perfect_metContext ctx);
-	/**
 	 * Enter a parse tree produced by {@link kernmensParser#musicalcontent}.
 	 * @param ctx the parse tree
 	 */
@@ -517,6 +507,26 @@ public interface kernmensParserListener extends ParseTreeListener {
 	 * @param ctx the parse tree
 	 */
 	void exitMensural_signs(kernmensParser.Mensural_signsContext ctx);
+	/**
+	 * Enter a parse tree produced by {@link kernmensParser#signs_c}.
+	 * @param ctx the parse tree
+	 */
+	void enterSigns_c(kernmensParser.Signs_cContext ctx);
+	/**
+	 * Exit a parse tree produced by {@link kernmensParser#signs_c}.
+	 * @param ctx the parse tree
+	 */
+	void exitSigns_c(kernmensParser.Signs_cContext ctx);
+	/**
+	 * Enter a parse tree produced by {@link kernmensParser#signs_p}.
+	 * @param ctx the parse tree
+	 */
+	void enterSigns_p(kernmensParser.Signs_pContext ctx);
+	/**
+	 * Exit a parse tree produced by {@link kernmensParser#signs_p}.
+	 * @param ctx the parse tree
+	 */
+	void exitSigns_p(kernmensParser.Signs_pContext ctx);
 	/**
 	 * Enter a parse tree produced by {@link kernmensParser#m_perfect}.
 	 * @param ctx the parse tree

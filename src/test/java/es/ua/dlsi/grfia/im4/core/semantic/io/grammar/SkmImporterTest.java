@@ -1,10 +1,8 @@
 package es.ua.dlsi.grfia.im4.core.semantic.io.grammar;
 
-import com.sun.xml.internal.rngom.digested.DGrammarPattern;
 import es.ua.dlsi.grfia.im4.core.IM4Exception;
 import es.ua.dlsi.grfia.im4.core.TestFileUtils;
 import es.ua.dlsi.grfia.im4.core.semantic.SemanticComposition;
-import javafx.scene.control.TreeView;
 import org.junit.Test;
 
 import java.io.File;
@@ -27,7 +25,6 @@ public class SkmImporterTest {
                 "skern/changeconfiguration.skm",
                 "skern/timesignature/timesignature.skm",    // Basic configuration
                 "skern/timesignature/timesignature1.skm",    // Common metter different times
-                "skern/timesignature/timesignature3.skm",       //Perfect metter
                 "skern/timesignature/fraction.skm",
                 "skern/accidents/accident1.skm",             // Natural, flat, sharp
                 "skern/accidents/accident2.skm",             // bracket accident and parenthe
@@ -69,11 +66,6 @@ public class SkmImporterTest {
                 "skern/stemDirection/stemdirection1.skm",
                 "skern/meterCommon/commonmeter1.skm",
                 "skern/meterCommon/commonmeter2.skm",
-                "skern/meterCommon/commonmeter3.skm",
-                "skern/meterCommon/commonmeter4.skm",
-                "skern/meterPerfect/perfectmeter1.skm",
-                "skern/meterPerfect/perfectmeter2.skm",
-                "skern/meterPerfect/perfectmeter3.skm",
 
                 /*                  MENS                */
                 "smens/inicio.skm",
@@ -113,7 +105,6 @@ public class SkmImporterTest {
         };
 
         for (String testFileName: testFileNames) {
-
             SkmSyntaxDirectedTranslation skmSyntaxDirectedTranslation = new SkmSyntaxDirectedTranslation();
             File file = TestFileUtils.getFile("/testdata/io/skm/" + testFileName);
             SemanticComposition imported = skmSyntaxDirectedTranslation.importSkm(file);

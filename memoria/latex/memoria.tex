@@ -28,7 +28,6 @@
 \maketitle
 
 \section{Antecedentes}
-\todo[inline]{Antes de meterte en OMR tienes que hablar de gramáticas musicales, por qué se han codificado, etc... - ¿Te pasé el libro Beyond MIDI: The Handbook of Musical Codes, no?}
 \subsection{Representación Musical}
 Los códigos musicales han sido utilizado desde sus inicios para facilitar la transcripción de sonidos, desde los neumas
 que se representaban el canto en monasterios medievales, al solfeo de música pedagógica del siglo actual. Muchos códigos
@@ -49,71 +48,81 @@ himnógrafos y etnomusicólogos. Pero, desde el siglo XX a la actualidad se ha c
 computadores de una manera sólida, ya que debido a su eficiencia y su memoria resulta una oportunidad codiciosa para,
 por ejemplo, representar largas obras musicales con tantos atributos como queramos codificar.
 
-\subsection{Optical Music Recognition (OMR)}
+\subsection{Optical Music Recognition (OMR)\cite{OMR}}
 
 Estos últimos años, la disponibilidad de grandes colecciones de partituras digitales ha facilitado tanto la práctica
-profesional de la música como el acceso del aficionado a fuentes impresas que eran difíciles de obtener en el pasado.
-Podemos encontrar ejemplos de estas colecciones en diferentes páginas web que llegan a almacenar cientos de miles de partituras
-como es el caso de IMSLP \url{http://www.imslp.org}. Además, las bibliotecas públicas y privadas realizan muchos esfuerzos para publicar sus coleciones
-online como es en el caso de \url{https://drm.ccarh.org}. Sin embargo, a demás de esta accesibilidad a contenido musical, las
-ventajas de tener una imagen digitalizada de cualquier obra no se limita a la facilidad de copiarlas y distribuirlas, dichas obras 
-digitalizadas ofrecen una ausencia de desgaste que el recurso físico no es capaz de ofrecer.
+profesional de la música como el acceso del aficionado a fuentes impresas, ya que había dificultadas para poder obtenerlas
+en el pasado. Podemos encontrar ejemplos de estas colecciones en diversas páginas web que llegan a almacenar cientos de
+miles de partituras como es el caso de IMSLP \url{http://www.imslp.org}. Además, las bibliotecas públicas y privadas
+realizan muchos esfuerzos para publicar sus coleciones online como es en el caso de \url{https://drm.ccarh.org}. Sin
+embargo, además de esta accesibilidad a contenido musical, las ventajas de tener una imagen digitalizada de cualquier
+obra no se limita a la facilidad de copiarlas y distribuirlas, dichas obras  digitalizadas ofrecen una ausencia de
+desgaste que el recurso físico no es capaz de ofrecer.
 
 Las grandes posibilidades que las aplicaciones actuales basadas en música pueden ofrecer están restringidas a partituras codificadas
-simbólicamente\todo[inline]{Tienes que añadir alguna sección para explicar qué es una codificación simbólica frente a imagen y audio digital}.
-El problema de este método es que la transcripción de las partituras se realiza de forma manual\todo[inline]{Lleva cuidado que hay demasiado copiado de nuestros papers}.
-Al hacerse de esta forma, el costo, tanto en tiempo como en recursos, es prohibitivo. Para paliar este inconveniente sería necesario recurrir a un sistema
- de transcripción automática. El llamado Optical Music Recognition (OMR) se define como la investigación sobre cómo enseñar a las
-computadoras a leer notación musical, con el fin de poder exportar su contenido al formato deseado de manera automática, similar a la
-utilidad de una caja negra. A pesar de las grandes ventajas que supone su desarrollo, en estos momentos, OMR está a mitad de camino de
-ser totalmente confiable, ya que existen problemas de tareas sencillas que obstaculizan de manera importante OMR como la eliminación de
+ de una manera simbólica. Este método de transcripción consiste en el que cada objeto de la composición de una partitura
+tiene un símbolo que lo representa y que, agrupándolo cada uno de estos símbolos obtenemos un resultado final que en nuestro
+caso será una partitura.
+
+El problema de este método es que la transcripción de las partituras se realiza de forma manual. Esto quiere decir que,
+al realizarlo de esta manera, requerimos un coste demasiado en elevado, ya que, el tiempo invertido y la cantidad de recursos
+a utilizar llega a resultar prohibitivo debido a la cantidad de material a transcribir. Para eliminar estos inconvenientes
+deberíamos obtener una manera de poder transcribir automáticamente estos recursos. El llamado Optical Music Recognition
+(OMR) se define como la investigación sobre cómo enseñar a las computadoras a leer notación musical, con el fin de poder
+exportar su contenido al formato deseado de manera automática, similar a la utilidad de una caja negra. A pesar de las
+grandes ventajas que supone su desarrollo, en estos momentos, OMR está a mitad de camino de ser una IA\footnote{Inteligencia Artificial}
+totalmente efectiva, ya que existen problemas muy básicos que OMR no llega a controlar con exactitud, como la eliminación de
 las líneas del pentagrama, la localización y clasificación de símbolos, o el ensamblaje de notación musical. Sin embargo, los recientes
-avances del aprendizaje automático y, específicamente, del aprendizaje profundo, no solo permite resolver estas tareas con facilidad,
-sino también replantearlas para enfrentar todo el proceso de una manera más elegante y compacta, evitando ciertas reglas que hacen que los
+avances del aprendizaje automático y, específicamente, del aprendizaje profundo, además de resolver estas tareas con facilidad,
+también ayuda a replantearlas para enfrentar todo el proceso de una manera más elegante y compacta, evitando ciertas reglas que hacen que los
 sistemas se limiten al tipo de entradas al que estan diseñados.
 
-Una cosa que cabe señalar y que resulta fundamental en este trabajo es que OMR trabaja bajo una representación agnóstica en la que
-únicamente se tiene en cuenta el punto de vista gráfico a la hora de transcribir las partituras. Este trabajo intenta mejorar esta
-inteligencia artificial (OMR) por medio de una representación semántica, la cual, codifica los símbolos de acuerdo con su significado
-musical. Aqui entra en uso la gramática que se va a realizar en este trabajo: Kern y Mens, dado una notación moderna o mensural respectivamente.
-\todo[inline]{Esta frase no está bien. Puedes decir que el OMR nuestro (pones referencias de los papers) permite trabajar con agnóstico y semántico.
-Que en el semántico - paper PRIMUS - la gramática la diseñamos nosotros. Ahora mismo estamos trabajando con **kern pero nos da dificultades.
-Estamos haciendo "apaños" como introducir un código para los multirests, y que tú, en este trabajo vas a hacer una primera formalización
-(nosotros no paramos y estamos otros cambios que no vas a meter en tu TFG).}
+\subsubsection{Representación agnóstica y representacion semántica}
+A día de hoy, Machine Learning es un término muy utilizado en informática que consiste, a grosso modo, en la creación de
+sistemas que aprendan automáticamente ciertos patrones a partir de ciertos datos de entrada. La elaboración de estos pueden
+ser realizados de diferentes maneras, entre ellas estan, bajo representación agnóstica o representación semántica.
+
+La representación agnóstica corresponde a la enseñanza en el que dado unos patrones de entrada obtendremos una respuesta
+que nuestro sistema aprenderá. Por otro lado, la representación semántica guía este aprendizaje mediante ciertas reglas
+para que nuestro sistema tenga un menor número de errores.
+
+Dado que OMR permite trabajar tanto con representación agnóstica como semántica, este trabajo intenta mejorar el resutado
+de OMR con una gramática formal de **kern\cite{kern} y **mens\cite{mens}, con la esperanza de poder paliar los problemas
+que OMR tiene y obtener mejores resultados a la hora de transcribir partituras.
 
 \subsection{Kern y Mens}
  Actualmente hay varios sistemas de representación musical como puede ser DARMS\cite{darms}, SCORE\cite{score},
-EsAC\cite{esac}, Kern\cite{kern}\todo{Referencias a todos}. Estos sistemas de representación han sido usados para
+EsAC\cite{esac}, Kern\cite{kern}. Estos sistemas de representación han sido usados para
 codificar simbólicamente partituras, ya sea para renderizarlas a PDF y obtener escritos de ellas, o para reproducirlas,
 obteniendo de dichos símbolos una melodía.
 
 Humdrum\cite{humdrum} es un software creado por David Huron en la década de los 80s. Dicho software es empleado con el fin de obtener
 diferentes recursos musicales a nivel computacional. Junto a su tipo de notación, **kern, se puede obtener PDFs de partituras
 e incluso se puede reproducir la melodía previamente implementada. Esta notacion, **kern, es una representación secuencial musical de manera vertical
-en el que cada columna representa una voz de cada melodía\todo{cuidado con los acentos, estoy corrigiendo unos cuantos}
-con el fin de representar finalmente una partitura. En esta representación podemos implementar cualquier tipo de notación
-moderna occidental además de poder manipular los siguientes apartados:
+en el que cada columna representa una voz de cada melodía con el fin de representar finalmente una partitura. En esta
+representación podemos implementar cualquier tipo de notación moderna occidental además de poder manipular los siguientes apartados:
 
     \begin{itemize}
-        \item El tono: alteraciones musicales, claves, posición de claves, armadura, formula de compás
+        \item El tono: alteraciones musicales, claves, posición de claves, armadura, fórmula de compás
         \item La duración: silencios, puntos, ligaduras, ligados.
         \item Articulaciones y Ornamentos: staccato, tenuto, pizzicato.
     \end{itemize}
 
-\todo[inline]{Pon lo de antes usando listas}
-
-Una variante de la representación **kern\cite{kern} es **mens\cite{mens}. Este tipo de representación acoje todo tipo de notación mensural blanca
-con muchas coincidencias con Kern a la hora de representarse, ya que este tipo de notación también es vertical y se gestiona
+Una variante de la representación **kern\cite{kern} es **mens\cite{mens}. Este tipo de representación acoge todo tipo de notación mensural blanca
+con muchas coincidencias con **kern a la hora de representarse, ya que este tipo de notación también es vertical y se gestiona
 de una forma muy parecida a la de notación moderna.
 
 El defecto que lleva a esta representación a no estar realmente completa es la falta de gramática que es el tema correspondiente
 a este trabajo.
 
 \subsection{Gramática}
-    Como diría el diccionario, gramática es un conjunto de normas y reglas que se usan para hablar y escribir correctamente una lengua.
-\todo{Vas a tener un tribunal de informáticos, debes hacer una introducción más técnica}
+Una gramática es un conjunto finito de reglas en las que se describen mediante símbolos un lenguaje específico. Teniendo
+un símbolo inicial del que obtenemos notos terminales y no terminales en los que los nodos terminales los denominamos tokens y
+no heredan de el otros nodos y los no terminales generarán más nodos hasta que llegar al punto de que todos los nodos
+obtenidos sean terminales.
+
 La finalidad de este trabajo es crear una gramática lo mayormente competente como para poder, a partir de dichas normas y reglas, representar
-cualquier tipo de notación musical de la manera más correcta posible. En este caso, la notación Kern y Mens será la adecuada para la creación
+cualquier tipo de notación musical de la manera más correcta posible. En este caso, la notación **kern y **mens será la adecuada para la creación
 de la gramática.
     Obteniendo la primera gramática que comprende los dos tipos de notación: moderna y mensural.
 
@@ -121,14 +130,42 @@ Para implementar nuestra gramática utilizaremos un analizador sintáctico el cu
 decidir si un conjunto de estos tokens cumplen las leyes de nuestra gramática. Hay dos tipos de analizadores sintacticos:
 analizador sintáctico descendente y analizador sintáctico ascendente. El primero parte de una regla inicial y concluye en unos
 tokens que son generados por las reglas. Mientras el analizador sintactico ascendente parte de un determinado grupo de tokens con
-el fin de llegar a una regla principal.
+el fin de llegar a una regla principal. Dicho de otra manera, el analizador sintáctico ascendente construye un
+arbol desde sus hojas(nodos terminales) hacia su raíz(nodo inicial), mientras que el analizador sintáctico descendente
+construye el arbol desde el nodo raiz hasta sus hojas.
 
-Nosotros utilizaremos un analizador sintáctico descendente ya que dada la complejidad que nos puede suponer una gramática musical,
-uno de las cosas positivas del analizador sintáctico descendente respecto al ascendente es, además de su eficiencia, su sencillez a
-la hora de implementarlo. \todo{Debes ser más extenso en esto}
+Para saber que tipo de analizador sintáctico vamos a utilizar debemos entender que ventajas e inconvenientes tiene cada
+uno y hacer balance de ello. El analizador sintáctico ascendente puede resultar muy eficiente la detección de errores es
+más rápida respecto al descendente ya que va generando reglas conforme reconoce tokens hasta llegar al nodo raiz. Además, tiene
+un reconocimiento muy rápido, aunque no tanto como el descendente. Por otro lado tenemos el analizador sintáctico descendente.
+es el método más rápido de las dos variables que barajamos además de ser más sencillo de implementar que la otra alternativa.
 
-Para implementar nuestro analizador usaremos una herramienta denominada ANTLR4\cite{antlr4}. Con esta herramienta podemos contruir reconocedores
-, intérpretes, compiladores y traductores de lenguajes a partir de descripciones gramaticales de los mismos.
+Dado que la complejidad que puede suponer una gramática musical puede ser muy elevada, la decisión más acertada en este
+caso sería la creación de un analizador sintáctico descendente porque dispondremos de una gran cantidad de tokens y reglas
+para poder abordar la mayor parte de expresiones musicales, al ser tan compleja y densa, también deberemos que sea lo más
+rápida posible.
+
+Para implementar nuestro analizador usaremos una herramienta denominada ANTLR4\cite{antlr4}. ANTLR4 es un meta-programa
+ya que su utilidad reside la creación de otros programas. Desde una descripción formal de la gramática de un lenguaje,
+ANTLR genera un programa en el que si una sentencia de dicho lenguaje está escrita de manera incorrecta, este notificará
+que lo escrito previamente no pertenece a este lenguaje.
+
+Además, combinaremos ANTLR4 junto con IntelliJ para facilitar la integraciónes de pruebas en las que corroboraremos la utilidad
+de nuestra gramática.
+
+\section{Pruebas de caja negra}
+Como hemos mencionado anteriormente, la creación de nuestra gramatica será verificada por medio de integración de pruebas,
+en nuestro caso, de caja negra.
+
+Las pruebas de caja negra es una técnica de pruebas de software la cual la funcionalidad se verifica sin tomar en cuenta
+la estructura interna del código o detalles de implementación. En este tipo de pruebas es necesario tener un gran entendimiento
+del tema que se ha programado ya que probaremos comportamientos que sabemos que deberán pasar en el código implementado.
+Estas pruebas son unitarias y estan basadas en la especificación en las que dadas unas entradas debemos obtener unas salidas esperadas.
+
+Dado a que nuestro caso, para realizar nuestra gramatica, hemos creado diferentes pruebas especificas de cada apartado musical
+ y con una gramática inicial hemos ido pasando cada prueba y en el momento de no pasar una prueba modificaríamos la gramática
+hasta poder pasarla. De esta manera obtenemos una gramática verificada mediante nuestras pruebas en la que comprende todos
+los comportamientos que nosotros deseabamos. De esta forma obtenemos lo que denominamos un desarrollo guiado por pruebas.
 
 \section{Banco de ejemplos}
 \subsection{SKERN}
@@ -376,6 +413,17 @@ Para implementar nuestro analizador usaremos una herramienta denominada ANTLR4\c
 \medskip
 
 \begin{thebibliography}{9}
+    \bibitem{OMR}
+    Jorge Calvo Zaragoza, David Rizo (2018). End-to-End Neural Optical Music Recognition of Monophonic Scores, Applied Sciences, 6, 606. doi:10.3390/app8040606
+
+    \bibitem{kern}
+    Notación musical creada por David Huron en la decada de 1980.
+    \texttt{https://www.humdrum.org/guide/ch02/}
+
+    \bibitem{mens}
+    Notación mensural blanca derivada de **kern
+    \texttt{https://doc.verovio.humdrum.org/humdrum/mens/}
+
     \bibitem{darms}
     Digital Alternate Representation of Musical Scores creado en 1966 por Stefan Bauer-Mengelberg.
 
@@ -385,16 +433,8 @@ Para implementar nuestro analizador usaremos una herramienta denominada ANTLR4\c
     \bibitem{esac}
     Sistema de representación desarrollado para crear música monofónica a finales de los 80s por Helmut Schaffrasth.
 
-    \bibitem{kern}
-    Notación musical creada por David Huron en la decada de 1980.
-    \texttt{https://www.humdrum.org/guide/ch02/}
-
     \bibitem{humdrum}
     \texttt{https://www.humdrum.org}.
-
-    \bibitem{mens}
-    Notación mensural blanca derivada de **kern
-    \texttt{https://doc.verovio.humdrum.org/humdrum/mens/}
 
     \bibitem{antlr4}
     Terrence Par (2012), \textit{The Definitive ANTLR 4 Reference}. The Pragmatic Programmers, LLC.

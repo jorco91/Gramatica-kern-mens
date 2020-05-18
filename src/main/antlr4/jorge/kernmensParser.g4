@@ -24,7 +24,7 @@ kern_notation:ASTERISK ASTERISK WORD_SKERN mastercleff keysignature? timesignatu
 timesignature:ASTERISK LETTER_M fraction (metter)?;
 fraction:number SLASH number;
 number: digit+;
-metter:ASTERISK WORD_MET LEFTPAR (common_met | perfect_met) RIGHTPAR;
+metter:ASTERISK WORD_MET LEFTPAR common_met RIGHTPAR;
 common_met:LETTER_c (BARLINE)?;
 musicalcontent:barlines? measure+ | items;
 measure: items barlines;
@@ -69,7 +69,7 @@ m_ligature: LESS | GREATER;
 m_dot: LETTER_p COLON;
 m_notesuffix: LETTER_U? notesuffix;
 mensural_signs: signs_c | signs_p;
-signs_c:(LETTER_C) (BARLINE (THREE | TWO | SLASH (TWO | THREE) | LETTER_r)? | TWO | THREE | DOT (BARLINE)? | LETTER_r)?);
+signs_c:(LETTER_C) (BARLINE (THREE | TWO | SLASH (TWO | THREE) | LETTER_r)? | TWO | THREE | DOT (BARLINE)? | LETTER_r)?;
 signs_p:(PERTFECT ((TWO | THREE | BARLINE (THREE)? | SLASH THREE | DOT)? |THREE SLASH TWO | THREE | TWO));
 m_perfect: LETTER_p;
 m_imperfect: LETTER_i;

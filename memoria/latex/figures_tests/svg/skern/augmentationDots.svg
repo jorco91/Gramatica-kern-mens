@@ -12,82 +12,82 @@
 	<style type="text/css">g.page-margin{font-family:Times;} g.reh, g.tempo{font-weight:bold;} g.dir, g.dynam, g.mNum{font-style:italic;} g.label{font-weight:normal;}</style>
 	<svg class="definition-scale" color="black" viewBox="0 0 14810 2660">
 		<g class="page-margin" transform="translate(500, 500)">
-			<g class="system" id="system-0000000631668165">
+			<g class="system" id="system-0000000202438733">
 				<g class="section boundaryStart" id="section-L1F1" />
 				<g class="measure" id="measure-L1">
-					<g class="staff" id="staff-0000000109055487">
+					<g class="staff" id="staff-0000001170796077">
 						<path d="M0 720 L5845 720" stroke="currentColor" stroke-width="13" />
 						<path d="M0 900 L5845 900" stroke="currentColor" stroke-width="13" />
 						<path d="M0 1080 L5845 1080" stroke="currentColor" stroke-width="13" />
 						<path d="M0 1260 L5845 1260" stroke="currentColor" stroke-width="13" />
 						<path d="M0 1440 L5845 1440" stroke="currentColor" stroke-width="13" />
-						<g class="clef" id="clef-0000000346977161">
+						<g class="clef" id="clef-0000000790746245">
 							<use xlink:href="#E050" x="90" y="1260" height="720px" width="720px" />
 						</g>
 						<g class="layer" id="layer-L1F1N1">
 							<g class="note" id="note-L3F1">
 								<use xlink:href="#E0A4" x="915" y="1080" height="720px" width="720px" />
-								<g class="dots" id="dots-0000000305114424">
+								<g class="dots" id="dots-0000001800308759">
 									<ellipse cx="1231" cy="990" rx="36" ry="36" />
 								</g>
-								<g class="stem" id="stem-0000001509913689">
+								<g class="stem" id="stem-0000000784889919">
 									<rect x="915" y="1102" height="578" width="18" />
 								</g>
-								<g class="accid" id="accid-0000001136512626" />
+								<g class="accid" id="accid-0000001330111838" />
 							</g>
 							<g class="note" id="note-L4F1">
 								<use xlink:href="#E0A4" x="1795" y="1080" height="720px" width="720px" />
-								<g class="dots" id="dots-0000000995436404">
+								<g class="dots" id="dots-0000000286965087">
 									<ellipse cx="2111" cy="990" rx="36" ry="36" />
 									<ellipse cx="2246" cy="990" rx="36" ry="36" />
 								</g>
-								<g class="stem" id="stem-0000002014658779">
+								<g class="stem" id="stem-0000001892209930">
 									<rect x="1795" y="1102" height="578" width="18" />
 								</g>
-								<g class="accid" id="accid-0000000044713895" />
+								<g class="accid" id="accid-0000000329770719" />
 							</g>
 							<g class="note" id="note-L5F1">
 								<use xlink:href="#E0A4" x="2765" y="1080" height="720px" width="720px" />
-								<g class="dots" id="dots-0000001759534802">
+								<g class="dots" id="dots-0000001757267119">
 									<ellipse cx="3081" cy="990" rx="36" ry="36" />
 									<ellipse cx="3216" cy="990" rx="36" ry="36" />
 									<ellipse cx="3351" cy="990" rx="36" ry="36" />
 								</g>
-								<g class="stem" id="stem-0000001402031898">
+								<g class="stem" id="stem-0000001921429694">
 									<rect x="2765" y="1102" height="578" width="18" />
 								</g>
-								<g class="accid" id="accid-0000001820133653" />
+								<g class="accid" id="accid-0000002086584461" />
 							</g>
 							<g class="note" id="note-L6F1">
 								<use xlink:href="#E0A4" x="3775" y="1080" height="720px" width="720px" />
-								<g class="dots" id="dots-0000000034368246">
+								<g class="dots" id="dots-0000000021419221">
 									<ellipse cx="4091" cy="990" rx="36" ry="36" />
 									<ellipse cx="4226" cy="990" rx="36" ry="36" />
 									<ellipse cx="4361" cy="990" rx="36" ry="36" />
 									<ellipse cx="4496" cy="990" rx="36" ry="36" />
 								</g>
-								<g class="stem" id="stem-0000001651598024">
+								<g class="stem" id="stem-0000000045871842">
 									<rect x="3775" y="1102" height="578" width="18" />
 								</g>
-								<g class="accid" id="accid-0000001805091559" />
+								<g class="accid" id="accid-0000001661810301" />
 							</g>
 							<g class="note" id="note-L7F1">
 								<use xlink:href="#E0A4" x="4805" y="1080" height="720px" width="720px" />
-								<g class="dots" id="dots-0000000131426473">
+								<g class="dots" id="dots-0000002048891937">
 									<ellipse cx="5121" cy="990" rx="36" ry="36" />
 									<ellipse cx="5256" cy="990" rx="36" ry="36" />
 									<ellipse cx="5391" cy="990" rx="36" ry="36" />
 									<ellipse cx="5526" cy="990" rx="36" ry="36" />
 									<ellipse cx="5661" cy="990" rx="36" ry="36" />
 								</g>
-								<g class="stem" id="stem-0000002101493126">
+								<g class="stem" id="stem-0000001363078298">
 									<rect x="4805" y="1102" height="578" width="18" />
 								</g>
-								<g class="accid" id="accid-0000000143365294" />
+								<g class="accid" id="accid-0000000659426352" />
 							</g>
 						</g>
 					</g>
-					<g class="barLineAttr" id="bline-0000000663811706" />
+					<g class="barLineAttr" id="bline-0000001248100944" />
 				</g>
 				<g class="measure" id="measure-L8">
 					<g class="staff" id="staff-L8F1N1">
@@ -99,7 +99,7 @@
 						<g class="layer" id="layer-L8F1N1">
 							<g class="note" id="note-L9F1">
 								<use xlink:href="#E0A4" x="6025" y="1080" height="720px" width="720px" />
-								<g class="dots" id="dots-0000001206622868">
+								<g class="dots" id="dots-0000001153945002">
 									<ellipse cx="6341" cy="990" rx="36" ry="36" />
 									<ellipse cx="6476" cy="990" rx="36" ry="36" />
 									<ellipse cx="6611" cy="990" rx="36" ry="36" />
@@ -108,14 +108,14 @@
 									<ellipse cx="7016" cy="990" rx="36" ry="36" />
 									<ellipse cx="7151" cy="990" rx="36" ry="36" />
 								</g>
-								<g class="stem" id="stem-0000001271542595">
+								<g class="stem" id="stem-0000000826505514">
 									<rect x="6025" y="1102" height="578" width="18" />
 								</g>
-								<g class="accid" id="accid-0000000320428271" />
+								<g class="accid" id="accid-0000001772306622" />
 							</g>
 							<g class="note" id="note-L10F1">
 								<use xlink:href="#E0A4" x="7277" y="1080" height="720px" width="720px" />
-								<g class="dots" id="dots-0000000385867691">
+								<g class="dots" id="dots-0000000433666167">
 									<ellipse cx="7593" cy="990" rx="36" ry="36" />
 									<ellipse cx="7728" cy="990" rx="36" ry="36" />
 									<ellipse cx="7863" cy="990" rx="36" ry="36" />
@@ -125,14 +125,14 @@
 									<ellipse cx="8403" cy="990" rx="36" ry="36" />
 									<ellipse cx="8538" cy="990" rx="36" ry="36" />
 								</g>
-								<g class="stem" id="stem-0000001022463855">
+								<g class="stem" id="stem-0000000428832557">
 									<rect x="7277" y="1102" height="578" width="18" />
 								</g>
-								<g class="accid" id="accid-0000000055574857" />
+								<g class="accid" id="accid-0000002081698954" />
 							</g>
 							<g class="note" id="note-L11F1">
 								<use xlink:href="#E0A4" x="8664" y="1080" height="720px" width="720px" />
-								<g class="dots" id="dots-0000001267124305">
+								<g class="dots" id="dots-0000000858359847">
 									<ellipse cx="8980" cy="990" rx="36" ry="36" />
 									<ellipse cx="9115" cy="990" rx="36" ry="36" />
 									<ellipse cx="9250" cy="990" rx="36" ry="36" />
@@ -143,14 +143,14 @@
 									<ellipse cx="9925" cy="990" rx="36" ry="36" />
 									<ellipse cx="10060" cy="990" rx="36" ry="36" />
 								</g>
-								<g class="stem" id="stem-0000002025152344">
+								<g class="stem" id="stem-0000000067770851">
 									<rect x="8664" y="1102" height="578" width="18" />
 								</g>
-								<g class="accid" id="accid-0000001645300522" />
+								<g class="accid" id="accid-0000002124082021" />
 							</g>
 							<g class="note" id="note-L12F1">
 								<use xlink:href="#E0A4" x="10186" y="1080" height="720px" width="720px" />
-								<g class="dots" id="dots-0000000820653929">
+								<g class="dots" id="dots-0000001514591418">
 									<ellipse cx="10502" cy="990" rx="36" ry="36" />
 									<ellipse cx="10637" cy="990" rx="36" ry="36" />
 									<ellipse cx="10772" cy="990" rx="36" ry="36" />
@@ -162,14 +162,14 @@
 									<ellipse cx="11582" cy="990" rx="36" ry="36" />
 									<ellipse cx="11717" cy="990" rx="36" ry="36" />
 								</g>
-								<g class="stem" id="stem-0000002110350483">
+								<g class="stem" id="stem-0000001806291630">
 									<rect x="10186" y="1102" height="578" width="18" />
 								</g>
-								<g class="accid" id="accid-0000001062310401" />
+								<g class="accid" id="accid-0000001883356879" />
 							</g>
 							<g class="note" id="note-L13F1">
 								<use xlink:href="#E0A4" x="11843" y="1080" height="720px" width="720px" />
-								<g class="dots" id="dots-0000001399427027">
+								<g class="dots" id="dots-0000000138172847">
 									<ellipse cx="12159" cy="990" rx="36" ry="36" />
 									<ellipse cx="12294" cy="990" rx="36" ry="36" />
 									<ellipse cx="12429" cy="990" rx="36" ry="36" />
@@ -182,21 +182,21 @@
 									<ellipse cx="13374" cy="990" rx="36" ry="36" />
 									<ellipse cx="13509" cy="990" rx="36" ry="36" />
 								</g>
-								<g class="stem" id="stem-0000001590603669">
+								<g class="stem" id="stem-0000001614294435">
 									<rect x="11843" y="1102" height="578" width="18" />
 								</g>
-								<g class="accid" id="accid-0000001007212729" />
+								<g class="accid" id="accid-0000000317562965" />
 							</g>
 						</g>
 					</g>
-					<g class="barLineAttr" id="bline-0000002009849746">
+					<g class="barLineAttr" id="bline-0000001777147246">
 						<path d="M13649 1440 L13649 720" stroke="currentColor" stroke-width="27" />
 						<path d="M13766 1440 L13766 720" stroke="currentColor" stroke-width="90" />
 					</g>
 				</g>
-				<g class="boundaryEnd section-L1F1" id="bdend-0000000212068014" />
+				<g class="boundaryEnd section-L1F1" id="bdend-0000000692754346" />
 			</g>
-			<g class="pgHead autogenerated" id="pghead-0000001551740925" />
+			<g class="pgHead autogenerated" id="pghead-0000001613442835" />
 		</g>
 	</svg>
 </svg>
