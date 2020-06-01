@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg">
+         <defs>
+            <style type="text/css">
+    @namespace "http://www.w3.org/2000/svg";
+    .line                 {fill: none; stroke: #332900; stroke-width: 1;}
+    .bold-line            {stroke: #141000; shape-rendering: crispEdges; stroke-width: 2;}
+    .thin-line            {stroke: #1F1800; shape-rendering: crispEdges}
+    .filled               {fill: #332900; stroke: none;}
+    text.terminal         {font-family: Verdana, Sans-serif;
+                            font-size: 12px;
+                            fill: #141000;
+                            font-weight: bold;
+                          }
+    text.nonterminal      {font-family: Verdana, Sans-serif;
+                            font-size: 12px;
+                            fill: #1A1400;
+                            font-weight: normal;
+                          }
+    text.regexp           {font-family: Verdana, Sans-serif;
+                            font-size: 12px;
+                            fill: #1F1800;
+                            font-weight: normal;
+                          }
+    rect, circle, polygon {fill: #332900; stroke: #332900;}
+    rect.terminal         {fill: #FFDB4D; stroke: #332900; stroke-width: 1;}
+    rect.nonterminal      {fill: #FFEC9E; stroke: #332900; stroke-width: 1;}
+    rect.text             {fill: none; stroke: none;}
+    polygon.regexp        {fill: #FFF4C7; stroke: #332900; stroke-width: 1;}
+  </style>
+         </defs>
+         <polygon points="9 17 1 13 1 21"/>
+         <polygon points="17 17 9 13 9 21"/>
+         <rect x="31" y="3" width="28" height="32" rx="10"/>
+         <rect x="29" y="1" width="28" height="32" class="terminal" rx="10"/>
+         <text class="terminal" x="39" y="21">*</text>
+         <rect x="79" y="3" width="28" height="32" rx="10"/>
+         <rect x="77" y="1" width="28" height="32" class="terminal" rx="10"/>
+         <text class="terminal" x="87" y="21">*</text>
+         <rect x="127" y="3" width="50" height="32" rx="10"/>
+         <rect x="125" y="1" width="50" height="32" class="terminal" rx="10"/>
+         <text class="terminal" x="135" y="21">kern</text><a xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#mastercleff" xlink:title="mastercleff">
+            <rect x="197" y="3" width="90" height="32"/>
+            <rect x="195" y="1" width="90" height="32" class="nonterminal"/>
+            <text class="nonterminal" x="205" y="21">mastercleff</text></a><a xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#keysignature" xlink:title="keysignature">
+            <rect x="327" y="35" width="102" height="32"/>
+            <rect x="325" y="33" width="102" height="32" class="nonterminal"/>
+            <text class="nonterminal" x="335" y="53">keysignature</text></a><a xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#timesignature" xlink:title="timesignature">
+            <rect x="489" y="35" width="108" height="32"/>
+            <rect x="487" y="33" width="108" height="32" class="nonterminal"/>
+            <text class="nonterminal" x="497" y="53">timesignature</text></a><a xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#musicalcontent" xlink:title="musicalcontent">
+            <rect x="637" y="3" width="116" height="32"/>
+            <rect x="635" y="1" width="116" height="32" class="nonterminal"/>
+            <text class="nonterminal" x="645" y="21">musicalcontent</text></a><rect x="773" y="3" width="34" height="32" rx="10"/>
+         <rect x="771" y="1" width="34" height="32" class="terminal" rx="10"/>
+         <text class="terminal" x="781" y="21">*-</text>
+         <svg:path xmlns:svg="http://www.w3.org/2000/svg" class="line" d="m17 17 h2 m0 0 h10 m28 0 h10 m0 0 h10 m28 0 h10 m0 0 h10 m50 0 h10 m0 0 h10 m90 0 h10 m20 0 h10 m0 0 h112 m-142 0 h20 m122 0 h20 m-162 0 q10 0 10 10 m142 0 q0 -10 10 -10 m-152 10 v12 m142 0 v-12 m-142 12 q0 10 10 10 m122 0 q10 0 10 -10 m-132 10 h10 m102 0 h10 m40 -32 h10 m0 0 h118 m-148 0 h20 m128 0 h20 m-168 0 q10 0 10 10 m148 0 q0 -10 10 -10 m-158 10 v12 m148 0 v-12 m-148 12 q0 10 10 10 m128 0 q10 0 10 -10 m-138 10 h10 m108 0 h10 m20 -32 h10 m116 0 h10 m0 0 h10 m34 0 h10 m3 0 h-3"/>
+         <polygon points="825 17 833 13 833 21"/>
+         <polygon points="825 17 817 13 817 21"/></svg>

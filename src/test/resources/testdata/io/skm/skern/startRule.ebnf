@@ -1,0 +1,1 @@
+startRule ::= kern_notation+ | mens_notation+

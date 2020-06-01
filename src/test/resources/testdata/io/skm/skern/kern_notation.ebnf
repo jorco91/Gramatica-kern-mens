@@ -1,0 +1,1 @@
+kern_notation::= "*" "*" "kern" mastercleff keysignature? timesignature? musicalcontent "*-"

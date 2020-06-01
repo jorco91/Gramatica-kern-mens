@@ -1,0 +1,1 @@
+keysignature::="*" "k" "[" note_signature* "]";
