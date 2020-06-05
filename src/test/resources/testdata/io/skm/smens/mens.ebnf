@@ -1,0 +1,1 @@
+mens_notation ::= "*" "*" "mens" mastercleff keysignature? m_timesignature? m_musicalcontent "*-"

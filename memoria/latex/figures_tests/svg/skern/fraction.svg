@@ -24,30 +24,30 @@
 	<style type="text/css">g.page-margin{font-family:Times;} g.reh, g.tempo{font-weight:bold;} g.dir, g.dynam, g.mNum{font-style:italic;} g.label{font-weight:normal;}</style>
 	<svg class="definition-scale" color="black" viewBox="0 0 10690 2660">
 		<g class="page-margin" transform="translate(500, 500)">
-			<g class="system" id="system-0000000552531189">
+			<g class="system" id="system-0000000278913657">
 				<g class="section boundaryStart" id="section-L1F1" />
 				<g class="measure" id="measure-L1">
-					<g class="staff" id="staff-0000000507362765">
+					<g class="staff" id="staff-0000000410090948">
 						<path d="M0 720 L2958 720" stroke="currentColor" stroke-width="13" />
 						<path d="M0 900 L2958 900" stroke="currentColor" stroke-width="13" />
 						<path d="M0 1080 L2958 1080" stroke="currentColor" stroke-width="13" />
 						<path d="M0 1260 L2958 1260" stroke="currentColor" stroke-width="13" />
 						<path d="M0 1440 L2958 1440" stroke="currentColor" stroke-width="13" />
-						<g class="clef" id="clef-0000001863969642">
+						<g class="clef" id="clef-0000000934534066">
 							<use xlink:href="#E05C" x="90" y="1080" height="720px" width="720px" />
 						</g>
-						<g class="meterSig" id="msig-0000001878381237">
+						<g class="meterSig" id="msig-0000002117590113">
 							<use xlink:href="#E082" x="796" y="900" height="720px" width="720px" />
 							<use xlink:href="#E081" x="834" y="1260" height="720px" width="720px" />
 						</g>
 						<g class="layer" id="layer-L1F1N1">
 							<g class="note" id="note-L6F1">
 								<use xlink:href="#E0A2" x="1355" y="1080" height="720px" width="720px" />
-								<g class="accid" id="accid-0000000981089909" />
+								<g class="accid" id="accid-0000001572815148" />
 							</g>
 						</g>
 					</g>
-					<g class="barLineAttr" id="bline-0000002018456211">
+					<g class="barLineAttr" id="bline-0000001393406556">
 						<path d="M2945 1440 L2945 720" stroke="currentColor" stroke-width="27" />
 					</g>
 				</g>
@@ -58,18 +58,18 @@
 						<path d="M2958 1080 L5210 1080" stroke="currentColor" stroke-width="13" />
 						<path d="M2958 1260 L5210 1260" stroke="currentColor" stroke-width="13" />
 						<path d="M2958 1440 L5210 1440" stroke="currentColor" stroke-width="13" />
-						<g class="meterSig" id="msig-0000001577709646">
+						<g class="meterSig" id="msig-0000000371875949">
 							<use xlink:href="#E082" x="3048" y="900" height="720px" width="720px" />
 							<use xlink:href="#E081" x="3086" y="1260" height="720px" width="720px" />
 						</g>
 						<g class="layer" id="layer-L7F1N1">
 							<g class="note" id="note-L9F1">
 								<use xlink:href="#E0A2" x="3607" y="1080" height="720px" width="720px" />
-								<g class="accid" id="accid-0000001419109693" />
+								<g class="accid" id="accid-0000000933891033" />
 							</g>
 						</g>
 					</g>
-					<g class="barLineAttr" id="bline-0000000656780314">
+					<g class="barLineAttr" id="bline-0000001643943348">
 						<path d="M5197 1440 L5197 720" stroke="currentColor" stroke-width="27" />
 					</g>
 				</g>
@@ -80,18 +80,18 @@
 						<path d="M5210 1080 L7451 1080" stroke="currentColor" stroke-width="13" />
 						<path d="M5210 1260 L7451 1260" stroke="currentColor" stroke-width="13" />
 						<path d="M5210 1440 L7451 1440" stroke="currentColor" stroke-width="13" />
-						<g class="meterSig" id="msig-0000000114262658">
+						<g class="meterSig" id="msig-0000001442356086">
 							<use xlink:href="#E085" x="5310" y="900" height="720px" width="720px" />
 							<use xlink:href="#E084" x="5300" y="1260" height="720px" width="720px" />
 						</g>
 						<g class="layer" id="layer-L10F1N1">
 							<g class="note" id="note-L12F1">
 								<use xlink:href="#E0A2" x="5848" y="1080" height="720px" width="720px" />
-								<g class="accid" id="accid-0000001063679163" />
+								<g class="accid" id="accid-0000001240387944" />
 							</g>
 						</g>
 					</g>
-					<g class="barLineAttr" id="bline-0000000969581715">
+					<g class="barLineAttr" id="bline-0000000654232823">
 						<path d="M7438 1440 L7438 720" stroke="currentColor" stroke-width="27" />
 					</g>
 				</g>
@@ -102,24 +102,24 @@
 						<path d="M7451 1080 L9692 1080" stroke="currentColor" stroke-width="13" />
 						<path d="M7451 1260 L9692 1260" stroke="currentColor" stroke-width="13" />
 						<path d="M7451 1440 L9692 1440" stroke="currentColor" stroke-width="13" />
-						<g class="meterSig" id="msig-0000000327896813">
+						<g class="meterSig" id="msig-0000000473019484">
 							<use xlink:href="#E084" x="7541" y="900" height="720px" width="720px" />
 							<use xlink:href="#E084" x="7541" y="1260" height="720px" width="720px" />
 						</g>
 						<g class="layer" id="layer-L13F1N1">
 							<g class="note" id="note-L15F1">
 								<use xlink:href="#E0A2" x="8089" y="1080" height="720px" width="720px" />
-								<g class="accid" id="accid-0000000465514412" />
+								<g class="accid" id="accid-0000001236428679" />
 							</g>
 						</g>
 					</g>
-					<g class="barLineAttr" id="bline-0000001703330024">
+					<g class="barLineAttr" id="bline-0000000896306969">
 						<path d="M9679 1440 L9679 720" stroke="currentColor" stroke-width="27" />
 					</g>
 				</g>
-				<g class="boundaryEnd section-L1F1" id="bdend-0000001074819813" />
+				<g class="boundaryEnd section-L1F1" id="bdend-0000000208745327" />
 			</g>
-			<g class="pgHead autogenerated" id="pghead-0000002011642174" />
+			<g class="pgHead autogenerated" id="pghead-0000001541915338" />
 		</g>
 	</svg>
 </svg>

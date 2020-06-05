@@ -8,9 +8,6 @@ options {tokenVocab=lexerkernmens;}
 startRule: kern_notation+ | mens_notation+;
 
 
-
-
-
 /* SAME RULES TO KERN AND MENSURAL */
 mastercleff:ASTERISK WORD_CLEF clef;
 keysignature:ASTERISK LETTER_k LEFTBRACKET note_signature* RIGHTBRACKET;
@@ -20,8 +17,8 @@ pitch: noteName+ | noteNameCl+;
 stem_direction:SLASH | BACKSLASH;
 
 /*              NOTATION KERN               */
-kern_notation:ASTERISK ASTERISK WORD_SKERN mastercleff keysignature? timesignature? musicalcontent TOKEN_FINISH;
-timesignature:ASTERISK LETTER_M fraction (metter)?;
+kern_notation:ASTERISK ASTERISK WORD_KERN mastercleff keysignature? timesignature? musicalcontent TOKEN_FINISH;
+timesignature:((ASTERISK LETTER_M fraction) | metter);
 fraction:number SLASH number;
 number: digit+;
 metter:ASTERISK WORD_MET LEFTPAR common_met RIGHTPAR;
@@ -54,7 +51,7 @@ endBarline: EQUAL EQUAL;
 
 
 /*              NOTATION MENSURAL           */
-mens_notation: ASTERISK ASTERISK WORD_SMENS mastercleff keysignature? m_timesignature? m_musicalcontent TOKEN_FINISH;
+mens_notation: ASTERISK ASTERISK WORD_MENS mastercleff keysignature? m_timesignature? m_musicalcontent TOKEN_FINISH;
 m_timesignature: ASTERISK WORD_MET LEFTPAR mensural_signs RIGHTPAR;
 
 m_musicalcontent: m_measure+ | m_items;
@@ -64,7 +61,7 @@ m_item: m_note | m_rest | m_slurs | m_ligature;
 m_note: m_rhythm m_dot? (m_perfect | m_imperfect)? COLOURED? pitch (m_notesuffix (bracket | parenthe)?)? stem_direction?;
 m_barlines: EQUAL FLAT | EQUAL BARLINE BARLINE;
 m_rest: m_rhythm LETTER_r;
-m_slurs: SLURS_COUNT* LEFTPAR |SLURS_COUNT* RIGHTPAR;
+m_slurs: LEFTPAR |RIGHTPAR;
 m_ligature: LESS | GREATER;
 m_dot: LETTER_p COLON;
 m_notesuffix: LETTER_U? notesuffix;
@@ -77,7 +74,7 @@ m_imperfect: LETTER_i;
 
 noteName:(LETTER_a | LETTER_b | LETTER_c | LETTER_d | LETTER_e | LETTER_f | LETTER_g);
 noteNameCl:(LETTER_A | LETTER_B | LETTER_C | LETTER_D | LETTER_E | LETTER_F | LETTER_G);
-m_rhythm: ('X' | 'L' | 'S' | 'M' | 'U' | 's' | 'm' | 'u');
+m_rhythm: (LETTER_X | LETTER_L | LETTER_S | LETTER_M | LETTER_U | LETTER_s | LETTER_m | LETTER_u);
 not_hide: LETTER_X;
 bracket: LETTER_I;
 parenthe: LETTER_P;

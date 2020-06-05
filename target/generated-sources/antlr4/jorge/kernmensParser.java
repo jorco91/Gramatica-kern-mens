@@ -27,7 +27,7 @@ public class kernmensParser extends Parser {
 		LETTER_I=45, LETTER_P=46, LETTER_A=47, LETTER_B=48, LETTER_C=49, LETTER_D=50, 
 		LETTER_E=51, LETTER_F=52, LETTER_G=53, LETTER_X=54, LETTER_a=55, LETTER_b=56, 
 		LETTER_c=57, LETTER_d=58, LETTER_e=59, LETTER_f=60, LETTER_g=61, LETTER_J=62, 
-		WORD_CLEF=63, WORD_SKERN=64, WORD_SMENS=65, WORD_MET=66, DOT=67, BARLINE=68, 
+		WORD_CLEF=63, WORD_KERN=64, WORD_MENS=65, WORD_MET=66, DOT=67, BARLINE=68, 
 		EQUAL=69, SLASH=70, BACKSLASH=71, ASTERISK=72, CIRCUNFLEX=73, APOSTROPHE=74, 
 		SEMICOLON=75, COLON=76, COLOURED=77, GRAVE_ACCENT=78, EXCLAMATION=79, 
 		COMA=80, SLURS_COUNT=81, TOKEN_FINISH=82;
@@ -67,13 +67,13 @@ public class kernmensParser extends Parser {
 
 	private static String[] makeLiteralNames() {
 		return new String[] {
-			null, null, "'L'", "'M'", null, "'1'", "'4'", "'3'", "'2'", "'5'", "'6'", 
+			null, null, "'L'", "'M'", "'O'", "'1'", "'4'", "'3'", "'2'", "'5'", "'6'", 
 			"'7'", "'8'", "'9'", "'0'", "'#'", "'-'", "'##'", "'--'", "'n'", "' '", 
 			"'>'", "'<'", "'('", "')'", "'['", "']'", "'{'", "'}'", "'K'", "'k'", 
 			"'S'", "'s'", "'u'", "'m'", "'T'", "'t'", "'W'", "'w'", "'U'", "'p'", 
 			"'i'", "'v'", "'r'", "'R'", "'I'", "'P'", "'A'", "'B'", "'C'", "'D'", 
 			"'E'", "'F'", "'G'", "'X'", "'a'", "'b'", "'c'", "'d'", "'e'", "'f'", 
-			"'g'", "'J'", "'clef'", "'skern'", "'mens'", "'met'", "'.'", "'|'", "'='", 
+			"'g'", "'J'", "'clef'", "'kern'", "'mens'", "'met'", "'.'", "'|'", "'='", 
 			"'/'", "'\\'", "'*'", "'^'", "'''", "';'", "':'", "'~'", "'`'", "'!'", 
 			"','", "'&'", "'*-'"
 		};
@@ -90,8 +90,8 @@ public class kernmensParser extends Parser {
 			"LETTER_i", "LETTER_v", "LETTER_r", "LETTER_R", "LETTER_I", "LETTER_P", 
 			"LETTER_A", "LETTER_B", "LETTER_C", "LETTER_D", "LETTER_E", "LETTER_F", 
 			"LETTER_G", "LETTER_X", "LETTER_a", "LETTER_b", "LETTER_c", "LETTER_d", 
-			"LETTER_e", "LETTER_f", "LETTER_g", "LETTER_J", "WORD_CLEF", "WORD_SKERN", 
-			"WORD_SMENS", "WORD_MET", "DOT", "BARLINE", "EQUAL", "SLASH", "BACKSLASH", 
+			"LETTER_e", "LETTER_f", "LETTER_g", "LETTER_J", "WORD_CLEF", "WORD_KERN", 
+			"WORD_MENS", "WORD_MET", "DOT", "BARLINE", "EQUAL", "SLASH", "BACKSLASH", 
 			"ASTERISK", "CIRCUNFLEX", "APOSTROPHE", "SEMICOLON", "COLON", "COLOURED", 
 			"GRAVE_ACCENT", "EXCLAMATION", "COMA", "SLURS_COUNT", "TOKEN_FINISH"
 		};
@@ -599,7 +599,7 @@ public class kernmensParser extends Parser {
 		public TerminalNode ASTERISK(int i) {
 			return getToken(kernmensParser.ASTERISK, i);
 		}
-		public TerminalNode WORD_SKERN() { return getToken(kernmensParser.WORD_SKERN, 0); }
+		public TerminalNode WORD_KERN() { return getToken(kernmensParser.WORD_KERN, 0); }
 		public MastercleffContext mastercleff() {
 			return getRuleContext(MastercleffContext.class,0);
 		}
@@ -638,7 +638,7 @@ public class kernmensParser extends Parser {
 			setState(171);
 			match(ASTERISK);
 			setState(172);
-			match(WORD_SKERN);
+			match(WORD_KERN);
 			setState(173);
 			mastercleff();
 			setState(175);
@@ -679,13 +679,13 @@ public class kernmensParser extends Parser {
 	}
 
 	public static class TimesignatureContext extends ParserRuleContext {
+		public MetterContext metter() {
+			return getRuleContext(MetterContext.class,0);
+		}
 		public TerminalNode ASTERISK() { return getToken(kernmensParser.ASTERISK, 0); }
 		public TerminalNode LETTER_M() { return getToken(kernmensParser.LETTER_M, 0); }
 		public FractionContext fraction() {
 			return getRuleContext(FractionContext.class,0);
-		}
-		public MetterContext metter() {
-			return getRuleContext(MetterContext.class,0);
 		}
 		public TimesignatureContext(ParserRuleContext parent, int invokingState) {
 			super(parent, invokingState);
@@ -707,16 +707,22 @@ public class kernmensParser extends Parser {
 		try {
 			enterOuterAlt(_localctx, 1);
 			{
-			setState(183);
-			match(ASTERISK);
-			setState(184);
-			match(LETTER_M);
-			setState(185);
-			fraction();
 			setState(187);
 			_errHandler.sync(this);
 			switch ( getInterpreter().adaptivePredict(_input,9,_ctx) ) {
 			case 1:
+				{
+				{
+				setState(183);
+				match(ASTERISK);
+				setState(184);
+				match(LETTER_M);
+				setState(185);
+				fraction();
+				}
+				}
+				break;
+			case 2:
 				{
 				setState(186);
 				metter();
@@ -2867,7 +2873,7 @@ public class kernmensParser extends Parser {
 		public TerminalNode ASTERISK(int i) {
 			return getToken(kernmensParser.ASTERISK, i);
 		}
-		public TerminalNode WORD_SMENS() { return getToken(kernmensParser.WORD_SMENS, 0); }
+		public TerminalNode WORD_MENS() { return getToken(kernmensParser.WORD_MENS, 0); }
 		public MastercleffContext mastercleff() {
 			return getRuleContext(MastercleffContext.class,0);
 		}
@@ -2907,7 +2913,7 @@ public class kernmensParser extends Parser {
 			setState(483);
 			match(ASTERISK);
 			setState(484);
-			match(WORD_SMENS);
+			match(WORD_MENS);
 			setState(485);
 			mastercleff();
 			setState(487);
@@ -3046,7 +3052,7 @@ public class kernmensParser extends Parser {
 					setState(504); 
 					_errHandler.sync(this);
 					_la = _input.LA(1);
-				} while ( (((_la) & ~0x3f) == 0 && ((1L << _la) & ((1L << LETTER_L) | (1L << LETTER_M) | (1L << GREATER) | (1L << LESS) | (1L << LEFTPAR) | (1L << RIGHTPAR) | (1L << LETTER_S) | (1L << LETTER_s) | (1L << LETTER_u) | (1L << LETTER_m) | (1L << LETTER_U) | (1L << LETTER_X))) != 0) || _la==SLURS_COUNT );
+				} while ( (((_la) & ~0x3f) == 0 && ((1L << _la) & ((1L << LETTER_L) | (1L << LETTER_M) | (1L << GREATER) | (1L << LESS) | (1L << LEFTPAR) | (1L << RIGHTPAR) | (1L << LETTER_S) | (1L << LETTER_s) | (1L << LETTER_u) | (1L << LETTER_m) | (1L << LETTER_U) | (1L << LETTER_X))) != 0) );
 				}
 				break;
 			case 2:
@@ -3113,7 +3119,7 @@ public class kernmensParser extends Parser {
 				setState(512); 
 				_errHandler.sync(this);
 				_la = _input.LA(1);
-			} while ( (((_la) & ~0x3f) == 0 && ((1L << _la) & ((1L << LETTER_L) | (1L << LETTER_M) | (1L << GREATER) | (1L << LESS) | (1L << LEFTPAR) | (1L << RIGHTPAR) | (1L << LETTER_S) | (1L << LETTER_s) | (1L << LETTER_u) | (1L << LETTER_m) | (1L << LETTER_U) | (1L << LETTER_X))) != 0) || _la==SLURS_COUNT );
+			} while ( (((_la) & ~0x3f) == 0 && ((1L << _la) & ((1L << LETTER_L) | (1L << LETTER_M) | (1L << GREATER) | (1L << LESS) | (1L << LEFTPAR) | (1L << RIGHTPAR) | (1L << LETTER_S) | (1L << LETTER_s) | (1L << LETTER_u) | (1L << LETTER_m) | (1L << LETTER_U) | (1L << LETTER_X))) != 0) );
 			setState(514);
 			m_barlines();
 			}
@@ -3410,7 +3416,6 @@ public class kernmensParser extends Parser {
 				case EQUAL:
 				case SLASH:
 				case BACKSLASH:
-				case SLURS_COUNT:
 				case TOKEN_FINISH:
 					break;
 				default:
@@ -3547,10 +3552,6 @@ public class kernmensParser extends Parser {
 
 	public static class M_slursContext extends ParserRuleContext {
 		public TerminalNode LEFTPAR() { return getToken(kernmensParser.LEFTPAR, 0); }
-		public List<TerminalNode> SLURS_COUNT() { return getTokens(kernmensParser.SLURS_COUNT); }
-		public TerminalNode SLURS_COUNT(int i) {
-			return getToken(kernmensParser.SLURS_COUNT, i);
-		}
 		public TerminalNode RIGHTPAR() { return getToken(kernmensParser.RIGHTPAR, 0); }
 		public M_slursContext(ParserRuleContext parent, int invokingState) {
 			super(parent, invokingState);
@@ -3571,51 +3572,18 @@ public class kernmensParser extends Parser {
 		enterRule(_localctx, 90, RULE_m_slurs);
 		int _la;
 		try {
-			setState(573);
-			_errHandler.sync(this);
-			switch ( getInterpreter().adaptivePredict(_input,80,_ctx) ) {
-			case 1:
-				enterOuterAlt(_localctx, 1);
-				{
-				setState(562);
-				_errHandler.sync(this);
-				_la = _input.LA(1);
-				while (_la==SLURS_COUNT) {
-					{
-					{
-					setState(559);
-					match(SLURS_COUNT);
-					}
-					}
-					setState(564);
-					_errHandler.sync(this);
-					_la = _input.LA(1);
-				}
-				setState(565);
-				match(LEFTPAR);
-				}
-				break;
-			case 2:
-				enterOuterAlt(_localctx, 2);
-				{
-				setState(569);
-				_errHandler.sync(this);
-				_la = _input.LA(1);
-				while (_la==SLURS_COUNT) {
-					{
-					{
-					setState(566);
-					match(SLURS_COUNT);
-					}
-					}
-					setState(571);
-					_errHandler.sync(this);
-					_la = _input.LA(1);
-				}
-				setState(572);
-				match(RIGHTPAR);
-				}
-				break;
+			enterOuterAlt(_localctx, 1);
+			{
+			setState(559);
+			_la = _input.LA(1);
+			if ( !(_la==LEFTPAR || _la==RIGHTPAR) ) {
+			_errHandler.recoverInline(this);
+			}
+			else {
+				if ( _input.LA(1)==Token.EOF ) matchedEOF = true;
+				_errHandler.reportMatch(this);
+				consume();
+			}
 			}
 		}
 		catch (RecognitionException re) {
@@ -3653,7 +3621,7 @@ public class kernmensParser extends Parser {
 		try {
 			enterOuterAlt(_localctx, 1);
 			{
-			setState(575);
+			setState(561);
 			_la = _input.LA(1);
 			if ( !(_la==GREATER || _la==LESS) ) {
 			_errHandler.recoverInline(this);
@@ -3699,9 +3667,9 @@ public class kernmensParser extends Parser {
 		try {
 			enterOuterAlt(_localctx, 1);
 			{
-			setState(577);
+			setState(563);
 			match(LETTER_p);
-			setState(578);
+			setState(564);
 			match(COLON);
 			}
 		}
@@ -3742,17 +3710,17 @@ public class kernmensParser extends Parser {
 		try {
 			enterOuterAlt(_localctx, 1);
 			{
-			setState(581);
+			setState(567);
 			_errHandler.sync(this);
 			_la = _input.LA(1);
 			if (_la==LETTER_U) {
 				{
-				setState(580);
+				setState(566);
 				match(LETTER_U);
 				}
 			}
 
-			setState(583);
+			setState(569);
 			notesuffix();
 			}
 		}
@@ -3792,20 +3760,20 @@ public class kernmensParser extends Parser {
 		Mensural_signsContext _localctx = new Mensural_signsContext(_ctx, getState());
 		enterRule(_localctx, 98, RULE_mensural_signs);
 		try {
-			setState(587);
+			setState(573);
 			_errHandler.sync(this);
 			switch (_input.LA(1)) {
 			case LETTER_C:
 				enterOuterAlt(_localctx, 1);
 				{
-				setState(585);
+				setState(571);
 				signs_c();
 				}
 				break;
 			case PERTFECT:
 				enterOuterAlt(_localctx, 2);
 				{
-				setState(586);
+				setState(572);
 				signs_p();
 				}
 				break;
@@ -3854,36 +3822,36 @@ public class kernmensParser extends Parser {
 			enterOuterAlt(_localctx, 1);
 			{
 			{
-			setState(589);
+			setState(575);
 			match(LETTER_C);
 			}
-			setState(605);
+			setState(591);
 			_errHandler.sync(this);
 			switch (_input.LA(1)) {
 			case BARLINE:
 				{
-				setState(590);
+				setState(576);
 				match(BARLINE);
-				setState(596);
+				setState(582);
 				_errHandler.sync(this);
 				switch (_input.LA(1)) {
 				case THREE:
 					{
-					setState(591);
+					setState(577);
 					match(THREE);
 					}
 					break;
 				case TWO:
 					{
-					setState(592);
+					setState(578);
 					match(TWO);
 					}
 					break;
 				case SLASH:
 					{
-					setState(593);
+					setState(579);
 					match(SLASH);
-					setState(594);
+					setState(580);
 					_la = _input.LA(1);
 					if ( !(_la==THREE || _la==TWO) ) {
 					_errHandler.recoverInline(this);
@@ -3897,7 +3865,7 @@ public class kernmensParser extends Parser {
 					break;
 				case LETTER_r:
 					{
-					setState(595);
+					setState(581);
 					match(LETTER_r);
 					}
 					break;
@@ -3910,26 +3878,26 @@ public class kernmensParser extends Parser {
 				break;
 			case TWO:
 				{
-				setState(598);
+				setState(584);
 				match(TWO);
 				}
 				break;
 			case THREE:
 				{
-				setState(599);
+				setState(585);
 				match(THREE);
 				}
 				break;
 			case DOT:
 				{
-				setState(600);
+				setState(586);
 				match(DOT);
-				setState(602);
+				setState(588);
 				_errHandler.sync(this);
 				_la = _input.LA(1);
 				if (_la==BARLINE) {
 					{
-					setState(601);
+					setState(587);
 					match(BARLINE);
 					}
 				}
@@ -3938,7 +3906,7 @@ public class kernmensParser extends Parser {
 				break;
 			case LETTER_r:
 				{
-				setState(604);
+				setState(590);
 				match(LETTER_r);
 				}
 				break;
@@ -3989,38 +3957,38 @@ public class kernmensParser extends Parser {
 			enterOuterAlt(_localctx, 1);
 			{
 			{
-			setState(607);
+			setState(593);
 			match(PERTFECT);
-			setState(624);
+			setState(610);
 			_errHandler.sync(this);
-			switch ( getInterpreter().adaptivePredict(_input,88,_ctx) ) {
+			switch ( getInterpreter().adaptivePredict(_input,85,_ctx) ) {
 			case 1:
 				{
-				setState(617);
+				setState(603);
 				_errHandler.sync(this);
 				switch (_input.LA(1)) {
 				case TWO:
 					{
-					setState(608);
+					setState(594);
 					match(TWO);
 					}
 					break;
 				case THREE:
 					{
-					setState(609);
+					setState(595);
 					match(THREE);
 					}
 					break;
 				case BARLINE:
 					{
-					setState(610);
+					setState(596);
 					match(BARLINE);
-					setState(612);
+					setState(598);
 					_errHandler.sync(this);
 					_la = _input.LA(1);
 					if (_la==THREE) {
 						{
-						setState(611);
+						setState(597);
 						match(THREE);
 						}
 					}
@@ -4029,15 +3997,15 @@ public class kernmensParser extends Parser {
 					break;
 				case SLASH:
 					{
-					setState(614);
+					setState(600);
 					match(SLASH);
-					setState(615);
+					setState(601);
 					match(THREE);
 					}
 					break;
 				case DOT:
 					{
-					setState(616);
+					setState(602);
 					match(DOT);
 					}
 					break;
@@ -4050,23 +4018,23 @@ public class kernmensParser extends Parser {
 				break;
 			case 2:
 				{
-				setState(619);
+				setState(605);
 				match(THREE);
-				setState(620);
+				setState(606);
 				match(SLASH);
-				setState(621);
+				setState(607);
 				match(TWO);
 				}
 				break;
 			case 3:
 				{
-				setState(622);
+				setState(608);
 				match(THREE);
 				}
 				break;
 			case 4:
 				{
-				setState(623);
+				setState(609);
 				match(TWO);
 				}
 				break;
@@ -4107,7 +4075,7 @@ public class kernmensParser extends Parser {
 		try {
 			enterOuterAlt(_localctx, 1);
 			{
-			setState(626);
+			setState(612);
 			match(LETTER_p);
 			}
 		}
@@ -4144,7 +4112,7 @@ public class kernmensParser extends Parser {
 		try {
 			enterOuterAlt(_localctx, 1);
 			{
-			setState(628);
+			setState(614);
 			match(LETTER_i);
 			}
 		}
@@ -4188,7 +4156,7 @@ public class kernmensParser extends Parser {
 		try {
 			enterOuterAlt(_localctx, 1);
 			{
-			setState(630);
+			setState(616);
 			_la = _input.LA(1);
 			if ( !((((_la) & ~0x3f) == 0 && ((1L << _la) & ((1L << LETTER_a) | (1L << LETTER_b) | (1L << LETTER_c) | (1L << LETTER_d) | (1L << LETTER_e) | (1L << LETTER_f) | (1L << LETTER_g))) != 0)) ) {
 			_errHandler.recoverInline(this);
@@ -4240,7 +4208,7 @@ public class kernmensParser extends Parser {
 		try {
 			enterOuterAlt(_localctx, 1);
 			{
-			setState(632);
+			setState(618);
 			_la = _input.LA(1);
 			if ( !((((_la) & ~0x3f) == 0 && ((1L << _la) & ((1L << LETTER_A) | (1L << LETTER_B) | (1L << LETTER_C) | (1L << LETTER_D) | (1L << LETTER_E) | (1L << LETTER_F) | (1L << LETTER_G))) != 0)) ) {
 			_errHandler.recoverInline(this);
@@ -4293,7 +4261,7 @@ public class kernmensParser extends Parser {
 		try {
 			enterOuterAlt(_localctx, 1);
 			{
-			setState(634);
+			setState(620);
 			_la = _input.LA(1);
 			if ( !((((_la) & ~0x3f) == 0 && ((1L << _la) & ((1L << LETTER_L) | (1L << LETTER_M) | (1L << LETTER_S) | (1L << LETTER_s) | (1L << LETTER_u) | (1L << LETTER_m) | (1L << LETTER_U) | (1L << LETTER_X))) != 0)) ) {
 			_errHandler.recoverInline(this);
@@ -4338,7 +4306,7 @@ public class kernmensParser extends Parser {
 		try {
 			enterOuterAlt(_localctx, 1);
 			{
-			setState(636);
+			setState(622);
 			match(LETTER_X);
 			}
 		}
@@ -4375,7 +4343,7 @@ public class kernmensParser extends Parser {
 		try {
 			enterOuterAlt(_localctx, 1);
 			{
-			setState(638);
+			setState(624);
 			match(LETTER_I);
 			}
 		}
@@ -4412,7 +4380,7 @@ public class kernmensParser extends Parser {
 		try {
 			enterOuterAlt(_localctx, 1);
 			{
-			setState(640);
+			setState(626);
 			match(LETTER_P);
 			}
 		}
@@ -4459,7 +4427,7 @@ public class kernmensParser extends Parser {
 		try {
 			enterOuterAlt(_localctx, 1);
 			{
-			setState(642);
+			setState(628);
 			_la = _input.LA(1);
 			if ( !((((_la) & ~0x3f) == 0 && ((1L << _la) & ((1L << ONE) | (1L << FOUR) | (1L << THREE) | (1L << TWO) | (1L << FIVE) | (1L << SIX) | (1L << SEVEN) | (1L << EIGHT) | (1L << NINE) | (1L << ZERO))) != 0)) ) {
 			_errHandler.recoverInline(this);
@@ -4511,94 +4479,94 @@ public class kernmensParser extends Parser {
 		try {
 			enterOuterAlt(_localctx, 1);
 			{
-			setState(666);
+			setState(652);
 			_errHandler.sync(this);
-			switch ( getInterpreter().adaptivePredict(_input,89,_ctx) ) {
+			switch ( getInterpreter().adaptivePredict(_input,86,_ctx) ) {
 			case 1:
 				{
-				setState(644);
+				setState(630);
 				match(LETTER_G);
-				setState(645);
+				setState(631);
 				match(TWO);
 				}
 				break;
 			case 2:
 				{
-				setState(646);
+				setState(632);
 				match(LETTER_F);
-				setState(647);
+				setState(633);
 				match(TWO);
 				}
 				break;
 			case 3:
 				{
-				setState(648);
+				setState(634);
 				match(LETTER_F);
-				setState(649);
+				setState(635);
 				match(THREE);
 				}
 				break;
 			case 4:
 				{
-				setState(650);
+				setState(636);
 				match(LETTER_F);
-				setState(651);
+				setState(637);
 				match(FOUR);
 				}
 				break;
 			case 5:
 				{
-				setState(652);
+				setState(638);
 				match(LETTER_C);
-				setState(653);
+				setState(639);
 				match(FIVE);
 				}
 				break;
 			case 6:
 				{
-				setState(654);
+				setState(640);
 				match(LETTER_C);
-				setState(655);
+				setState(641);
 				match(FOUR);
 				}
 				break;
 			case 7:
 				{
-				setState(656);
+				setState(642);
 				match(LETTER_C);
-				setState(657);
+				setState(643);
 				match(THREE);
 				}
 				break;
 			case 8:
 				{
-				setState(658);
+				setState(644);
 				match(LETTER_C);
-				setState(659);
+				setState(645);
 				match(TWO);
 				}
 				break;
 			case 9:
 				{
-				setState(660);
+				setState(646);
 				match(LETTER_C);
-				setState(661);
+				setState(647);
 				match(ONE);
 				}
 				break;
 			case 10:
 				{
-				setState(662);
+				setState(648);
 				match(LETTER_G);
-				setState(663);
+				setState(649);
 				match(ONE);
 				}
 				break;
 			case 11:
 				{
-				setState(664);
+				setState(650);
 				match(LETTER_G);
-				setState(665);
+				setState(651);
 				match(TWO);
 				}
 				break;
@@ -4617,7 +4585,7 @@ public class kernmensParser extends Parser {
 	}
 
 	public static final String _serializedATN =
-		"\3\u608b\ua72a\u8133\ub9ed\u417c\u3be7\u7786\u5964\3T\u029f\4\2\t\2\4"+
+		"\3\u608b\ua72a\u8133\ub9ed\u417c\u3be7\u7786\u5964\3T\u0291\4\2\t\2\4"+
 		"\3\t\3\4\4\t\4\4\5\t\5\4\6\t\6\4\7\t\7\4\b\t\b\4\t\t\t\4\n\t\n\4\13\t"+
 		"\13\4\f\t\f\4\r\t\r\4\16\t\16\4\17\t\17\4\20\t\20\4\21\t\21\4\22\t\22"+
 		"\4\23\t\23\4\24\t\24\4\25\t\25\4\26\t\26\4\27\t\27\4\30\t\30\4\31\t\31"+
@@ -4661,32 +4629,31 @@ public class kernmensParser extends Parser {
 		"\3(\6(\u01f9\n(\r(\16(\u01fa\3(\5(\u01fe\n(\3)\6)\u0201\n)\r)\16)\u0202"+
 		"\3)\3)\3*\6*\u0208\n*\r*\16*\u0209\3+\3+\3+\3+\5+\u0210\n+\3,\3,\5,\u0214"+
 		"\n,\3,\3,\5,\u0218\n,\3,\5,\u021b\n,\3,\3,\3,\3,\5,\u0221\n,\5,\u0223"+
-		"\n,\3,\5,\u0226\n,\3-\3-\3-\3-\3-\5-\u022d\n-\3.\3.\3.\3/\7/\u0233\n/"+
-		"\f/\16/\u0236\13/\3/\3/\7/\u023a\n/\f/\16/\u023d\13/\3/\5/\u0240\n/\3"+
-		"\60\3\60\3\61\3\61\3\61\3\62\5\62\u0248\n\62\3\62\3\62\3\63\3\63\5\63"+
-		"\u024e\n\63\3\64\3\64\3\64\3\64\3\64\3\64\3\64\5\64\u0257\n\64\3\64\3"+
-		"\64\3\64\3\64\5\64\u025d\n\64\3\64\5\64\u0260\n\64\3\65\3\65\3\65\3\65"+
-		"\3\65\5\65\u0267\n\65\3\65\3\65\3\65\5\65\u026c\n\65\3\65\3\65\3\65\3"+
-		"\65\3\65\5\65\u0273\n\65\3\66\3\66\3\67\3\67\38\38\39\39\3:\3:\3;\3;\3"+
-		"<\3<\3=\3=\3>\3>\3?\3?\3?\3?\3?\3?\3?\3?\3?\3?\3?\3?\3?\3?\3?\3?\3?\3"+
-		"?\3?\3?\3?\3?\5?\u029d\n?\3?\2\2@\2\4\6\b\n\f\16\20\22\24\26\30\32\34"+
-		"\36 \"$&(*,.\60\62\64\668:<>@BDFHJLNPRTVXZ\\^`bdfhjlnprtvxz|\2\r\3\2\21"+
-		"\22\3\2\21\25\3\2HI\4\2\5\5$(\3\2\37 \3\2\27\30\3\2\t\n\3\29?\3\2\61\67"+
-		"\6\2\4\5!$))88\3\2\7\20\2\u02e6\2\u0088\3\2\2\2\4\u008a\3\2\2\2\6\u008e"+
-		"\3\2\2\2\b\u0099\3\2\2\2\n\u009c\3\2\2\2\f\u00a8\3\2\2\2\16\u00aa\3\2"+
-		"\2\2\20\u00ac\3\2\2\2\22\u00b9\3\2\2\2\24\u00bf\3\2\2\2\26\u00c4\3\2\2"+
-		"\2\30\u00c8\3\2\2\2\32\u00ce\3\2\2\2\34\u00db\3\2\2\2\36\u00dd\3\2\2\2"+
-		" \u00e1\3\2\2\2\"\u00ea\3\2\2\2$\u00ef\3\2\2\2&\u0104\3\2\2\2(\u0112\3"+
-		"\2\2\2*\u0117\3\2\2\2,\u014f\3\2\2\2.\u0151\3\2\2\2\60\u016c\3\2\2\2\62"+
-		"\u0170\3\2\2\2\64\u01ac\3\2\2\2\66\u01b0\3\2\2\28\u01c6\3\2\2\2:\u01c8"+
+		"\n,\3,\5,\u0226\n,\3-\3-\3-\3-\3-\5-\u022d\n-\3.\3.\3.\3/\3/\3\60\3\60"+
+		"\3\61\3\61\3\61\3\62\5\62\u023a\n\62\3\62\3\62\3\63\3\63\5\63\u0240\n"+
+		"\63\3\64\3\64\3\64\3\64\3\64\3\64\3\64\5\64\u0249\n\64\3\64\3\64\3\64"+
+		"\3\64\5\64\u024f\n\64\3\64\5\64\u0252\n\64\3\65\3\65\3\65\3\65\3\65\5"+
+		"\65\u0259\n\65\3\65\3\65\3\65\5\65\u025e\n\65\3\65\3\65\3\65\3\65\3\65"+
+		"\5\65\u0265\n\65\3\66\3\66\3\67\3\67\38\38\39\39\3:\3:\3;\3;\3<\3<\3="+
+		"\3=\3>\3>\3?\3?\3?\3?\3?\3?\3?\3?\3?\3?\3?\3?\3?\3?\3?\3?\3?\3?\3?\3?"+
+		"\3?\3?\5?\u028f\n?\3?\2\2@\2\4\6\b\n\f\16\20\22\24\26\30\32\34\36 \"$"+
+		"&(*,.\60\62\64\668:<>@BDFHJLNPRTVXZ\\^`bdfhjlnprtvxz|\2\16\3\2\21\22\3"+
+		"\2\21\25\3\2HI\4\2\5\5$(\3\2\37 \3\2\31\32\3\2\27\30\3\2\t\n\3\29?\3\2"+
+		"\61\67\6\2\4\5!$))88\3\2\7\20\2\u02d5\2\u0088\3\2\2\2\4\u008a\3\2\2\2"+
+		"\6\u008e\3\2\2\2\b\u0099\3\2\2\2\n\u009c\3\2\2\2\f\u00a8\3\2\2\2\16\u00aa"+
+		"\3\2\2\2\20\u00ac\3\2\2\2\22\u00bd\3\2\2\2\24\u00bf\3\2\2\2\26\u00c4\3"+
+		"\2\2\2\30\u00c8\3\2\2\2\32\u00ce\3\2\2\2\34\u00db\3\2\2\2\36\u00dd\3\2"+
+		"\2\2 \u00e1\3\2\2\2\"\u00ea\3\2\2\2$\u00ef\3\2\2\2&\u0104\3\2\2\2(\u0112"+
+		"\3\2\2\2*\u0117\3\2\2\2,\u014f\3\2\2\2.\u0151\3\2\2\2\60\u016c\3\2\2\2"+
+		"\62\u0170\3\2\2\2\64\u01ac\3\2\2\2\66\u01b0\3\2\2\28\u01c6\3\2\2\2:\u01c8"+
 		"\3\2\2\2<\u01ca\3\2\2\2>\u01ce\3\2\2\2@\u01d0\3\2\2\2B\u01d3\3\2\2\2D"+
 		"\u01d7\3\2\2\2F\u01db\3\2\2\2H\u01e1\3\2\2\2J\u01e4\3\2\2\2L\u01f1\3\2"+
 		"\2\2N\u01fd\3\2\2\2P\u0200\3\2\2\2R\u0207\3\2\2\2T\u020f\3\2\2\2V\u0211"+
-		"\3\2\2\2X\u022c\3\2\2\2Z\u022e\3\2\2\2\\\u023f\3\2\2\2^\u0241\3\2\2\2"+
-		"`\u0243\3\2\2\2b\u0247\3\2\2\2d\u024d\3\2\2\2f\u024f\3\2\2\2h\u0261\3"+
-		"\2\2\2j\u0274\3\2\2\2l\u0276\3\2\2\2n\u0278\3\2\2\2p\u027a\3\2\2\2r\u027c"+
-		"\3\2\2\2t\u027e\3\2\2\2v\u0280\3\2\2\2x\u0282\3\2\2\2z\u0284\3\2\2\2|"+
-		"\u029c\3\2\2\2~\u0080\5\20\t\2\177~\3\2\2\2\u0080\u0081\3\2\2\2\u0081"+
+		"\3\2\2\2X\u022c\3\2\2\2Z\u022e\3\2\2\2\\\u0231\3\2\2\2^\u0233\3\2\2\2"+
+		"`\u0235\3\2\2\2b\u0239\3\2\2\2d\u023f\3\2\2\2f\u0241\3\2\2\2h\u0253\3"+
+		"\2\2\2j\u0266\3\2\2\2l\u0268\3\2\2\2n\u026a\3\2\2\2p\u026c\3\2\2\2r\u026e"+
+		"\3\2\2\2t\u0270\3\2\2\2v\u0272\3\2\2\2x\u0274\3\2\2\2z\u0276\3\2\2\2|"+
+		"\u028e\3\2\2\2~\u0080\5\20\t\2\177~\3\2\2\2\u0080\u0081\3\2\2\2\u0081"+
 		"\177\3\2\2\2\u0081\u0082\3\2\2\2\u0082\u0089\3\2\2\2\u0083\u0085\5J&\2"+
 		"\u0084\u0083\3\2\2\2\u0085\u0086\3\2\2\2\u0086\u0084\3\2\2\2\u0086\u0087"+
 		"\3\2\2\2\u0087\u0089\3\2\2\2\u0088\177\3\2\2\2\u0088\u0084\3\2\2\2\u0089"+
@@ -4705,8 +4672,8 @@ public class kernmensParser extends Parser {
 		"\2\2\u00b1\u00b2\3\2\2\2\u00b2\u00b4\3\2\2\2\u00b3\u00b5\5\22\n\2\u00b4"+
 		"\u00b3\3\2\2\2\u00b4\u00b5\3\2\2\2\u00b5\u00b6\3\2\2\2\u00b6\u00b7\5\34"+
 		"\17\2\u00b7\u00b8\7T\2\2\u00b8\21\3\2\2\2\u00b9\u00ba\7J\2\2\u00ba\u00bb"+
-		"\7\5\2\2\u00bb\u00bd\5\24\13\2\u00bc\u00be\5\30\r\2\u00bd\u00bc\3\2\2"+
-		"\2\u00bd\u00be\3\2\2\2\u00be\23\3\2\2\2\u00bf\u00c0\5\26\f\2\u00c0\u00c1"+
+		"\7\5\2\2\u00bb\u00be\5\24\13\2\u00bc\u00be\5\30\r\2\u00bd\u00b9\3\2\2"+
+		"\2\u00bd\u00bc\3\2\2\2\u00be\23\3\2\2\2\u00bf\u00c0\5\26\f\2\u00c0\u00c1"+
 		"\7H\2\2\u00c1\u00c2\5\26\f\2\u00c2\25\3\2\2\2\u00c3\u00c5\5z>\2\u00c4"+
 		"\u00c3\3\2\2\2\u00c5\u00c6\3\2\2\2\u00c6\u00c4\3\2\2\2\u00c6\u00c7\3\2"+
 		"\2\2\u00c7\27\3\2\2\2\u00c8\u00c9\7J\2\2\u00c9\u00ca\7D\2\2\u00ca\u00cb"+
@@ -4833,53 +4800,48 @@ public class kernmensParser extends Parser {
 		"\2\2\2\u0226W\3\2\2\2\u0227\u0228\7G\2\2\u0228\u022d\7\22\2\2\u0229\u022a"+
 		"\7G\2\2\u022a\u022b\7F\2\2\u022b\u022d\7F\2\2\u022c\u0227\3\2\2\2\u022c"+
 		"\u0229\3\2\2\2\u022dY\3\2\2\2\u022e\u022f\5r:\2\u022f\u0230\7-\2\2\u0230"+
-		"[\3\2\2\2\u0231\u0233\7S\2\2\u0232\u0231\3\2\2\2\u0233\u0236\3\2\2\2\u0234"+
-		"\u0232\3\2\2\2\u0234\u0235\3\2\2\2\u0235\u0237\3\2\2\2\u0236\u0234\3\2"+
-		"\2\2\u0237\u0240\7\31\2\2\u0238\u023a\7S\2\2\u0239\u0238\3\2\2\2\u023a"+
-		"\u023d\3\2\2\2\u023b\u0239\3\2\2\2\u023b\u023c\3\2\2\2\u023c\u023e\3\2"+
-		"\2\2\u023d\u023b\3\2\2\2\u023e\u0240\7\32\2\2\u023f\u0234\3\2\2\2\u023f"+
-		"\u023b\3\2\2\2\u0240]\3\2\2\2\u0241\u0242\t\7\2\2\u0242_\3\2\2\2\u0243"+
-		"\u0244\7*\2\2\u0244\u0245\7N\2\2\u0245a\3\2\2\2\u0246\u0248\7)\2\2\u0247"+
-		"\u0246\3\2\2\2\u0247\u0248\3\2\2\2\u0248\u0249\3\2\2\2\u0249\u024a\5\n"+
-		"\6\2\u024ac\3\2\2\2\u024b\u024e\5f\64\2\u024c\u024e\5h\65\2\u024d\u024b"+
-		"\3\2\2\2\u024d\u024c\3\2\2\2\u024ee\3\2\2\2\u024f\u025f\7\63\2\2\u0250"+
-		"\u0256\7F\2\2\u0251\u0257\7\t\2\2\u0252\u0257\7\n\2\2\u0253\u0254\7H\2"+
-		"\2\u0254\u0257\t\b\2\2\u0255\u0257\7-\2\2\u0256\u0251\3\2\2\2\u0256\u0252"+
-		"\3\2\2\2\u0256\u0253\3\2\2\2\u0256\u0255\3\2\2\2\u0256\u0257\3\2\2\2\u0257"+
-		"\u0260\3\2\2\2\u0258\u0260\7\n\2\2\u0259\u0260\7\t\2\2\u025a\u025c\7E"+
-		"\2\2\u025b\u025d\7F\2\2\u025c\u025b\3\2\2\2\u025c\u025d\3\2\2\2\u025d"+
-		"\u0260\3\2\2\2\u025e\u0260\7-\2\2\u025f\u0250\3\2\2\2\u025f\u0258\3\2"+
-		"\2\2\u025f\u0259\3\2\2\2\u025f\u025a\3\2\2\2\u025f\u025e\3\2\2\2\u025f"+
-		"\u0260\3\2\2\2\u0260g\3\2\2\2\u0261\u0272\7\6\2\2\u0262\u026c\7\n\2\2"+
-		"\u0263\u026c\7\t\2\2\u0264\u0266\7F\2\2\u0265\u0267\7\t\2\2\u0266\u0265"+
-		"\3\2\2\2\u0266\u0267\3\2\2\2\u0267\u026c\3\2\2\2\u0268\u0269\7H\2\2\u0269"+
-		"\u026c\7\t\2\2\u026a\u026c\7E\2\2\u026b\u0262\3\2\2\2\u026b\u0263\3\2"+
-		"\2\2\u026b\u0264\3\2\2\2\u026b\u0268\3\2\2\2\u026b\u026a\3\2\2\2\u026b"+
-		"\u026c\3\2\2\2\u026c\u0273\3\2\2\2\u026d\u026e\7\t\2\2\u026e\u026f\7H"+
-		"\2\2\u026f\u0273\7\n\2\2\u0270\u0273\7\t\2\2\u0271\u0273\7\n\2\2\u0272"+
-		"\u026b\3\2\2\2\u0272\u026d\3\2\2\2\u0272\u0270\3\2\2\2\u0272\u0271\3\2"+
-		"\2\2\u0273i\3\2\2\2\u0274\u0275\7*\2\2\u0275k\3\2\2\2\u0276\u0277\7+\2"+
-		"\2\u0277m\3\2\2\2\u0278\u0279\t\t\2\2\u0279o\3\2\2\2\u027a\u027b\t\n\2"+
-		"\2\u027bq\3\2\2\2\u027c\u027d\t\13\2\2\u027ds\3\2\2\2\u027e\u027f\78\2"+
-		"\2\u027fu\3\2\2\2\u0280\u0281\7/\2\2\u0281w\3\2\2\2\u0282\u0283\7\60\2"+
-		"\2\u0283y\3\2\2\2\u0284\u0285\t\f\2\2\u0285{\3\2\2\2\u0286\u0287\7\67"+
-		"\2\2\u0287\u029d\7\n\2\2\u0288\u0289\7\66\2\2\u0289\u029d\7\n\2\2\u028a"+
-		"\u028b\7\66\2\2\u028b\u029d\7\t\2\2\u028c\u028d\7\66\2\2\u028d\u029d\7"+
-		"\b\2\2\u028e\u028f\7\63\2\2\u028f\u029d\7\13\2\2\u0290\u0291\7\63\2\2"+
-		"\u0291\u029d\7\b\2\2\u0292\u0293\7\63\2\2\u0293\u029d\7\t\2\2\u0294\u0295"+
-		"\7\63\2\2\u0295\u029d\7\n\2\2\u0296\u0297\7\63\2\2\u0297\u029d\7\7\2\2"+
-		"\u0298\u0299\7\67\2\2\u0299\u029d\7\7\2\2\u029a\u029b\7\67\2\2\u029b\u029d"+
-		"\7\n\2\2\u029c\u0286\3\2\2\2\u029c\u0288\3\2\2\2\u029c\u028a\3\2\2\2\u029c"+
-		"\u028c\3\2\2\2\u029c\u028e\3\2\2\2\u029c\u0290\3\2\2\2\u029c\u0292\3\2"+
-		"\2\2\u029c\u0294\3\2\2\2\u029c\u0296\3\2\2\2\u029c\u0298\3\2\2\2\u029c"+
-		"\u029a\3\2\2\2\u029d}\3\2\2\2\\\u0081\u0086\u0088\u0094\u00a1\u00a6\u00a8"+
+		"[\3\2\2\2\u0231\u0232\t\7\2\2\u0232]\3\2\2\2\u0233\u0234\t\b\2\2\u0234"+
+		"_\3\2\2\2\u0235\u0236\7*\2\2\u0236\u0237\7N\2\2\u0237a\3\2\2\2\u0238\u023a"+
+		"\7)\2\2\u0239\u0238\3\2\2\2\u0239\u023a\3\2\2\2\u023a\u023b\3\2\2\2\u023b"+
+		"\u023c\5\n\6\2\u023cc\3\2\2\2\u023d\u0240\5f\64\2\u023e\u0240\5h\65\2"+
+		"\u023f\u023d\3\2\2\2\u023f\u023e\3\2\2\2\u0240e\3\2\2\2\u0241\u0251\7"+
+		"\63\2\2\u0242\u0248\7F\2\2\u0243\u0249\7\t\2\2\u0244\u0249\7\n\2\2\u0245"+
+		"\u0246\7H\2\2\u0246\u0249\t\t\2\2\u0247\u0249\7-\2\2\u0248\u0243\3\2\2"+
+		"\2\u0248\u0244\3\2\2\2\u0248\u0245\3\2\2\2\u0248\u0247\3\2\2\2\u0248\u0249"+
+		"\3\2\2\2\u0249\u0252\3\2\2\2\u024a\u0252\7\n\2\2\u024b\u0252\7\t\2\2\u024c"+
+		"\u024e\7E\2\2\u024d\u024f\7F\2\2\u024e\u024d\3\2\2\2\u024e\u024f\3\2\2"+
+		"\2\u024f\u0252\3\2\2\2\u0250\u0252\7-\2\2\u0251\u0242\3\2\2\2\u0251\u024a"+
+		"\3\2\2\2\u0251\u024b\3\2\2\2\u0251\u024c\3\2\2\2\u0251\u0250\3\2\2\2\u0251"+
+		"\u0252\3\2\2\2\u0252g\3\2\2\2\u0253\u0264\7\6\2\2\u0254\u025e\7\n\2\2"+
+		"\u0255\u025e\7\t\2\2\u0256\u0258\7F\2\2\u0257\u0259\7\t\2\2\u0258\u0257"+
+		"\3\2\2\2\u0258\u0259\3\2\2\2\u0259\u025e\3\2\2\2\u025a\u025b\7H\2\2\u025b"+
+		"\u025e\7\t\2\2\u025c\u025e\7E\2\2\u025d\u0254\3\2\2\2\u025d\u0255\3\2"+
+		"\2\2\u025d\u0256\3\2\2\2\u025d\u025a\3\2\2\2\u025d\u025c\3\2\2\2\u025d"+
+		"\u025e\3\2\2\2\u025e\u0265\3\2\2\2\u025f\u0260\7\t\2\2\u0260\u0261\7H"+
+		"\2\2\u0261\u0265\7\n\2\2\u0262\u0265\7\t\2\2\u0263\u0265\7\n\2\2\u0264"+
+		"\u025d\3\2\2\2\u0264\u025f\3\2\2\2\u0264\u0262\3\2\2\2\u0264\u0263\3\2"+
+		"\2\2\u0265i\3\2\2\2\u0266\u0267\7*\2\2\u0267k\3\2\2\2\u0268\u0269\7+\2"+
+		"\2\u0269m\3\2\2\2\u026a\u026b\t\n\2\2\u026bo\3\2\2\2\u026c\u026d\t\13"+
+		"\2\2\u026dq\3\2\2\2\u026e\u026f\t\f\2\2\u026fs\3\2\2\2\u0270\u0271\78"+
+		"\2\2\u0271u\3\2\2\2\u0272\u0273\7/\2\2\u0273w\3\2\2\2\u0274\u0275\7\60"+
+		"\2\2\u0275y\3\2\2\2\u0276\u0277\t\r\2\2\u0277{\3\2\2\2\u0278\u0279\7\67"+
+		"\2\2\u0279\u028f\7\n\2\2\u027a\u027b\7\66\2\2\u027b\u028f\7\n\2\2\u027c"+
+		"\u027d\7\66\2\2\u027d\u028f\7\t\2\2\u027e\u027f\7\66\2\2\u027f\u028f\7"+
+		"\b\2\2\u0280\u0281\7\63\2\2\u0281\u028f\7\13\2\2\u0282\u0283\7\63\2\2"+
+		"\u0283\u028f\7\b\2\2\u0284\u0285\7\63\2\2\u0285\u028f\7\t\2\2\u0286\u0287"+
+		"\7\63\2\2\u0287\u028f\7\n\2\2\u0288\u0289\7\63\2\2\u0289\u028f\7\7\2\2"+
+		"\u028a\u028b\7\67\2\2\u028b\u028f\7\7\2\2\u028c\u028d\7\67\2\2\u028d\u028f"+
+		"\7\n\2\2\u028e\u0278\3\2\2\2\u028e\u027a\3\2\2\2\u028e\u027c\3\2\2\2\u028e"+
+		"\u027e\3\2\2\2\u028e\u0280\3\2\2\2\u028e\u0282\3\2\2\2\u028e\u0284\3\2"+
+		"\2\2\u028e\u0286\3\2\2\2\u028e\u0288\3\2\2\2\u028e\u028a\3\2\2\2\u028e"+
+		"\u028c\3\2\2\2\u028f}\3\2\2\2Y\u0081\u0086\u0088\u0094\u00a1\u00a6\u00a8"+
 		"\u00b1\u00b4\u00bd\u00c6\u00d0\u00d3\u00d8\u00db\u00e3\u00ea\u00ef\u00f1"+
 		"\u00f4\u00f9\u0100\u0104\u0107\u0112\u0117\u011b\u011e\u0123\u0127\u012a"+
 		"\u012f\u0133\u0136\u013b\u0142\u0145\u014a\u014f\u0155\u015a\u015d\u0160"+
 		"\u0163\u0166\u0169\u016e\u0174\u017d\u0181\u0187\u018a\u0191\u0194\u019b"+
 		"\u019e\u01a6\u01a9\u01ac\u01b0\u01b5\u01b9\u01c6\u01ce\u01e9\u01ec\u01fa"+
-		"\u01fd\u0202\u0209\u020f\u0213\u0217\u021a\u0220\u0222\u0225\u022c\u0234"+
-		"\u023b\u023f\u0247\u024d\u0256\u025c\u025f\u0266\u026b\u0272\u029c";
+		"\u01fd\u0202\u0209\u020f\u0213\u0217\u021a\u0220\u0222\u0225\u022c\u0239"+
+		"\u023f\u0248\u024e\u0251\u0258\u025d\u0264\u028e";
 	public static final ATN _ATN =
 		new ATNDeserializer().deserialize(_serializedATN.toCharArray());
 	static {

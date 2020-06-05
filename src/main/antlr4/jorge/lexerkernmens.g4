@@ -14,7 +14,7 @@ LETTER_L:'L';
 //COMMON:'c';
 
 LETTER_M:'M';
-PERTFECT:'o' | 'O';
+PERTFECT:'O';
 ONE: '1';
 FOUR: '4';
 THREE: '3';
@@ -87,8 +87,8 @@ LETTER_J:'J';
 
 
 WORD_CLEF:'clef';
-WORD_SKERN: 'skern';
-WORD_SMENS:'mens';
+WORD_KERN: 'kern';
+WORD_MENS:'mens';
 WORD_MET:'met';
 
 

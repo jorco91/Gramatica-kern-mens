@@ -24,16 +24,16 @@
 	<style type="text/css">g.page-margin{font-family:Times;} g.reh, g.tempo{font-weight:bold;} g.dir, g.dynam, g.mNum{font-style:italic;} g.label{font-weight:normal;}</style>
 	<svg class="definition-scale" color="black" viewBox="0 0 5570 2660">
 		<g class="page-margin" transform="translate(500, 500)">
-			<g class="system" id="system-0000001988117351">
+			<g class="system" id="system-0000000110715986">
 				<g class="section boundaryStart" id="section-L1F1" />
 				<g class="measure" id="measure-L1">
-					<g class="staff" id="staff-0000001170796077">
+					<g class="staff" id="staff-0000000030306641">
 						<path d="M0 720 L4575 720" stroke="currentColor" stroke-width="13" />
 						<path d="M0 900 L4575 900" stroke="currentColor" stroke-width="13" />
 						<path d="M0 1080 L4575 1080" stroke="currentColor" stroke-width="13" />
 						<path d="M0 1260 L4575 1260" stroke="currentColor" stroke-width="13" />
 						<path d="M0 1440 L4575 1440" stroke="currentColor" stroke-width="13" />
-						<g class="clef" id="clef-0000001875932111">
+						<g class="clef" id="clef-0000000737435499">
 							<use xlink:href="#E050" x="90" y="1260" height="720px" width="720px" />
 						</g>
 						<g class="ledgerLines below">
@@ -42,62 +42,62 @@
 						</g>
 						<g class="layer" id="layer-L1F1N1">
 							<g class="chord" id="chord-L3F1">
-								<g class="stem" id="stem-0000001921429694">
+								<g class="stem" id="stem-0000001273907814">
 									<rect x="1123" y="630" height="968" width="18" />
 								</g>
 								<g class="note" id="note-L3F1S1">
 									<use xlink:href="#E0A4" x="915" y="1620" height="720px" width="720px" />
-									<g class="accid" id="accid-0000001948664973" />
+									<g class="accid" id="accid-0000000116277995" />
 								</g>
 								<g class="note" id="note-L3F1S2">
 									<use xlink:href="#E0A4" x="915" y="1440" height="720px" width="720px" />
-									<g class="accid" id="accid-0000000817080517" />
+									<g class="accid" id="accid-0000000584163105" />
 								</g>
 								<g class="note" id="note-L3F1S3">
 									<use xlink:href="#E0A4" x="915" y="1260" height="720px" width="720px" />
-									<g class="accid" id="accid-0000002020899672" />
+									<g class="accid" id="accid-0000001603191411" />
 								</g>
 							</g>
 							<g class="chord" id="chord-L4F1">
-								<g class="stem" id="stem-0000001757267119">
+								<g class="stem" id="stem-0000000156669308">
 									<rect x="1813" y="420" height="998" width="18" />
 								</g>
 								<g class="note" id="note-L4F1S1">
 									<use xlink:href="#E0A4" x="1605" y="1440" height="720px" width="720px" />
-									<g class="accid" id="accid-0000001686627147" />
+									<g class="accid" id="accid-0000001393641589" />
 								</g>
 								<g class="note" id="note-L4F1S2">
 									<use xlink:href="#E0A4" x="1605" y="1260" height="720px" width="720px" />
-									<g class="accid" id="accid-0000000727135615" />
+									<g class="accid" id="accid-0000000174778457" />
 								</g>
 								<g class="note" id="note-L4F1S3">
 									<use xlink:href="#E0A4" x="1605" y="990" height="720px" width="720px" />
-									<g class="accid" id="accid-0000001024824065" />
+									<g class="accid" id="accid-0000001393406556" />
 								</g>
 								<g class="artic" id="artic-L4F1">
-									<g class="articPart" id="artic-part-0000000045871842">
+									<g class="articPart" id="artic-part-0000000326108334">
 										<use xlink:href="#E4A3" x="1693" y="1573" height="540px" width="540px" />
 									</g>
 								</g>
 							</g>
 							<g class="chord" id="chord-L5F1">
-								<g class="stem" id="stem-0000000021419221">
+								<g class="stem" id="stem-0000000524502394">
 									<rect x="2295" y="832" height="968" width="18" />
 								</g>
 								<g class="note" id="note-L5F1S1">
 									<use xlink:href="#E0A4" x="2295" y="1260" height="720px" width="720px" />
-									<g class="accid" id="accid-0000001311201046" />
+									<g class="accid" id="accid-0000001572815148" />
 								</g>
 								<g class="note" id="note-L5F1S2">
 									<use xlink:href="#E0A4" x="2295" y="990" height="720px" width="720px" />
-									<g class="accid" id="accid-0000000862957659" />
+									<g class="accid" id="accid-0000001559044477" />
 								</g>
 								<g class="note" id="note-L5F1S3">
 									<use xlink:href="#E0A4" x="2295" y="810" height="720px" width="720px" />
-									<g class="accid" id="accid-0000001559212064" />
+									<g class="accid" id="accid-0000000260703259" />
 								</g>
 								<g class="artic" id="artic-L5F1">
-									<g class="articPart" id="artic-part-0000001363078298">
+									<g class="articPart" id="artic-part-0000002038848670">
 										<use xlink:href="#E4A0" x="2315" y="630" height="540px" width="540px" />
 									</g>
 								</g>
@@ -105,19 +105,19 @@
 							<g class="chord" id="chord-L6F1">
 								<g class="note" id="note-L6F1S1">
 									<use xlink:href="#E0A2" x="2985" y="1620" height="720px" width="720px" />
-									<g class="accid" id="accid-0000001825862866" />
+									<g class="accid" id="accid-0000000286094574" />
 								</g>
 								<g class="note" id="note-L6F1S2">
 									<use xlink:href="#E0A2" x="2985" y="1440" height="720px" width="720px" />
-									<g class="accid" id="accid-0000001817592220" />
+									<g class="accid" id="accid-0000000995834117" />
 								</g>
 								<g class="note" id="note-L6F1S3">
 									<use xlink:href="#E0A2" x="2985" y="1260" height="720px" width="720px" />
-									<g class="accid" id="accid-0000000783889960" />
+									<g class="accid" id="accid-0000000231247534" />
 								</g>
 								<g class="note" id="note-L6F1S4">
 									<use xlink:href="#E0A2" x="2985" y="990" height="720px" width="720px" />
-									<g class="accid" id="accid-0000001043752343" />
+									<g class="accid" id="accid-0000000291889483" />
 								</g>
 							</g>
 						</g>
@@ -125,11 +125,11 @@
 					<g class="fermata" id="fermata-L6F1">
 						<use xlink:href="#E4C0" x="2912" y="673" height="720px" width="720px" />
 					</g>
-					<g class="barLineAttr" id="bline-0000001187897317" />
+					<g class="barLineAttr" id="bline-0000001071537390" />
 				</g>
-				<g class="boundaryEnd section-L1F1" id="bdend-0000000393940484" />
+				<g class="boundaryEnd section-L1F1" id="bdend-0000001510554837" />
 			</g>
-			<g class="pgHead autogenerated" id="pghead-0000000265630887" />
+			<g class="pgHead autogenerated" id="pghead-0000000343470625" />
 		</g>
 	</svg>
 </svg>

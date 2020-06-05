@@ -94,7 +94,6 @@ public class SkmImporterTest {
                 "smens/dot/dot1.skm",
                 "smens/notesufix/notesufix.skm",
                 "smens/ligature/ligature.skm",
-                "smens/slurs/slur1.skm",
                 "smens/slurs/slur2.skm",
                 "smens/rest/rest1.skm",
                 "smens/barlines/barlines1.skm",

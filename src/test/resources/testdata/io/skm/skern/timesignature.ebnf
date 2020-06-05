@@ -1,1 +1,1 @@
-timesignature ::= "*" "M" fraction (metter)?
+timesignature ::= ("*" "M" fraction | metter)
